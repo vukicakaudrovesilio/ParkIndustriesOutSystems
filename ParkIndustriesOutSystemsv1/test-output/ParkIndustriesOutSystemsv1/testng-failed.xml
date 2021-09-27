@@ -7,13 +7,20 @@
   <test thread-count="5" name="Park Industries OutSystems - Chrome Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="parkIndustriesOutSystems.testCases.TC_LoginOutSystems_001">
+      <class name="parkIndustriesOutSystems.testCases.TC_BootsAndLuggageReimbursementForm_002">
         <methods>
-          <include name="loginPage"/>
+          <include name="saveSubmit"/>
+          <include name="receiptFields12"/>
+          <include name="receiptFields11"/>
           <include name="setup"/>
+          <include name="receiptFields10"/>
+          <include name="requestSummary2"/>
+          <include name="statusUpdate"/>
+          <include name="parkAssociateUserLogin"/>
           <include name="tearDown"/>
+          <include name="receiptFields9"/>
         </methods>
-      </class> <!-- parkIndustriesOutSystems.testCases.TC_LoginOutSystems_001 -->
+      </class> <!-- parkIndustriesOutSystems.testCases.TC_BootsAndLuggageReimbursementForm_002 -->
     </classes>
   </test> <!-- Park Industries OutSystems - Chrome Test(failed) -->
 </suite> <!-- Failed suite [ParkIndustriesOutSystemsv1] -->

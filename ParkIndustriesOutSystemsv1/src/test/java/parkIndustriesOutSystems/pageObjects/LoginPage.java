@@ -73,6 +73,36 @@ public class LoginPage {
 	@CacheLookup
 	WebElement btnLogout;
 	
+	//Park Associate User's Requests Text
+	@FindBy(xpath="/html/body/div/div/div/div/div/div/div/div/div/div[2]/div[1]/div/span")
+	@CacheLookup
+	WebElement txtParkAssociateUsersRequests;
+	
+	//Park Associate User Logout Button
+	@FindBy(xpath="//i[contains(@class,'icon fa fa-sign-out fa-1x')]")
+	@CacheLookup
+	WebElement btnParkAssociateUserLogout;
+	
+	//My Requests
+	@FindBy(xpath="//a[contains(.,'My Requests')]")
+	@CacheLookup
+	WebElement lbtnMyRequests;
+	
+	//Park Supervisor User's Requests Text
+	@FindBy(xpath="/html/body/div/div/div/div/div/div/div/div/div/div[2]/div[1]/div/span")
+	@CacheLookup
+	WebElement txtParkSupervisorUsersRequests;
+	
+	//Human Resources User's Requests Text
+	@FindBy(xpath="/html/body/div/div/div/div/div/div/div/div/div/div[2]/div[1]/div/span")
+	@CacheLookup
+	WebElement txtHumanResourcesUsersRequests;
+	
+	//Accounting User's Requests Text
+	@FindBy(xpath="/html/body/div/div/div/div/div/div/div/div/div/div[2]/div[1]/div/span")
+	@CacheLookup
+	WebElement txtAccountingUsersRequests;
+	
 	//Implicit Wait Function
 	public void implicitwait() 
 	{
@@ -156,11 +186,32 @@ public class LoginPage {
 		return bgColour;
 	}
 	
+	//Click Park Associate User Link Button
+	public void clickParkAssociateUser()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", lbtnParkAssociateUser);
+	}
+		
+	//Click Park Supervisor User Link Button
+	public void clickParkSupervisorUser()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", lbtnParkSupervisorUser);
+	}
+	
 	//Click Human Resources User Link Button
 	public void clickHRUser()
 	{
 		JavascriptExecutor js = (JavascriptExecutor)ldriver;
 		js.executeScript("arguments[0].click()", lbtnHRUser);
+	}
+	
+	//Accounting User Link Button
+	public void clickAccountingUser()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", lbtnAccountingUser);
 	}
 	
 	//Click Human Go To Sample Login Link Button
@@ -175,5 +226,43 @@ public class LoginPage {
 	{
 		JavascriptExecutor js = (JavascriptExecutor)ldriver;
 		js.executeScript("arguments[0].click()", btnLogout);
+	}
+	
+	//Park Associate User's Request is displayed
+	public boolean txtParkAssociateUsersRequestsDisplayed()
+	{
+		return func.verifyElementDisplayedWithText(txtParkAssociateUsersRequests, "Park Associate User's Requests");
+	}
+	
+	//Park Supervisor User's Request is displayed
+	public boolean txtParkSupervisorUsersRequestsDisplayed()
+	{
+		return txtParkSupervisorUsersRequests.isDisplayed();
+	}
+		
+	//Human Resources User's Request is displayed
+	public boolean txtHumanResourcesUsersRequestsDisplayed()
+	{
+		return txtHumanResourcesUsersRequests.isDisplayed();
+	}
+		
+	//Accounting User's Request is displayed
+	public boolean txtAccountingUsersRequestsDisplayed()
+	{
+		return txtAccountingUsersRequests.isDisplayed();
+	}
+	
+	//Click Associate User Logout Button
+	public void clickParkAssociateUserLogout()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", btnParkAssociateUserLogout);
+	}
+	
+	//Click My Request Link Button
+	public void clickMyRequest()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", lbtnMyRequests);
 	}
 }

@@ -67,5 +67,11 @@ public class ReadConfig {
 		String receiptPath =pro.getProperty("receiptPath");
 		return receiptPath;
 	}
+	
+	public String getUploadPath()
+	{
+		String uploadPath =pro.getProperty("uploadFile");
+		return uploadPath;
+	}
 
 }

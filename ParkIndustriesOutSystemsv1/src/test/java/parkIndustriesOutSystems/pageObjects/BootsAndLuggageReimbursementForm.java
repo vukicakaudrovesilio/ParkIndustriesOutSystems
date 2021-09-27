@@ -49,7 +49,7 @@ public class BootsAndLuggageReimbursementForm {
 	//Park Associate User
 	@FindBy(xpath="(//span[contains(.,'Park Associate User')])[1]")
 	@CacheLookup
-	WebElement txtParkAssociateUser;
+	WebElement txtParkAssociateUser1;
 	
 	//Request List Header
 	@FindBy(xpath="//h1[contains(.,'Request List')]")
@@ -57,8 +57,8 @@ public class BootsAndLuggageReimbursementForm {
 	WebElement headerRequestList;
 	
 	//Search Bar
-	@FindBy(xpath="//input[@type='search'][contains(@id,'TextVar')]")
-	@CacheLookup
+	@FindBy(xpath="//input[contains(@placeholder,'Search by Case #')]")
+	@CacheLookup   
 	WebElement txtSearchBar;
 	
 	//Boots & Luggage Reimbursement Form Header
@@ -73,7 +73,7 @@ public class BootsAndLuggageReimbursementForm {
 	
 	//Column Associate 
 	@FindBy(xpath="(//th[@class='sortable'][contains(.,'Associate')])[1]")
-	@CacheLookup
+	@CacheLookup   
 	WebElement columnAssociate;
 	
 	//Column Associate Number
@@ -82,7 +82,7 @@ public class BootsAndLuggageReimbursementForm {
 	WebElement columnAssociateNumber;
 		
 	//Column Department 
-	@FindBy(xpath="//th[@class='sortable'][contains(.,'Department')]")
+	@FindBy(xpath="//th[@class='sortable'][contains(.,'Associate #')]")
 	@CacheLookup
 	WebElement columnDepartment;
 		
@@ -166,6 +166,21 @@ public class BootsAndLuggageReimbursementForm {
 	@CacheLookup
 	WebElement txtAddedCommentTimeline;
 	
+	//Park Associate User Comments
+	@FindBy(xpath="(//span[contains(.,'Park Associate User Comment')])[1]")
+	@CacheLookup
+	WebElement txtParkAssociateUserComments;
+	
+	//Comment Text
+	@FindBy(xpath="(//span[contains(.,'Park Associate User Comment')])[1]")
+	@CacheLookup
+	WebElement txtComment;
+	
+	//Comment Text
+	@FindBy(xpath="//span[@class='padding-top-s'][contains(.,'test')]")
+	@CacheLookup
+	WebElement txtTest;
+	
 	//Reimbursement Form Header
 	@FindBy(xpath="//span[@class='heading3'][contains(.,'Reimbursement Form Details')]")
 	@CacheLookup
@@ -175,6 +190,11 @@ public class BootsAndLuggageReimbursementForm {
 	@FindBy(xpath="(//span[contains(.,'Created')])[1]")
 	@CacheLookup
 	WebElement btnCreated;
+	
+	//Created Button
+	@FindBy(xpath="//span[contains(@class,'MarginGutter')]")
+	@CacheLookup
+	WebElement txtCaseNumber;
 	
 	//Boots & Luggage Reimbursement Policy Header
 	@FindBy(xpath="(//div[contains(.,'Boots & Luggage Reimbursement Policy')])[22]")
@@ -227,7 +247,7 @@ public class BootsAndLuggageReimbursementForm {
 	WebElement txtYearInput;
 	
 	//Delete Request
-	@FindBy(xpath="(//div[contains(.,'Delete Request')])[25]")
+	@FindBy(xpath="/html/body/div/div/div/div/div/div/div/div/div/div[3]/div/div/div/div[2]/div[1]/div/div[1]/form/div[1]/div/div[2]/div/a/div")
 	@CacheLookup
 	WebElement lbtnDeleteRequest;
 	
@@ -253,7 +273,7 @@ public class BootsAndLuggageReimbursementForm {
 	
 	//Drop Down Receipt Type
 	@FindBy(xpath="//select[contains(@class,'dropdown-display dropdown')]")
-	@CacheLookup
+	@CacheLookup   
 	WebElement ddReceiptType;
 	
 	//USD Requested Header
@@ -296,6 +316,181 @@ public class BootsAndLuggageReimbursementForm {
 	@CacheLookup
 	WebElement headerRequestSummary;
 	
+	//Request Summary Text
+	@FindBy(xpath="//span[@class='heading4'][contains(.,'Request Summary')]")
+	@CacheLookup
+	WebElement txtRequestSummary;
+	
+	//Placeholder Text Search By Case #
+	@FindBy(xpath="//input[contains(@placeholder,'Search by Case #')]")
+	@CacheLookup   
+	WebElement txtSearchByCaseNumber;
+	
+	//Search Results No Items To Show 
+	@FindBy(xpath="//span[@role='status'][contains(.,'No items to show...')]")
+	@CacheLookup   
+	WebElement txtSearchNoResults;
+	
+	//Search Results Case Number 35
+	@FindBy(xpath="//span[contains(.,'35')]")
+	@CacheLookup   
+	WebElement txtSearchCaseNumber35;
+	
+	//Case Number 4
+	@FindBy(xpath="/html/body/div/div/div/div/div/div/div/div/div/div[3]/div/div[1]/table/tbody/tr[1]/td[1]/a/span")
+	@CacheLookup   
+	WebElement txtCaseNumber4;
+	
+	//Park Associate User 
+	@FindBy(xpath="(//span[contains(.,'Park Associate User')])[2]")
+	@CacheLookup   
+	WebElement txtParkAssociateUser2;
+	
+	//Associate Number 8888888
+	@FindBy(xpath="(//span[contains(.,'8888888')])[1]")
+	@CacheLookup   
+	WebElement txtAssociateNumber8888888;
+	
+	//Department SS Customer Service
+	@FindBy(xpath="(//span[@class='OSFillParent'][contains(.,'SS Customer Service')])[1]")
+	@CacheLookup   
+	WebElement txtDepartmentSSCustomerService;
+	
+	//Approved By HR Created
+	@FindBy(xpath="(//span[contains(.,'Approved by HR')])[1]")
+	@CacheLookup   
+	WebElement txtStatusApprovedByHR;
+	
+	//Status Created
+	@FindBy(xpath="(//span[contains(.,'Submitted')])[1]")
+	@CacheLookup   
+	WebElement txtStatusSubmitted;
+	
+	//Date Submitted Not Submitted Yet
+	@FindBy(xpath="(//span[contains(.,'04/22/2021')])[1]")
+	@CacheLookup   
+	WebElement txtDate04222021;
+	
+	//Date Submitted 09/09/2021
+	@FindBy(xpath="(//div[contains(.,'(Not Submitted Yet)')])[17]")
+	@CacheLookup   
+	WebElement txtDateSubmitted09092021;
+	
+	//Year (-) 
+	@FindBy(xpath="(//span[contains(.,'-')])[1]")
+	@CacheLookup   
+	WebElement txtYearSorted1;
+	
+	//Year 2021
+	@FindBy(xpath="(//span[contains(.,'2021')])[2]")
+	@CacheLookup   
+	WebElement txtYearSorted2;
+	
+	//Edit Pen Icon
+	@FindBy(xpath="/html/body/div/div/div/div/div/div/div/div/div/div[3]/div/div/div/div[2]/div[1]/div/div[1]/form/div[3]/div[4]/div/div/div[1]/form/div[1]/div[1]/div/a/i")
+	@CacheLookup   
+	WebElement editPen;
+	
+	//Trash Can Icon
+	@FindBy(xpath="//i[contains(@class,'icon trash-icon text-error fa fa-trash fa-1x')]")
+	@CacheLookup   
+	WebElement trashCan;
+	
+	//Floppy Disk Icon
+	@FindBy(xpath="/html/body/div/div/div/div/div/div/div/div/div/div[3]/div/div/div/div[2]/div[1]/div/div[1]/form/div[3]/div[4]/div/div/div[1]/form/div[1]/div[1]/div/div[1]/a/i")
+	@CacheLookup   
+	WebElement floppyDisk;
+	
+	//AntiClockwise Arrow Circle Icon
+	@FindBy(xpath="/html/body/div/div/div/div/div/div/div/div/div/div[3]/div/div/div/div[2]/div[1]/div/div[1]/form/div[3]/div[4]/div/div/div[1]/form/div[1]/div[1]/div/div[2]/a/i")
+	@CacheLookup   
+	WebElement antiClockwiseArrowCircle;
+	
+	//Receipt Type Editable
+	@FindBy(xpath="//select[@class='dropdown-display dropdown'][contains(@id,'0-b15-Dropdown1')]")
+	@CacheLookup   
+	WebElement txtReceiptTypeEdit;
+	
+	//USD Requested Editable
+	@FindBy(xpath="/html/body/div/div/div/div/div/div/div/div/div/div[3]/div/div/div/div[2]/div[1]/div/div[1]/form/div[3]/div[4]/div/div/div[1]/form/div[2]/div/div/div[2]/div/span")
+	@CacheLookup   
+	WebElement txtUSDRequestedEdit;
+	
+	//Luggage Update Text
+	@FindBy(xpath="(//span[contains(.,'Luggage')])[6]")
+	@CacheLookup   
+	WebElement txtLuggageUpdate;
+	
+	//Total Requested Text
+	@FindBy(xpath="//span[contains(.,'Total requested: $5.00')]")
+	@CacheLookup   
+	WebElement txtTotalRequested;
+	
+	//Total Approved Text
+	@FindBy(xpath="//span[contains(.,'Total approved: $0.00 (Review Pending)')]")
+	@CacheLookup   
+	WebElement txtTotalApproved;
+	
+	//Calendar Year Reimbursement Allowed Text
+	@FindBy(xpath="//span[@class='text-neutral-7'][contains(.,'Calendar Year Reimbursement Allowed')]")
+	@CacheLookup   
+	WebElement txtCalendarYearReimbursementAllowed;
+	
+	//Allowance Text
+	@FindBy(xpath="//span[contains(.,'$200.00 (Remaining: $17.00)')]")
+	@CacheLookup   
+	WebElement txtAllowance;
+	
+	//Tick Icon
+	@FindBy(xpath="//i[contains(@class,'icon fa fa-check-circle fa-1x')]")
+	@CacheLookup   
+	WebElement tick;
+	
+	//Amount Requested Is Under The Remaining Allowed Amount Text 
+	@FindBy(xpath="//span[@class='ThemeGrid_MarginGutter'][contains(.,'Amount requested is under the remaining allowed amount.')]")
+	@CacheLookup   
+	WebElement txtAmountRequested;
+	
+	//Submitted Button 
+	@FindBy(xpath="//div[@class='tag border-radius-rounded background-primary OSInline'][contains(.,'Submitted')]")
+	@CacheLookup   
+	WebElement btnSubmitted;
+	
+	//Awaiting Supervisor Review Text
+	@FindBy(xpath="//span[@class='text-yellow-dark'][contains(.,'Awaiting Supervisor Review - For any questions please contact your Supervisor or the HR Team')]")
+	@CacheLookup   
+	WebElement txtAwaitingSupervisor;
+	
+	//Date Submitted Text
+	@FindBy(xpath="//span[@class='text-neutral-7'][contains(.,'Date Submitted')]")
+	@CacheLookup   
+	WebElement txtDateSubmitted;
+	
+	//Status Changed Text
+	@FindBy(xpath="//span[@class='text-neutral-7'][contains(.,'Date Submitted')]")
+	@CacheLookup   
+	WebElement txtStatusChanged;
+	
+	//Submitted Text
+	@FindBy(xpath="/html/body/div/div/div/div/div/div/div/div/div/div[3]/div/div/div/div[2]/div[1]/div/div[2]/div/div[2]/div/div/div/div[1]/div/div[3]/div[2]/div/div[2]/div/div/span")
+	@CacheLookup   
+	WebElement txtSubmitted;
+	
+	//pageSlider
+	@FindBy(xpath="//div[contains(@aria-label,'Pagination')]")
+	@CacheLookup
+	WebElement pageSlider;
+	
+	//Total Number of Items Available in Park Associate User
+	@FindBy(xpath="//*[@id=\"b6-PaginationRecords\"]")
+	@CacheLookup   
+	WebElement txtTotalItems;
+	
+	//Next Number of Items Available in Park Associate User Button
+	@FindBy(xpath="//i[contains(@class,'icon fa fa-angle-right fa-1x')]")
+	@CacheLookup
+	WebElement btnNextItems;
+	
 	//Boots and Luggage Reimbursement Link Button
 	public void clickBootsandLuggageReimbursement()
 	{
@@ -324,7 +519,7 @@ public class BootsAndLuggageReimbursementForm {
 	//Boots & Luggage Reimbursement Main is displayed
 	public boolean txtBootsLuggageReimbursementMain()
 	{
-		return headerBootsLuggageMain.isDisplayed();
+		return func.verifyElementDisplayedWithText(headerBootsLuggageMain, "Boots & Luggage Reimbursement");
 	}
 	
 	//Confirm Header "Request List"
@@ -376,6 +571,55 @@ public class BootsAndLuggageReimbursementForm {
 		{
 			return false;
 		}
+	}
+	
+	//Case # is clickable and displayed
+	public void caseNumberClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", columnID);
+	}
+	
+	//Associate is clickable and displayed
+	public void associateClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", columnAssociate);
+	}
+	
+	//Associate Number is clickable and displayed
+	public void associateNumberClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", columnAssociateNumber);
+	}
+	
+	//Department is clickable and displayed
+	public void departmentClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", columnDepartment);
+	}
+	
+	//Status is clickable and displayed
+	public void statusClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", columnStatus);
+	}
+	
+	//Date Submitted is clickable and displayed
+	public void dateSubmittedClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", columnDateSubmitted);
+	}
+	
+	//Year is clickable and displayed
+	public void yearClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", columnYear);
 	}
 	
 	//New Request is displayed
@@ -492,6 +736,13 @@ public class BootsAndLuggageReimbursementForm {
 		return bgColour;
 	}
 	
+	//Delete Request is clickable and displayed
+	public void saveClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", btnSave);
+	}
+	
 	//Add Comments Placeholder
 	public String addCommentsPlaceholder()
 	{
@@ -502,8 +753,7 @@ public class BootsAndLuggageReimbursementForm {
 	//Enter Comments and Click Save Button
 	public void enterComments()
 	{
-		txtAddComment.sendKeys("New Comment");
-		btnSave.click();
+		txtAddComment.sendKeys("test");
 	}
 	
 	//Save Button is displayed
@@ -512,6 +762,30 @@ public class BootsAndLuggageReimbursementForm {
 		return txtAddedCommentTimeline.isDisplayed();
 	}
 	
+	//Park Associate User Comments displayed
+	public boolean txtParkAssociateUserCommentsDisplayed()
+	{
+		return txtParkAssociateUserComments.isDisplayed();
+	}
+	
+	//Comment Text is displayed
+	public boolean txtCommentDisplayed()
+	{
+		return txtComment.isDisplayed();
+	}
+	
+	//test is displayed
+	public boolean txtTestDisplayed()
+	{
+		return txtTest.isDisplayed();
+	}
+	
+	//test is displayed
+	public boolean txtCaseNumberDisplayed()
+	{
+		return txtCaseNumber.isDisplayed();
+	}
+
 	//Confirm Header "Reimbursement Form Details"
 	public boolean verifyHeaderReimbursementFormDetails()
 	{
@@ -592,8 +866,15 @@ public class BootsAndLuggageReimbursementForm {
 	}
 	
 	//Year Text Input
-	public void yearInput()
+	public void yearInput1()
 	{
+		txtYearInput.sendKeys("2021");
+	}
+	
+	//Year Text Input
+	public void yearInput2()
+	{
+		txtYearInput.clear();
 		txtYearInput.sendKeys("2021");
 	}
 	
@@ -601,6 +882,13 @@ public class BootsAndLuggageReimbursementForm {
 	public boolean deleteRequestDisplayed()
 	{
 		return lbtnDeleteRequest.isDisplayed();
+	}
+	
+	//Delete Request Link Button Background Color
+	public String btnDeleteRequestBgColour()
+	{
+		String bgColour = Color.fromString(btnAddReceipt.getCssValue("color")).asHex();
+		return bgColour;
 	}
 	
 	//Delete Request is clickable and displayed
@@ -642,10 +930,31 @@ public class BootsAndLuggageReimbursementForm {
 		return func.verifyElementDisplayedWithText(headerReceiptType, "Receipt Type");
 	}
 	
+	//Receipt Type Field is displayed
+	public boolean ddReceiptTypeDisplayed()
+	{
+		return ddReceiptType.isDisplayed();
+	}
+
+	
 	//Confirm Header "USD Requested"
 	public boolean uSDRequestedDisplayed()
 	{
 		return func.verifyElementDisplayedWithText(headerUSDRequested, "USD Requested");
+	}
+	
+	//USD Requested 
+	public boolean uSDRequestedInputDisplayed()
+	{
+		return txtUSDRequested.isDisplayed();
+	}
+	
+	//Select "Boots" as Receipt Type
+	public void bootsLuggageOptionsDisplayed() 
+	{
+		ddReceiptType.click();
+		ddReceiptTypeBoots.isDisplayed();
+		ddReceiptTypeLuggage.isDisplayed();
 	}
 	
 	//Select "Boots" as Receipt Type
@@ -655,10 +964,17 @@ public class BootsAndLuggageReimbursementForm {
 		ddReceiptTypeBoots.click();
 	}
 	
-	//Enter "50" as USD Request for Price
+	//Select "Boots" as Receipt Type
+	public void selectLuggageType() 
+	{
+		ddReceiptType.click();
+		ddReceiptTypeLuggage.click();
+	}
+	
+	//Enter "5" as USD Request for Price
 	public void enterUSDRequest() 
 	{
-		txtUSDRequested.sendKeys("50");
+		txtUSDRequested.sendKeys("5");
 	}
 	
 	//Back Button is displayed
@@ -686,6 +1002,12 @@ public class BootsAndLuggageReimbursementForm {
 		return func.verifyElementDisplayedWithText(headerRequestSummary, "Request Summary");
 	}
 	
+	//Request Summary Text is displayed
+	public boolean txtRequestSummaryDisplayed()
+	{
+		return txtRequestSummary.isDisplayed();
+	}
+	
 	//Back Button is clickable and displayed
 	public void backClickable()
 	{
@@ -699,6 +1021,256 @@ public class BootsAndLuggageReimbursementForm {
 		JavascriptExecutor js = (JavascriptExecutor)ldriver;
 		js.executeScript("arguments[0].click()", btnSaveSubmit);
 	}
+	
+	//Placeholder Text Search By Case Number is displayed
+	public boolean txtSearchByCaseNumberDisplayed()
+	{
+		return txtSearchByCaseNumber.isDisplayed();
+	}
+	
+	//Search Nesh
+	public void searchNesh()
+	{
+		txtSearchByCaseNumber.sendKeys("Nesh");
+	}
+	
+	//Search Case # 35
+	public void searchCaseNumber35()
+	{
+		txtSearchByCaseNumber.sendKeys("35");
+	}
+	
+	//Clear Search 
+	public void clearSearch()
+	{
+		txtSearchByCaseNumber.clear();
+	}
+	
+	//Search No Results is displayed
+	public boolean txtSearchNoResultsDisplyed()
+	{
+		return txtSearchNoResults.isDisplayed();
+	}
+	
+	//Search Case Number 35 is displayed
+	public boolean txtSearchCaseNumber35Displyed()
+	{
+		return txtSearchCaseNumber35.isDisplayed();
+	}
+	
+	//Case Number 4 is displayed
+	public boolean caseNumber4Displayed()
+	{
+		return txtCaseNumber4.isDisplayed();
+	}
+	
+	//Park Associate User is displayed
+	public boolean parkAssociateUserDisplayed()
+	{
+		return txtParkAssociateUser2.isDisplayed();
+	}
+	
+	//Associate Number 8888888 is displayed
+	public boolean associateNumber8888888Displayed()
+	{
+		return txtAssociateNumber8888888.isDisplayed();
+	}
+	
+	//Department SS Customer Service is displayed
+	public boolean departmentDisplyed()
+	{
+		return txtDepartmentSSCustomerService.isDisplayed();
+	}
+	
+	//Status Created is displayed
+	public boolean statusApprovedByHRDisplyed()
+	{
+		return txtStatusApprovedByHR.isDisplayed();
+	}
+	
+	//Status Submitted is displayed
+	public boolean statusSubmittedDisplyed()
+	{
+		return txtStatusSubmitted.isDisplayed();
+	}
+	
+	//Date Submitted Not Yet Submitted is displayed
+	public boolean txtDate04222021Displyed()
+	{
+		return txtDate04222021.isDisplayed();
+	}
+	
+	//Date Submitted 09/09/2021 is displayed
+	public boolean dateSubmitted09092021Displyed()
+	{
+		return txtDateSubmitted09092021.isDisplayed();
+	}
+	
+	//Date Submitted 09/09/2021 is displayed
+	public boolean yearSorted1Displyed()
+	{
+		return txtYearSorted1.isDisplayed();
+	}
+	
+	//Date Submitted 09/09/2021 is displayed
+	public boolean yearSorted2Displyed()
+	{
+		return txtYearSorted2.isDisplayed();
+	}
+	
+	//Edit Pen Icon is displayed
+	public boolean editPenDisplyed()
+	{
+		return editPen.isDisplayed();
+	}
+	
+	//Trash Can Icon is displayed
+	public boolean trashCanDisplyed()
+	{
+		return trashCan.isDisplayed();
+	}
+	
+	//Edit Pen Icon is clickable and displayed
+	public void editPenClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", editPen);
+	}
+	
+	//Floppy Disk Icon is displayed
+	public boolean floppyDiskDisplyed()
+	{
+		return floppyDisk.isDisplayed();
+	}
+	
+	//AntiClockwise Arrow Circle Icon is displayed
+	public boolean antiClockwiseArrowCircleDisplyed()
+	{
+		return antiClockwiseArrowCircle.isDisplayed();
+	}
+	
+	//Receipt Type Editable
+	public void txtReceiptTypeEdit()
+	{
+		txtReceiptTypeEdit.click();
+	}
+	
+	//USD Requested Editable
+	public void txtUSDRequestedEdit()
+	{
+		txtUSDRequestedEdit.click();
+	}
+	
+	//Floppy Disk Icon is clickable and displayed
+	public void floppyDiskClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()",  floppyDisk);
+	}
+	
+	//AntiClockwise Arrow Circle Icon is clickable and displayed
+	public void antiClockwiseArrowCircleClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()",  antiClockwiseArrowCircle);
+	}
+	
+	//Trash Can Icon is clickable and displayed
+	public void trashCanClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()",  trashCan);
+	}
+	
+	//Luggage Text Request Summary is displayed
+	public boolean txtLuggageDisplyed()
+	{
+		return txtLuggage.isDisplayed();
+	}
+	
+	//Total Requested Text Request Summary is displayed
+	public boolean txtTotalRequestDisplyed()
+	{
+		return txtTotalRequested.isDisplayed();
+	}
+	
+	//Total Approved Text Request Summary is displayed
+	public boolean txtTotalApprovedDisplyed()
+	{
+		return txtTotalApproved.isDisplayed();
+	}
+	
+	//Calendar Year Reimbursement Allowed Text Request Summary is displayed
+	public boolean txtCalendarYearReimbursementAllowedDisplyed()
+	{
+		return txtCalendarYearReimbursementAllowed.isDisplayed();
+	}
+	
+	//Allowance Text Request Summary is displayed
+	public boolean txtAllowanceDisplyed()
+	{
+		return txtAllowance.isDisplayed();
+	}
+	
+	//Tick Icon Request Summary is displayed
+	public boolean tickDisplyed()
+	{
+		return tick.isDisplayed();
+	}
+	
+	//Amount Requested Text Request Summary is displayed
+	public boolean txtAmountRequestedDisplyed()
+	{
+		return txtAmountRequested.isDisplayed();
+	}
+	
+	//Submitted Button is displayed
+	public boolean btnSubmittedDisplyed()
+	{
+		return btnSubmitted.isDisplayed();
+	}
+	
+	//Awaiting Supervisor Review Text is displayed
+	public boolean txtAwaitingSupervisorDisplyed()
+	{
+		return txtAwaitingSupervisor.isDisplayed();
+	}
+	
+	//Date Submitted Text is displayed
+	public boolean txtDateSubmittedDisplyed()
+	{
+		return txtDateSubmitted.isDisplayed();
+	}
+	
+	//Status Changed Text is displayed
+	public boolean txtStatusChangedDisplyed()
+	{
+		return txtStatusChanged.isDisplayed();
+	}
+	
+	//Submitted Text is displayed
+	public boolean txtSubmittedDisplyed()
+	{
+		return txtSubmitted.isDisplayed();
+	}
+	
+	public boolean pageSliderDisplayed()
+	{
+		return pageSlider.isDisplayed();
+	}
+	
+	public boolean totalItemsDisplayed()
+	{
+		return txtTotalItems.isDisplayed();
+	}
+	
+	//Associate Forms Portal is clickable and displayed
+	public void pageSliderClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", btnNextItems);
+	}
+	
 }
             
                

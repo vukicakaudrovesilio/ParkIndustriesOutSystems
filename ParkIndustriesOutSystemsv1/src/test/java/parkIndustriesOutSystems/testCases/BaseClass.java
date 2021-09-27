@@ -33,6 +33,7 @@ public class BaseClass {
 	public String msedgedriverPath = readConfig.getMsEdgePath();
 	public String operadriverPath= readConfig.getOperaPath();
 	public String receiptPath= readConfig.getReceiptPath();
+	public String uploadFile= readConfig.getUploadPath();
 	
 	@Parameters("browser")
 	@BeforeClass
@@ -84,6 +85,10 @@ public class BaseClass {
 		File target = new File(System.getProperty("user.dir") + "/Screenshots/" + tname + ".png");
 		FileUtils.copyFile(source, target);
 		System.out.println("Screenshot taken");
+	}
+	
+	String getFile() {
+		return new File("./Images/LuggageReceipt.jpg").getAbsolutePath();
 	}
 
 	

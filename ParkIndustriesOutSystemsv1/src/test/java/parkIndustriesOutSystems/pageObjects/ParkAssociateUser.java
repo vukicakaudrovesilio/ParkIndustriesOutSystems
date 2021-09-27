@@ -60,29 +60,54 @@ public class ParkAssociateUser {
 	WebElement txtParkAssociateUser;
 	
 	//Clear Button
-	@FindBy(xpath="//button[@class='btn btn-primary ThemeGrid_MarginGutter'][contains(.,'Clear')]")
+	@FindBy(xpath="//button[contains(.,'Clear')]")
 	@CacheLookup
 	WebElement btnClear;
 	
 	//Park Associate User Search Box
-	@FindBy(xpath="//input[contains(@type,'text')]")
+	@FindBy(xpath="//input[@placeholder='Search']")
 	@CacheLookup
 	WebElement txtSearchBox;
 	
 	//Park Associate User Search Box Option 1
-	@FindBy(xpath="//div[contains(@data-value,'8c16952c-c4b9-4c3f-a6c6-c532dfec8e9d')]")
+	@FindBy(xpath="//div[@data-value='a6e3d096-f2d5-4e7b-be56-d2fdabe3db0a']")
 	@CacheLookup
 	WebElement txtSearchOption1;
 	
 	//Park Associate User Search Box Option 2
-	@FindBy(xpath="//div[contains(@data-value,'8c16952c-c4b9-4c3f-a6c6-c532dfec8e9d')]")
+	@FindBy(xpath="//div[@data-value='a6e3d096-f2d5-4e7b-be56-d2fdabe3db0a']")
 	@CacheLookup
 	WebElement txtSearchOption2;
 	
+	//Park Associate User Search Box Option 3
+	@FindBy(xpath="//div[@data-value='8c16952c-c4b9-4c3f-a6c6-c532dfec8e9d']")
+	@CacheLookup
+	WebElement txtSearchOption3;
+		
+	//Park Associate User Search Box Option 4
+	@FindBy(xpath="//div[@data-value='eb8d2a29-a65f-45ea-a0c0-061f74770006']")
+	@CacheLookup
+	WebElement txtSearchOption4;
+		
+	//Park Associate User Search Box Option 5
+	@FindBy(xpath="//div[@data-value='8464ea29-973d-417c-bcb0-bfe953ed7cc5']")
+	@CacheLookup
+	WebElement txtSearchOption5;
+		
+	//Park Associate User Search Box Option 6
+	@FindBy(xpath="//div[@data-value='fcc1d1a3-927a-4b5d-ac91-e9478f923395']")
+	@CacheLookup
+	WebElement txtSearchOption6;
+	
 	//Park Associate User All Items
-	@FindBy(xpath="//span[@class='font-size-base text-neutral-8'][contains(.,'All Items')]")
+	@FindBy(xpath="//span[contains(.,'All Items')]")
 	@CacheLookup
 	WebElement headerAllItems;
+	
+	//Park Associate User Pending Items
+	@FindBy(xpath="//span[contains(.,'Pending Items')]")
+	@CacheLookup
+	WebElement headerPendingItems;
 	
 	//Park Associate User Active Items
 	@FindBy(xpath="//span[@class='font-size-base text-neutral-8'][contains(.,'Active Items')]")
@@ -93,6 +118,16 @@ public class ParkAssociateUser {
 	@FindBy(xpath="//span[@class='font-size-base text-neutral-8'][contains(.,'Closed Items')]")
 	@CacheLookup
 	WebElement headerClosedItems;
+	
+	//Park Associate User Done Items
+	@FindBy(xpath="//span[contains(.,'Done Items')]")
+	@CacheLookup
+	WebElement headerDoneItems;
+	
+	//Park Associate User Filter Text
+	@FindBy(xpath="(//div[contains(.,'Filter By')])[14]")
+	@CacheLookup   
+	WebElement txtFilter;
 	
 	//Park Associate User Filter Button
 	@FindBy(xpath="//select[contains(@class,'dropdown-display dropdown')]")
@@ -175,7 +210,7 @@ public class ParkAssociateUser {
 	WebElement tuitionReimbursementForms;
 	
 	//Login as Sample User
-	@FindBy(xpath="//span[@class='heading6'][contains(.,'Login as Sample User')]")
+	@FindBy(xpath="//span[contains(.,'Login as Sample User')]")
 	@CacheLookup
 	WebElement txtLoginasSampleUser;
 	
@@ -188,6 +223,86 @@ public class ParkAssociateUser {
 	@FindBy(xpath="//span[@class='heading1'][contains(.,'Sign In')]")
 	@CacheLookup
 	WebElement txtHRFormsSignIn;
+	
+	//Go To Form Text
+	@FindBy(xpath="//div[@class='ph card card-content'][contains(.,'Go to Form:SHARPVolunteer FormsBoots & Luggage ReimbursementTuition Reimbursement')]")
+	@CacheLookup
+	WebElement txtGoToForm;
+	
+	//SHARP Form Link Button
+	@FindBy(xpath="//button[contains(.,'SHARP')]")
+	@CacheLookup
+	WebElement lbtnSHARP;
+	
+	//SHARP Form Header
+	@FindBy(xpath="/html/body/div/div/div/div/div/div/div/div/div/div[3]/div/div[1]/div/div/div/div/div[1]/div")
+	@CacheLookup
+	WebElement headerSHARP;
+	
+	//Volunteer Form Link Button
+	@FindBy(xpath="//button[contains(.,'Volunteer Forms')]")
+	@CacheLookup
+	WebElement lbtnVolunteer;
+	
+	//Volunteer Form Header
+	@FindBy(xpath="//div[@class='heading3 text-align-center'][contains(.,'Volunteer Tracking Form')]")
+	@CacheLookup
+	WebElement headerVolunteer;
+		
+	//Boots and Luggage Reimbursement Form Link Button
+	@FindBy(xpath="//button[contains(.,'Boots & Luggage Reimbursement')]")
+	@CacheLookup
+	WebElement lbtnBootsLuggage;
+	
+	//Boots and Luggage Reimbursement Form Header
+	@FindBy(xpath="//span[@class='heading3'][contains(.,'Boots & Luggage Reimbursement Form')]")
+	@CacheLookup
+	WebElement headerBootsLuggage;
+		
+	//Tuition Form Link Button
+	@FindBy(xpath="//button[contains(.,'Tuition Reimbursement')]")
+	@CacheLookup
+	WebElement lbtnTuition;
+	
+	//Tuition Form Header
+	@FindBy(xpath="//span[@class='heading3'][contains(.,'Associate Initial Request for Tuition Reimbursement')]")
+	@CacheLookup
+	WebElement headerTuition;
+	
+	//Associate Form Link Button
+	@FindBy(xpath="//a[contains(.,'Associate Forms Portal')]")
+	@CacheLookup
+	WebElement lbtnAssociateFormsPortal;
+	
+	//Case Number 1 
+	@FindBy(xpath="//html/body/div/div/div/div/div/div/div/div/div/div[3]/div/div[2]/table/tbody/tr[1]/td[1]/span")
+	@CacheLookup
+	WebElement txtCaseNumber1;
+	
+	//Status Approved By HR
+	@FindBy(xpath="/html/body/div/div/div/div/div/div/div/div/div/div[3]/div/div[2]/table/tbody/tr[1]/td[4]/div/div/div/span")
+	@CacheLookup
+	WebElement txtStatusApprovedByHR;
+	
+	//Status Submitted
+	@FindBy(xpath="/html/body/div/div/div/div/div/div/div/div/div/div[3]/div/div[2]/table/tbody/tr[1]/td[4]/div/div/div/span")
+	@CacheLookup
+	WebElement txtStatusSubmitted;
+	
+	//pageSlider
+	@FindBy(xpath="//div[contains(@aria-label,'Pagination')]")
+	@CacheLookup
+	WebElement pageSlider;
+	
+	//Total Number of Items Available in Park Associate User
+	@FindBy(xpath="//*[@id=\"b9-PaginationRecords\"]")
+	@CacheLookup
+	WebElement txtTotalItems;
+	
+	//Next Number of Items Available in Park Associate User Button
+	@FindBy(xpath="//i[contains(@class,'icon fa fa-angle-right fa-1x')]")
+	@CacheLookup
+	WebElement btnNextItems;
 	
 	//Click Park Associate User Link Button
 	public void clickParkAssociateUser()
@@ -252,6 +367,13 @@ public class ParkAssociateUser {
 		js.executeScript("arguments[0].click()", btnClear);
 	}
 	
+	//Search Bar Input is clickable and displayed
+	public void searchBarClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", txtSearchBox);
+	}
+	
 	//Park Associate Search Bar is displayed
 	public boolean searchbar()
 	{
@@ -264,12 +386,40 @@ public class ParkAssociateUser {
 		 txtSearchBox.click();
 		 txtSearchOption1.click();
 		 txtSearchOption2.click();
+		 txtSearchOption3.click();
+		 txtSearchOption4.click();
+		 txtSearchOption5.click();
+		 txtSearchOption6.click();
+	}
+	
+	//Select Values in Search Bar 
+	public void displayValuesSearchBar()
+	{
+		 txtSearchOption1.isDisplayed();
+		 txtSearchOption2.isDisplayed();
+		 txtSearchOption3.isDisplayed();
+		 txtSearchOption4.isDisplayed();
+		 txtSearchOption5.isDisplayed();
+		 txtSearchOption6.isDisplayed();
+	}
+	
+	//Select Values in Search Bar 
+	public void selectSHARPSearchBar()
+	{
+		 txtSearchBox.click();
+		 txtSearchOption4.click();
 	}
 	
 	//Confirm Header "All Items"
 	public boolean verifyHeaderAllItems()
 	{
 		return func.verifyElementDisplayedWithText(headerAllItems, "All Items");
+	}
+	
+	//Confirm Header "Pending Items"
+	public boolean verifyHeaderPendingItems()
+	{
+		return func.verifyElementDisplayedWithText(headerPendingItems, "Pending Items");
 	}
 	
 	//Confirm Header "Active Items"
@@ -284,7 +434,19 @@ public class ParkAssociateUser {
 		return func.verifyElementDisplayedWithText(headerClosedItems, "Closed Items");
 	}
 	
-	//Filter is displayed
+	//Confirm Header "Done Items"
+	public boolean verifyHeaderDoneItems()
+	{
+		return func.verifyElementDisplayedWithText(headerDoneItems, "Done Items");
+	}
+	
+	//Filter Text is displayed
+	public boolean txtFilterDisplayed()
+	{
+		return txtFilter.isDisplayed();
+	}
+	
+	//Filter Drop Down is displayed
 	public boolean btnFilterDisplayed()
 	{
 		return btnFilter.isDisplayed();
@@ -310,6 +472,24 @@ public class ParkAssociateUser {
 		}
 	}
 	
+	//Filter Created Button is clicked
+	public void btnFilterCreatedClicked()
+	{
+		btnFilterCreated.click();
+	}
+	
+	//Filter Pending Button is clicked
+	public void btnFilterPendingClicked()
+	{
+		btnFilterPending.click();
+	}
+	
+	//Filter All Button is clicked
+	public void btnFilterAllClicked()
+	{
+		btnFilterAll.click();
+	}
+	
 	//Column Headers for Case iD, Form Name, Requester and Status
 	public boolean locateColumnHeaders()
 	{
@@ -321,6 +501,36 @@ public class ParkAssociateUser {
 		{
 			return false;
 		}
+	}
+	
+	//Column Case # is clicked
+	public void btnCaseNumberClicked()
+	{
+		txtCaseID.click();
+	}
+	
+	//Column Case Number 1 is displayed
+	public boolean txtCaseNumber1Displayed()
+	{
+		return txtCaseNumber1.isDisplayed();
+	}
+	
+	//Column Status is clicked
+	public void btnStatusClicked()
+	{
+		txtStatus.click();
+	}
+	
+	//Status Approved By HR is displayed
+	public boolean txtStatusApprovedByHRDisplayed()
+	{
+		return txtStatusApprovedByHR.isDisplayed();
+	}
+	
+	//Status Submitted is displayed
+	public boolean txtStatusSubmittedDisplayed()
+	{
+		return txtStatusSubmitted.isDisplayed();
 	}
 	
 	//My Requests is clickable and displayed
@@ -401,6 +611,112 @@ public class ParkAssociateUser {
 		{
 			return false;
 		}
+	}
+	
+	//Go To Form is displayed
+	public boolean txtGoToFormDisplayed()
+	{
+		return txtGoToForm.isDisplayed();
+	}
+	
+	//SHARP Form is displayed
+	public boolean lbtnSHARPDisplayed()
+	{
+		return lbtnSHARP.isDisplayed();
+	}
+	
+	//SHARP Form is clickable and displayed
+	public void sharpFormClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", lbtnSHARP);
+	}
+	
+	//Confirm Header "SCHOLASTIC HONORS AND RECOGNITION PROGRAM (SHARP)"
+	public boolean verifyHeaderSHARP()
+	{
+		return func.verifyElementDisplayedWithText(headerSHARP, "SCHOLASTIC HONORS AND RECOGNITION PROGRAM (SHARP)");
+	}
+	
+	//Volunteer Form is displayed
+	public boolean lbtnVolunteerDisplayed()
+	{
+		return lbtnVolunteer.isDisplayed();
+	}
+	
+	//Volunteer Form is clickable and displayed
+	public void volunteerFormClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", lbtnVolunteer);
+	}
+	
+	//Confirm Header "Volunteer Tracking Form"
+	public boolean verifyHeaderVolunteer()
+	{
+		return func.verifyElementDisplayedWithText(headerVolunteer, "Volunteer Tracking Form");
+	}
+	
+	//Boots and Luggage Form is displayed
+	public boolean lbtnBootsLuggageDisplayed()
+	{
+		return lbtnBootsLuggage.isDisplayed();
+	}
+	
+	//Boots and Luggage Form is clickable and displayed
+	public void bootsLuggageFormClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", lbtnBootsLuggage);
+	}
+	
+	//Confirm Header "Boots & Luggage Reimbursement Form"
+	public boolean verifyHeaderBootsLuggage()
+	{
+		return func.verifyElementDisplayedWithText(headerBootsLuggage, "Boots & Luggage Reimbursement Form");
+	}
+	
+	//Tuition Form is displayed
+	public boolean lbtnTuitionDisplayed()
+	{
+		return lbtnTuition.isDisplayed();
+	}
+	
+	//Tuition Form is clickable and displayed
+	public void tuitionFormClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", lbtnTuition);
+	}
+	
+	//Confirm Header "Associate Initial Request for Tuition Reimbursement"
+	public boolean verifyHeaderTuition()
+	{
+		return func.verifyElementDisplayedWithText(headerTuition, "Associate Initial Request for Tuition Reimbursement");
+	}
+	
+	//Associate Forms Portal is clickable and displayed
+	public void associateFormsPortalClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", lbtnAssociateFormsPortal);
+	}
+	
+	public boolean pageSliderDisplayed()
+	{
+		return pageSlider.isDisplayed();
+	}
+	
+	public boolean totalItemsDisplayed()
+	{
+		return txtTotalItems.isDisplayed();
+	}
+	
+	//Associate Forms Portal is clickable and displayed
+	public void pageSliderClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", btnNextItems);
 	}
 	
 	public void waitForPageLoaded() {

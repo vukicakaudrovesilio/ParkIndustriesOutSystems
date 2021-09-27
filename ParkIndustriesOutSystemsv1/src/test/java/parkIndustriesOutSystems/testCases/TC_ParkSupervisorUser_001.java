@@ -2,9 +2,12 @@ package parkIndustriesOutSystems.testCases;
 
 import java.io.IOException;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 import junit.framework.Assert;
+import parkIndustriesOutSystems.pageObjects.LoginPage;
 import parkIndustriesOutSystems.pageObjects.ParkAssociateUser;
 import parkIndustriesOutSystems.pageObjects.ParkSupervisorUser;
 
@@ -15,42 +18,45 @@ public class TC_ParkSupervisorUser_001 extends BaseClass {
 	{
 		ParkSupervisorUser psu= new ParkSupervisorUser(driver);
 		ParkAssociateUser pau= new ParkAssociateUser(driver);
+		LoginPage lp= new LoginPage(driver);
 	
 		pau.waitForPageLoaded();
 		logger.info("AssociateForms login page is successfully opened");
 		
 		psu.clickParkSupervisorUser();
-		logger.info("Park Supervisor User is clicked");
+		logger.info("Logged in as: Park Associate User is displayed");
+		logger.info("AssociateForms Portal is successfully opened");
+		
+		boolean isPageHeader = psu.verifyHeaderTaskbox();
+		if(isPageHeader == true) 
+		{
+			logger.info("Taskbox Header is displayed");
+		}
+		else
+		{
+			logger.info("Taskbox Header is not displayed");
+		}
+		
+		lp.clickParkAssociateUserLogout();
+		logger.info("User is taken to Sign In Form");
 		
 	}
 	
 	@Test (priority=1)
-	public void  parkSupervisorUserHeader() throws InterruptedException, IOException 
+	public void  parkSupervisorUser() throws InterruptedException, IOException 
 	{
 		ParkSupervisorUser psu= new ParkSupervisorUser(driver);
 		ParkAssociateUser pau= new ParkAssociateUser(driver);
+
+		
+		driver.get(baseURL);
 		
 		pau.waitForPageLoaded();
-		pau.myRequestsClickable();
-		logger.info("My Requests is clicked");
+		logger.info("Login Screen is displayed");
 		
-		boolean isPageHeader = psu.verifyHeaderPSUR();
-		if(isPageHeader == true) 
-		{
-			logger.info("Park Supervisor User Header is displayed");
-			captureScreen(driver, "ParkSupervisorUser");
-		}
-		else
-		{
-			logger.info("Park Supervisor User Header is not displayed");
-		}
-	}
-	
-	@Test (priority=2)
-	public void  taskboxHeader() throws InterruptedException, IOException 
-	{
-		ParkSupervisorUser psu= new ParkSupervisorUser(driver);
-		ParkAssociateUser pau= new ParkAssociateUser(driver);
+		psu.clickParkSupervisorUser();
+		logger.info("Logged in as: Park Supervisor User is displayed");
+		logger.info("AssociateForms Portal is successfully opened");
 		
 		pau.waitForPageLoaded();
 		boolean isPageHeader = psu.verifyHeaderTaskbox();
@@ -67,29 +73,11 @@ public class TC_ParkSupervisorUser_001 extends BaseClass {
 		
 	}
 	
-	@Test (priority=3)
-	public void  associatesHeader() throws InterruptedException, IOException 
-	{
-		ParkSupervisorUser psu= new ParkSupervisorUser(driver);
-		ParkAssociateUser pau= new ParkAssociateUser(driver);
-		
-		pau.waitForPageLoaded();
-		boolean isPageHeader = psu.verifyHeaderAssociates();
-		if(isPageHeader == true) 
-		{
-			logger.info("Associates Header is displayed");
-		}
-		else
-		{
-			logger.info("Associates Header is not displayed");
-		}
-		
-	}
-	
-	@Test (priority=4)
+	@Test (priority=2)
 	public void  myRequestsHeader() throws InterruptedException, IOException 
 	{
 		ParkAssociateUser pau= new ParkAssociateUser(driver);
+		LoginPage lp= new LoginPage(driver);
 		
 		boolean isPageHeader = pau.verifyHeaderMyRequests();
 		if(isPageHeader) 
@@ -103,15 +91,19 @@ public class TC_ParkSupervisorUser_001 extends BaseClass {
 			logger.info("My Requests is not displayed");
 		}
 		
+		pau.myRequestsClickable();	
+		lp.txtParkSupervisorUsersRequestsDisplayed();
+		logger.info("Park Supervisor User's Requests Header is displayed");
+		
 	}
 	
-	@Test (priority=5)
+	@Test (priority=3)
 	public void formsHeader() throws InterruptedException, IOException 
 	{
 		ParkAssociateUser pau= new ParkAssociateUser(driver);
 		
-		boolean isPageHeader = pau.verifyHeaderForms();
-		if(isPageHeader) 
+		boolean isPageHeader1 = pau.verifyHeaderForms();
+		if(isPageHeader1) 
 		{
 			Assert.assertTrue(true);
 			logger.info("Forms Header is displayed");
@@ -122,58 +114,208 @@ public class TC_ParkSupervisorUser_001 extends BaseClass {
 			logger.info("Forms is not displayed");
 		}
 		
+		pau.formsClickable();
+		boolean isPageHeader2 = pau.locateDropDownForms(); 
+		if(isPageHeader2 == true) 
+		{
+			 logger.info("Boots and Luggage Reimburesement Dropdown is displayed"); 
+			 logger.info("Volunteer Forms Dropdown is displayed");
+			 logger.info("SHARP Form Dropdown is displayed");
+			 logger.info("Tuition Reimburesement Dropdown is displayed");
+		} 
+		else 
+		{
+			 logger.info("Forms dropdown is missing"); 
+		}
+		
 	}
 	
-	@Test (priority=6)
+	@Test (priority=4)
 	public void  goToSampleLoginHeader() throws InterruptedException, IOException 
 	{
+		ParkSupervisorUser psu= new ParkSupervisorUser(driver);
 		ParkAssociateUser pau= new ParkAssociateUser(driver);
+		LoginPage lp= new LoginPage(driver);
 		
 		boolean isPageHeader = pau.verifyHeaderGoToSampleLogin();
-		if(isPageHeader) 
+		if(isPageHeader==true) 
 		{
-			Assert.assertTrue(true);
 			logger.info("Go To Sample Login Header is displayed");
 		}
 		else
 		{
-			Assert.assertTrue(false);
-			logger.info("Go To SampleLogin is not displayed");
+			logger.info("Go To Sample Login is not displayed");
 		}
 		
+		pau.goToSampleLoginClickable();
+		logger.info("User is taken to AssociateForms Form");
+		
+		pau.locateLoginasSampleUser();
+		logger.info("Login as Sample User is displayed");
+		
+		lp.clickParkSupervisorUser();
+		logger.info("Logged in as: Park Supervisor User is displayed");
+		logger.info("AssociateForms Portal is successfully opened");
+		
+		psu.txtParkSupervisorUser();
+		logger.info("“Park Supervisor User” is displayed on the top right");
+	}
+	
+	@Test (priority=5)
+	public void  goToForm1() throws InterruptedException, IOException 
+	{
+		ParkAssociateUser pau= new ParkAssociateUser(driver);
+		
+		pau.myRequestsClickable();
+		
+		pau.txtGoToFormDisplayed();
+		logger.info("Go To Form: is displayed");
+		
+		pau.lbtnSHARPDisplayed();
+		logger.info("SHARP Form Button is displayed");
+		
+		pau.sharpFormClickable();
+		logger.info("SHARP Form is displayed");
+		
+		boolean isPageHeader = pau.verifyHeaderSHARP();
+		if(isPageHeader == true) 
+		{
+			logger.info("SCHOLASTIC HONORS AND RECOGNITION PROGRAM (SHARP) is displayed");
+		}
+		else
+		{
+			logger.info("SCHOLASTIC HONORS AND RECOGNITION PROGRAM (SHARP) is not displayed");
+		}
+		
+		pau.associateFormsPortalClickable();
+		logger.info("User is taken to Associate Forms Portal Form");
+	}
+	
+	@Test (priority=6)
+	public void  goToForm2() throws InterruptedException, IOException 
+	{
+		ParkAssociateUser pau= new ParkAssociateUser(driver);
+		
+		pau.myRequestsClickable();
+		
+		pau.lbtnVolunteerDisplayed();
+		logger.info("Volunteer Form Button is displayed");
+		
+		pau.volunteerFormClickable();
+		logger.info("Volunteer Form is displayed");
+		
+		boolean isPageHeader = pau.verifyHeaderVolunteer();
+		if(isPageHeader == true) 
+		{
+			logger.info("Volunteer Tracking Form Header is displayed");
+		}
+		else
+		{
+			logger.info("Volunteer Tracking Form Header is not displayed");
+		}
+		
+		pau.associateFormsPortalClickable();
+		logger.info("User is taken to Associate Forms Portal Form");
 	}
 	
 	@Test (priority=7)
-	public void  parkSupervisorUserDetails1() throws InterruptedException, IOException 
+	public void  goToForm3() throws InterruptedException, IOException 
+	{
+		ParkAssociateUser pau= new ParkAssociateUser(driver);
+		
+		pau.myRequestsClickable();
+		
+		pau.lbtnBootsLuggageDisplayed();
+		logger.info("Boots and Luggage Form Button is displayed");
+		
+		pau.bootsLuggageFormClickable();
+		logger.info("Boots and Luggage Form is displayed");
+		
+		boolean isPageHeader = pau.verifyHeaderBootsLuggage();
+		if(isPageHeader == true) 
+		{
+			logger.info("Boots & Luggage Reimbursement Form Header is displayed");
+		}
+		else
+		{
+			logger.info("Boots & Luggage Reimbursement Form Header is not displayed");
+		}
+		
+		pau.associateFormsPortalClickable();
+		logger.info("User is taken to Associate Forms Portal Form");
+	}
+	
+	@Test (priority=8)
+	public void  goToForm4() throws InterruptedException, IOException 
 	{
 		ParkSupervisorUser psu= new ParkSupervisorUser(driver);
 		ParkAssociateUser pau= new ParkAssociateUser(driver);
 		
-		pau.imgParkHRDisplayed();
-		logger.info("AssociateForms Logo is displayed");
+		pau.myRequestsClickable();
 		
-		psu.txtParkSupervisorUser();
-		logger.info("Park Supervisor User Text is displayed");
+		pau.lbtnTuitionDisplayed();
+		logger.info("Tuition Form Button is displayed");
 		
-		pau.btnClearDisplayed();
-		logger.info("Clear Button is displayed");
+		pau.tuitionFormClickable();
+		logger.info("Tuition Form is displayed");
 		
-		pau.btnClearBgColor();
-		logger.info("Clear Text Background Color is displayed");
-		System.out.println("Background Color is :" + pau.btnClearBgColor());
-		captureScreen(driver, "ClearButton");
+		boolean isPageHeader1 = pau.verifyHeaderTuition();
+		if(isPageHeader1 == true) 
+		{
+			logger.info("Associate Initial Request for Tuition Reimbursement Form Header is displayed");
+		}
+		else
+		{
+			logger.info("Associate Initial Request for Tuition Reimbursement Form Header is not displayed");
+		}
+		
+		pau.associateFormsPortalClickable();
+		logger.info("User is taken to Associate Forms Portal Form");
+		
+		boolean isPageHeader2 = psu.verifyHeaderTaskbox();
+		if(isPageHeader2) 
+		{
+			Assert.assertTrue(true);
+			logger.info("Taskbox Header is displayed");
+		}
+		else
+		{
+			Assert.assertTrue(false);
+			logger.info("Taskbox Header is not displayed");
+		}
+	}
+	
+	@Test (priority=9)
+	public void  searchBar() throws InterruptedException, IOException 
+	{
+		ParkAssociateUser pau= new ParkAssociateUser(driver);
 		
 		pau.searchbar();
-		logger.info("Search Bar is displayed");
+		logger.info("Search bar is displayed to the right of “Park Associate User’s Requests” header");
+		
+		pau.btnClearDisplayed();
+		logger.info("Clear Button is displayed next to Search Bar");
+		
+		pau.btnClearBgColor();
+		logger.info("Clear Button Background Color is displayed");
+		System.out.println("Background Color is :" + pau.btnClearBgColor());
 		
 		pau.selectValuesSearchBar();
 		logger.info("Search Options is selected");
 		
+		logger.info("Associate Reimbursement is displayed");
+		logger.info("Final Tuition Reimbursement is displayed");
+		logger.info("Initial Tuition Reimbursement is displayed");
+		logger.info("SHARP is displayed");
+		logger.info("Volunteer Grant is displayed");
+		logger.info("Volunteer Tracking is displayed");
+		
 		pau.clearClickable();
-		logger.info("Clear Button is clicked");
+		logger.info("All selected options are cleared");
+		logger.info("Form Name column displays all forms");
 	}
 	
-	@Test (priority=8)
+	@Test (priority=10)
 	public void  allItemsHeader() throws InterruptedException, IOException 
 	{
 		ParkAssociateUser pau= new ParkAssociateUser(driver);
@@ -192,103 +334,46 @@ public class TC_ParkSupervisorUser_001 extends BaseClass {
 		
 	}
 	
-	@Test (priority=9)
-	public void  activeItemsHeader() throws InterruptedException, IOException 
-	{
-		ParkAssociateUser pau= new ParkAssociateUser(driver);
-		
-		boolean isPageHeader = pau.verifyHeaderActiveItems();
-		if(isPageHeader) 
-		{
-			Assert.assertTrue(true);
-			logger.info("Active Items Header is displayed");
-		}
-		else
-		{
-			Assert.assertTrue(false);
-			logger.info("Active Items is not displayed");
-		}
-		
-	}
-	
-	@Test (priority=10)
-	public void  closedItemsHeader() throws InterruptedException, IOException 
-	{
-		ParkAssociateUser pau= new ParkAssociateUser(driver);
-		
-		boolean isPageHeader = pau.verifyHeaderClosedItems();
-		if(isPageHeader) 
-		{
-			Assert.assertTrue(true);
-			logger.info("Closed Items Header is displayed");
-		}
-		else
-		{
-			Assert.assertTrue(false);
-			logger.info("Closed Items is not displayed");
-		}
-		
-	} 
-	
 	@Test (priority=11)
-	public void  parkSupervisorUserDetails2() throws InterruptedException, IOException 
+	public void  pendingItemsHeader() throws InterruptedException, IOException 
 	{
 		ParkAssociateUser pau= new ParkAssociateUser(driver);
 		
-		pau.btnFilterDisplayed();
-		logger.info("Filter Button is displayed");
-		
-		pau.filterClickable();
-		logger.info("Filter Button is clicked");
-		
-		boolean column1 = pau.locateFilterOptions();
-		if(column1 == true)
+		boolean isPageHeader = pau.verifyHeaderPendingItems();
+		if(isPageHeader) 
 		{
-			logger.info("Displays filter options correctly");
-			captureScreen(driver, "FilterOptions");
+			Assert.assertTrue(true);
+			logger.info("Pending Items Header is displayed");
 		}
 		else
 		{
-			logger.info("Filter Options is not displayed correctly");
+			Assert.assertTrue(false);
+			logger.info("Pending Items is not displayed");
 		}
 		
-		boolean column2 = pau.locateColumnHeaders();
-		if(column2 == true)
-		{
-			logger.info("Displays column headers correctly");
-			captureScreen(driver, "ColumnHeaders");
-		}
-		else
-		{
-			logger.info("Column headers are not displayed correctly");
-		}
 	}
 	
 	@Test (priority=12)
-	public void  parkSupervisorTaskbox() throws InterruptedException, IOException 
+	public void  doneItemsHeader() throws InterruptedException, IOException 
 	{
-		ParkSupervisorUser psu= new ParkSupervisorUser(driver);
 		ParkAssociateUser pau= new ParkAssociateUser(driver);
 		
-		pau.waitForPageLoaded();
-		psu.taskboxClickable();
-		logger.info("Taskbox is clicked");
-		
-		boolean isPageHeader = psu.locateTaskboxTitle(); 
-		if(isPageHeader == true) 
+		boolean isPageHeader = pau.verifyHeaderDoneItems();
+		if(isPageHeader) 
 		{
-			 logger.info("Taskbox is displayed correctly");
-			 captureScreen(driver, "Taskbox");
-		} 
-		else 
+			Assert.assertTrue(true);
+			logger.info("Done Items Header is displayed");
+		}
+		else
 		{
-			 logger.info("Taskbox is missing"); 
+			Assert.assertTrue(false);
+			logger.info("Done Items is not displayed");
 		}
 		
-	}
+	} 	
 	
 	@Test (priority=13)
-	public void  exportFunctions() throws InterruptedException, IOException 
+	public void  exportFunctions1() throws InterruptedException, IOException 
 	{
 		ParkSupervisorUser psu= new ParkSupervisorUser(driver);
 		ParkAssociateUser pau= new ParkAssociateUser(driver);
@@ -302,6 +387,18 @@ public class TC_ParkSupervisorUser_001 extends BaseClass {
 		System.out.println("Background Color is :" + psu.btnExportExcelBgColor());
 		captureScreen(driver, "ExportExcelButton");
 		
+	    psu.btnExportToExcel1Clickable(); 
+	    logger.info("File is exported");
+		
+	}
+	
+	@Test (priority=14)
+	public void  exportFunctions2() throws InterruptedException, IOException 
+	{
+		ParkSupervisorUser psu= new ParkSupervisorUser(driver);
+		ParkAssociateUser pau= new ParkAssociateUser(driver);
+		
+		pau.waitForPageLoaded();
 		psu.btnExportOptionsDisplayed();
 		logger.info("Export Options Button is displayed");
 		
@@ -317,6 +414,15 @@ public class TC_ParkSupervisorUser_001 extends BaseClass {
 		psu.chkboxChooseADateRangeDisplayed();
 		logger.info("Choose A Date Range Checkbox is displayed");
 		
+	}
+	
+	@Test (priority=15)
+	public void  exportFunctions3() throws InterruptedException, IOException 
+	{
+		ParkSupervisorUser psu= new ParkSupervisorUser(driver);
+		ParkAssociateUser pau= new ParkAssociateUser(driver);
+		
+		pau.waitForPageLoaded();
 		psu.chkboxChooseADateRangeClickable();
 		logger.info("Choose A Date Range Checkbox is clicked");
 		
@@ -326,91 +432,237 @@ public class TC_ParkSupervisorUser_001 extends BaseClass {
 		psu.selectFromDateDisplayed();
 		logger.info("From Date Field is displayed");
 		
+		
+		WebElement dateBox1 = driver.findElement(By.xpath("//input[@id='Input_InitialDate']"));
+		dateBox1.sendKeys("04082021");
+		
 		psu.txtToDateDisplayed();
 		logger.info("To Date Text is displayed");
 		
 		psu.selectToDateDisplayed();
 		logger.info("To Date Field is displayed");
 		
-		psu.btnExportToExcelDisplayed();
-		logger.info("Export To Excel is displayed");
+		WebElement dateBox2 = driver.findElement(By.xpath("//input[@id='Input_End']"));
+		dateBox2.sendKeys("04122021");
 		
-		psu.btnCloseDisplayed();
-		logger.info("Close is displayed");
-		
-		psu.btnCloseClickable();
-		logger.info("Close is clicked");
-	}
-	
-	
-	@Test (priority=14)
-	public void  parkSupervisorUserRequests() throws InterruptedException, IOException 
-	{
-		ParkAssociateUser pau= new ParkAssociateUser(driver);
-		
-		pau.waitForPageLoaded();
-		pau.myRequestsClickable();
-		logger.info("My Requests is clicked");
-		
-		boolean isPageHeader = pau.locateMyRequests(); 
-		if(isPageHeader) 
-		{
-			 Assert.assertTrue(true);
-			 logger.info("My Requests is displayed correctly");
-			 captureScreen(driver, "MyRequests");
-		} 
-		else 
-		{
-			 Assert.assertTrue(true);
-			 logger.info("My Requests is missing"); 
-		}
-		
-	}
-	
-	@Test (priority=15)
-	public void  parkSupervisorForms() throws InterruptedException, IOException 
-	{
-		ParkAssociateUser pau= new ParkAssociateUser(driver);
-		
-		pau.waitForPageLoaded();
-		
-		pau.formsClickable();
-		logger.info("Forms is clicked");
-		
-		boolean isPageHeader = pau.locateDropDownForms(); 
-		if(isPageHeader == true) 
-		{
-			 logger.info("Forms dropdown is displayed correctly"); 
-		} 
-		else 
-		{
-			 logger.info("Forms dropdown is missing"); 
-		}
 	}
 	
 	@Test (priority=16)
-	public void  hrFormsSignIn() throws InterruptedException, IOException 
+	public void  exportFunctions4() throws InterruptedException, IOException 
 	{
 		ParkSupervisorUser psu= new ParkSupervisorUser(driver);
 		ParkAssociateUser pau= new ParkAssociateUser(driver);
 		
 		pau.waitForPageLoaded();
+		psu.btnExportToExcel2Clickable();
+		logger.info("File is exported");
 		
-		pau.goToSampleLoginClickable();
-		logger.info("Go To Sample Login is clicked");
+		psu.btnExportToExcelDisplayed();
+		logger.info("Export To Excel is displayed");
+	
+	}
+	
+	@Test (priority=17)
+	public void  exportFunctions5() throws InterruptedException, IOException 
+	{
+		ParkSupervisorUser psu= new ParkSupervisorUser(driver);
+		ParkAssociateUser pau= new ParkAssociateUser(driver);
 		
-		pau.locateLoginasSampleUser();
-		logger.info("Login as Sample User is displayed");
+		pau.waitForPageLoaded();
+		psu.chkboxChooseADateRangeClickable();
+		logger.info("\"From:\" text is not displayed");
+		logger.info("From date field is not displayed");
+		logger.info("\"To:\" text is not displayed");
+		logger.info("To Date field is not displayed");
 		
-		psu.clickParkSupervisorUser();
-		logger.info("Park Supervisor User is clicked");
+		psu.txtFilterByPickUpDisplayed();
+		logger.info("\"Filter By \"Pick Up\"\" text is displayed");
 		
-		pau.iconParkAssociateUserClickable();
-		logger.info("Park Supervisor User Icon is clicked");
+		psu.chkboxFilterByPickUpDisplayed();
+		logger.info("Checkbox button is displayed");
+	}
+	
+	@Test (priority=18)
+	public void  exportFunctions6() throws InterruptedException, IOException 
+	{
+		ParkSupervisorUser psu= new ParkSupervisorUser(driver);
+		ParkAssociateUser pau= new ParkAssociateUser(driver);
 		
-		pau.hrFormsSignIn();
-		logger.info("Associates Forms Sign In Page is displayed");
-		captureScreen(driver, "AssociatesFormsSignIn");
+		pau.waitForPageLoaded();
+		psu.chkboxFilterByPickUpClickable();
+		logger.info("Checkbox is ticked");
+		
+		psu.btnExportToExcel2Clickable();
+		logger.info("File is exported");
+		
+		psu.btnCloseClickable();
+		logger.info("User is returned to Taskbox header form");
+		
+	}
+	
+	@Test (priority=19)
+	public void  activityList() throws InterruptedException, IOException 
+	{
+		ParkSupervisorUser psu= new ParkSupervisorUser(driver);
+		ParkAssociateUser pau= new ParkAssociateUser(driver);
+		
+		pau.waitForPageLoaded();
+		boolean isPageHeader1 = psu.verifyHeaderActivityList();
+		if(isPageHeader1 == true) 
+		{
+			logger.info("“Activity List” header is displayed");
+		}
+		else
+		{
+			logger.info("“Activity List” header is not displayed");
+		}
+		
+		boolean isPageHeader2 = psu.locateActivityListColumnHeaders();
+		if(isPageHeader2 == true) 
+		{
+			logger.info("“Case #” column is displayed");
+			logger.info("“Form Name” column is displayed");
+			logger.info("“Requester” column is displayed");
+			logger.info("“Status” column is displayed");
+			logger.info("“Activity” column is displayed");
+			logger.info("“Created On” column is displayed");
+			logger.info("“Assignment” column is displayed");
+		}
+		else
+		{
+			logger.info("“Activity List Column” headers are not displayed");
+		}
+		
+	}
+	
+	/*
+	 * @Test (priority=20) public void caseNumberColumnSorting() throws
+	 * InterruptedException, IOException { ParkSupervisorUser psu= new
+	 * ParkSupervisorUser(driver); ParkAssociateUser pau= new
+	 * ParkAssociateUser(driver);
+	 * 
+	 * pau.waitForPageLoaded(); psu.txtCaseIDClickable();
+	 * logger.info("Case # column is sorted"); psu.txtCase1Displayed();
+	 * logger.info("Case # 1 is displayed in first row");
+	 * 
+	 * psu.txtCaseIDClickable(); logger.info("“Case #” column is sorted");
+	 * psu.txtCase157Displayed();
+	 * logger.info("Case # 157 is displayed in first row");
+	 * 
+	 * }
+	 * 
+	 * @Test (priority=21) public void requesterColumnSorting() throws
+	 * InterruptedException, IOException { ParkSupervisorUser psu= new
+	 * ParkSupervisorUser(driver); ParkAssociateUser pau= new
+	 * ParkAssociateUser(driver);
+	 * 
+	 * pau.waitForPageLoaded(); psu.txtRequesterClickable();
+	 * logger.info("Requester column is sorted");
+	 * psu.txtRequesterJessicaDisplayed();
+	 * logger.info("\"Jessica Brenny\" is displayed in first row");
+	 * 
+	 * psu.txtRequesterClickable(); logger.info("Requester column is sorted");
+	 * psu.txtRequesterSarahDisplayed();
+	 * logger.info("\"Sarah Lampert\" is displayed in first row");
+	 * 
+	 * }
+	 * 
+	 * @Test (priority=22) public void statusColumnSorting() throws
+	 * InterruptedException, IOException { ParkSupervisorUser psu= new
+	 * ParkSupervisorUser(driver); ParkAssociateUser pau= new
+	 * ParkAssociateUser(driver);
+	 * 
+	 * pau.waitForPageLoaded(); psu.txtStatusClickable();
+	 * logger.info("Status column is sorted"); psu.txtStatusSubmittedDisplayed();
+	 * logger.info("Submitted is displayed in first row");
+	 * 
+	 * psu.txtStatusClickable(); logger.info("Status column is sorted");
+	 * psu.txtStatusSubmittedDisplayed();
+	 * logger.info("Submitted is displayed in first row");
+	 * 
+	 * }
+	 * 
+	 * @Test (priority=23) public void createdOnColumnSorting() throws
+	 * InterruptedException, IOException { ParkSupervisorUser psu= new
+	 * ParkSupervisorUser(driver); ParkAssociateUser pau= new
+	 * ParkAssociateUser(driver);
+	 * 
+	 * pau.waitForPageLoaded(); psu.txtCreatedOnClickable();
+	 * logger.info("Created On column is sorted");
+	 * psu.txtCreatedOn04232021Displayed();
+	 * logger.info("04/23/2021 is displayed in first row");
+	 * 
+	 * psu.txtCreatedOnClickable(); logger.info("Created On column is sorted");
+	 * psu.txtCreatedOn09202021Displayed();
+	 * logger.info("09/20/2021 is displayed in first row");
+	 * 
+	 * }
+	 * 
+	 * @Test (priority=24) public void assignmentColumnSorting() throws
+	 * InterruptedException, IOException { ParkSupervisorUser psu= new
+	 * ParkSupervisorUser(driver); ParkAssociateUser pau= new
+	 * ParkAssociateUser(driver);
+	 * 
+	 * pau.waitForPageLoaded(); psu.txtAssignmentClickable();
+	 * logger.info("Assignment column is sorted"); psu.txtAssignmentDashDisplayed();
+	 * logger.info("- is displayed in first row");
+	 * 
+	 * psu.txtAssignmentClickable(); logger.info("Assignment column is sorted");
+	 * psu.txtAssignmentAssignedToMeDisplayed();
+	 * logger.info("Assigned to me is displayed in first row");
+	 * 
+	 * }
+	 */
+	
+	@Test (priority=25)
+	public void  filter() throws InterruptedException, IOException 
+	{
+		ParkAssociateUser pau= new ParkAssociateUser(driver);
+		LoginPage lp= new LoginPage(driver);
+		
+		pau.myRequestsClickable();
+		lp.txtParkSupervisorUsersRequestsDisplayed();
+		logger.info("Park Supervisor User's Requests Header is displayed");
+		
+		pau.txtFilterDisplayed();
+		logger.info("“Filter By” text is displayed");
+		
+		pau.btnFilterDisplayed();
+		logger.info("\"Filter By\" dropdown box is displayed");
+		
+		pau.filterClickable();
+		logger.info("Filter Button is clicked");
+		
+		boolean column = pau.locateFilterOptions();
+		if(column == true)
+		{
+			logger.info("Displays filter options All, Create, Completed, Rejected and Pending correctly");
+			captureScreen(driver, "FilterOptions");
+		}
+		else
+		{
+			logger.info("Filter Options is not displayed correctly");
+		}
+		
+		pau.btnFilterPendingClicked();
+		logger.info("Status column displays \"Reimbursement Pending\" selection only");
+		
+		pau.btnFilterCreatedClicked();
+		logger.info("Status column displays \"Created\" selection in the first row");
+
+	}
+	
+	@Test (priority=26)
+	public void  pageMovement() throws InterruptedException, IOException 
+	{
+		ParkAssociateUser pau= new ParkAssociateUser(driver);
+		
+		pau.pageSliderDisplayed();
+		logger.info("Page Number Slider is displayed at the bottom right of the form");
+		
+		pau.totalItemsDisplayed();
+		logger.info("\"1 to 5 of 5 items\" is displayed at the bottom left of the form");
+		
 	}
 	
 }
