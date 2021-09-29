@@ -32,7 +32,7 @@ public class BaseClass {
 	public String chromedriverPath =readConfig.getChromePath();
 	public String msedgedriverPath = readConfig.getMsEdgePath();
 	public String operadriverPath= readConfig.getOperaPath();
-	public String receiptPath= readConfig.getReceiptPath();
+	public String luggageReceiptPath= readConfig.getLuggageReceiptPath();
 	public String uploadFile= readConfig.getUploadPath();
 	
 	@Parameters("browser")
@@ -88,7 +88,7 @@ public class BaseClass {
 	}
 	
 	String getFile() {
-		return new File("./Images/LuggageReceipt.jpg").getAbsolutePath();
+		return new File(luggageReceiptPath).getAbsolutePath();
 	}
 
 	

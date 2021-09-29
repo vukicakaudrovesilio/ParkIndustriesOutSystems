@@ -16828,3 +16828,513 @@
 2021-09-27 14:56:29,103 - parkIQ -INFO - "MM/DD/YYYY" Date is displayed
 2021-09-27 14:56:29,133 - parkIQ -INFO - "Status changed" text is displayed
 2021-09-27 14:56:29,164 - parkIQ -INFO - "Submitted" text is displayed
+2021-09-28 16:39:53,076 - parkIQ -INFO - Login Screen is displayed
+2021-09-28 16:39:55,069 - parkIQ -INFO - Logged in as: Park Associate User is displayed
+2021-09-28 16:39:55,070 - parkIQ -INFO - AssociateForms Portal is successfully opened
+2021-09-28 16:40:00,644 - parkIQ -INFO - Park Associate User's Requests Header is displayed
+2021-09-28 16:40:00,666 - parkIQ -INFO - User is taken to Sign In Form
+2021-09-28 16:40:04,080 - parkIQ -INFO - Login Screen is displayed
+2021-09-28 16:40:04,098 - parkIQ -INFO - Logged in as: Park Associate User is displayed
+2021-09-28 16:40:04,098 - parkIQ -INFO - AssociateForms Portal is successfully opened
+2021-09-28 16:40:05,019 - parkIQ -INFO - My Requests Header is displayed
+2021-09-28 16:40:05,075 - parkIQ -INFO - Park Associate User's Requests Header is displayed
+2021-09-28 16:40:05,118 - parkIQ -INFO - Forms Header is displayed
+2021-09-28 16:40:05,154 - parkIQ -INFO - Forms dropdown is missing
+2021-09-28 16:40:06,133 - parkIQ -INFO - Go To Sample Login Header is displayed
+2021-09-28 16:40:06,155 - parkIQ -INFO - User is taken to AssociateForms Form
+2021-09-28 16:40:06,554 - parkIQ -INFO - Login as Sample User is displayed
+2021-09-28 16:40:06,572 - parkIQ -INFO - Logged in as: Park Associate User is displayed
+2021-09-28 16:40:06,573 - parkIQ -INFO - AssociateForms Portal is successfully opened
+2021-09-28 16:40:07,472 - parkIQ -INFO - Park Associate User Header is not displayed
+2021-09-28 16:40:07,501 - parkIQ -INFO - Go To Form: is displayed
+2021-09-28 16:40:07,528 - parkIQ -INFO - SHARP Form Button is displayed
+2021-09-28 16:40:10,154 - parkIQ -INFO - SHARP Form is displayed
+2021-09-28 16:40:14,449 - parkIQ -INFO - SCHOLASTIC HONORS AND RECOGNITION PROGRAM (SHARP) is displayed
+2021-09-28 16:40:15,380 - parkIQ -INFO - User is taken to Associate Forms Portal Form
+2021-09-28 16:40:16,795 - parkIQ -INFO - Volunteer Form Button is displayed
+2021-09-28 16:40:18,918 - parkIQ -INFO - Volunteer Form is displayed
+2021-09-28 16:40:23,205 - parkIQ -INFO - Volunteer Tracking Form Header is displayed
+2021-09-28 16:40:23,894 - parkIQ -INFO - User is taken to Associate Forms Portal Form
+2021-09-28 16:40:25,169 - parkIQ -INFO - Boots and Luggage Form Button is displayed
+2021-09-28 16:40:28,676 - parkIQ -INFO - Boots and Luggage Form is displayed
+2021-09-28 16:40:33,062 - parkIQ -INFO - Boots & Luggage Reimbursement Form Header is displayed
+2021-09-28 16:40:33,758 - parkIQ -INFO - User is taken to Associate Forms Portal Form
+2021-09-28 16:40:35,053 - parkIQ -INFO - Tuition Form Button is displayed
+2021-09-28 16:40:36,117 - parkIQ -INFO - Tuition Form is displayed
+2021-09-28 16:40:37,023 - parkIQ -INFO - Associate Initial Request for Tuition Reimbursement Form Header is displayed
+2021-09-28 16:40:37,699 - parkIQ -INFO - User is taken to Associate Forms Portal Form
+2021-09-28 16:40:39,021 - parkIQ -INFO - Park Associate User's Requests Header is displayed
+2021-09-28 16:40:42,057 - parkIQ -INFO - Search bar is displayed to the right of “Park Associate User’s Requests” header
+2021-09-28 16:40:42,084 - parkIQ -INFO - Clear Button is displayed next to Search Bar
+2021-09-28 16:40:42,098 - parkIQ -INFO - Clear Button Background Color is displayed
+2021-09-28 16:40:42,486 - parkIQ -INFO - Search Options is selected
+2021-09-28 16:40:42,487 - parkIQ -INFO - Associate Reimbursement is displayed
+2021-09-28 16:40:42,487 - parkIQ -INFO - Final Tuition Reimbursement is displayed
+2021-09-28 16:40:42,488 - parkIQ -INFO - Initial Tuition Reimbursement is displayed
+2021-09-28 16:40:42,488 - parkIQ -INFO - SHARP is displayed
+2021-09-28 16:40:42,488 - parkIQ -INFO - Volunteer Grant is displayed
+2021-09-28 16:40:42,489 - parkIQ -INFO - Volunteer Tracking is displayed
+2021-09-28 16:40:48,665 - parkIQ -INFO - Search Bar displays SHARP Selection
+2021-09-28 16:40:48,666 - parkIQ -INFO - Form Name column displays SHARP selection only
+2021-09-28 16:40:48,742 - parkIQ -INFO - All Items Header is displayed
+2021-09-28 16:40:48,785 - parkIQ -INFO - Active Items Header is displayed
+2021-09-28 16:40:48,828 - parkIQ -INFO - Closed Items Header is displayed
+2021-09-28 16:40:48,859 - parkIQ -INFO - Filter Button is displayed
+2021-09-28 16:40:48,867 - parkIQ -INFO - Filter Button is clicked
+2021-09-28 16:40:49,008 - parkIQ -INFO - Displays filter options All, Create, Completed, Rejected and Pending correctly
+2021-09-28 16:40:49,288 - parkIQ -INFO - Status Column displays Created Selections
+2021-09-28 16:40:49,314 - parkIQ -INFO - Status Column displays All Selection only
+2021-09-28 16:40:49,889 - parkIQ -INFO - Case # column is displayed
+2021-09-28 16:40:49,890 - parkIQ -INFO - Form Name column is displayed
+2021-09-28 16:40:49,890 - parkIQ -INFO - Requester column is displayed
+2021-09-28 16:40:49,890 - parkIQ -INFO - Status column is displayed
+2021-09-28 16:40:49,890 - parkIQ -INFO - Created On column is displayed
+2021-09-28 16:40:50,074 - parkIQ -INFO - Page Number Slider is displayed at the bottom right of the form
+2021-09-28 16:40:50,099 - parkIQ -INFO - "1 to 10 of 187 items" is displayed at the bottom left of the form
+2021-09-28 16:40:50,145 - parkIQ -INFO - "11 to 20 of 187 items" is displayed at the bottom left of the form
+2021-09-28 16:40:57,697 - parkIQ -INFO - AssociateForms login page is successfully opened
+2021-09-28 16:40:58,458 - parkIQ -INFO - Logged in as: Park Associate User is displayed
+2021-09-28 16:40:58,458 - parkIQ -INFO - AssociateForms Portal is successfully opened
+2021-09-28 16:41:02,773 - parkIQ -INFO - Taskbox Header is not displayed
+2021-09-28 16:41:02,793 - parkIQ -INFO - User is taken to Sign In Form
+2021-09-28 16:41:06,253 - parkIQ -INFO - Login Screen is displayed
+2021-09-28 16:41:06,270 - parkIQ -INFO - Logged in as: Park Supervisor User is displayed
+2021-09-28 16:41:06,271 - parkIQ -INFO - AssociateForms Portal is successfully opened
+2021-09-28 16:41:09,325 - parkIQ -INFO - Taskbox Header is displayed
+2021-09-28 16:41:09,366 - parkIQ -INFO - My Requests Header is displayed
+2021-09-28 16:41:10,737 - parkIQ -INFO - Park Supervisor User's Requests Header is displayed
+2021-09-28 16:41:10,791 - parkIQ -INFO - Forms Header is displayed
+2021-09-28 16:41:10,948 - parkIQ -INFO - Boots and Luggage Reimburesement Dropdown is displayed
+2021-09-28 16:41:10,948 - parkIQ -INFO - Volunteer Forms Dropdown is displayed
+2021-09-28 16:41:10,949 - parkIQ -INFO - SHARP Form Dropdown is displayed
+2021-09-28 16:41:10,949 - parkIQ -INFO - Tuition Reimburesement Dropdown is displayed
+2021-09-28 16:41:10,998 - parkIQ -INFO - Go To Sample Login is not displayed
+2021-09-28 16:41:11,021 - parkIQ -INFO - User is taken to AssociateForms Form
+2021-09-28 16:41:11,514 - parkIQ -INFO - Login as Sample User is displayed
+2021-09-28 16:41:11,535 - parkIQ -INFO - Logged in as: Park Supervisor User is displayed
+2021-09-28 16:41:11,535 - parkIQ -INFO - AssociateForms Portal is successfully opened
+2021-09-28 16:41:11,561 - parkIQ -INFO - “Park Supervisor User” is displayed on the top right
+2021-09-28 16:41:12,478 - parkIQ -INFO - Go To Form: is displayed
+2021-09-28 16:41:12,514 - parkIQ -INFO - SHARP Form Button is displayed
+2021-09-28 16:41:15,042 - parkIQ -INFO - SHARP Form is displayed
+2021-09-28 16:41:19,183 - parkIQ -INFO - SCHOLASTIC HONORS AND RECOGNITION PROGRAM (SHARP) is displayed
+2021-09-28 16:41:19,948 - parkIQ -INFO - User is taken to Associate Forms Portal Form
+2021-09-28 16:41:21,212 - parkIQ -INFO - Volunteer Form Button is displayed
+2021-09-28 16:41:23,799 - parkIQ -INFO - Volunteer Form is displayed
+2021-09-28 16:41:28,006 - parkIQ -INFO - Volunteer Tracking Form Header is displayed
+2021-09-28 16:41:28,729 - parkIQ -INFO - User is taken to Associate Forms Portal Form
+2021-09-28 16:41:29,987 - parkIQ -INFO - Boots and Luggage Form Button is displayed
+2021-09-28 16:41:32,496 - parkIQ -INFO - Boots and Luggage Form is displayed
+2021-09-28 16:41:37,275 - parkIQ -INFO - Boots & Luggage Reimbursement Form Header is displayed
+2021-09-28 16:41:38,054 - parkIQ -INFO - User is taken to Associate Forms Portal Form
+2021-09-28 16:41:39,386 - parkIQ -INFO - Tuition Form Button is displayed
+2021-09-28 16:41:42,122 - parkIQ -INFO - Tuition Form is displayed
+2021-09-28 16:41:46,332 - parkIQ -INFO - Associate Initial Request for Tuition Reimbursement Form Header is displayed
+2021-09-28 16:41:47,064 - parkIQ -INFO - User is taken to Associate Forms Portal Form
+2021-09-28 16:41:47,964 - parkIQ -INFO - Taskbox Header is displayed
+2021-09-28 16:41:47,998 - parkIQ -INFO - Search bar is displayed to the right of “Park Associate User’s Requests” header
+2021-09-28 16:41:48,026 - parkIQ -INFO - Clear Button is displayed next to Search Bar
+2021-09-28 16:41:48,035 - parkIQ -INFO - Clear Button Background Color is displayed
+2021-09-28 16:41:48,388 - parkIQ -INFO - Search Options is selected
+2021-09-28 16:41:48,388 - parkIQ -INFO - Associate Reimbursement is displayed
+2021-09-28 16:41:48,388 - parkIQ -INFO - Final Tuition Reimbursement is displayed
+2021-09-28 16:41:48,389 - parkIQ -INFO - Initial Tuition Reimbursement is displayed
+2021-09-28 16:41:48,389 - parkIQ -INFO - SHARP is displayed
+2021-09-28 16:41:48,389 - parkIQ -INFO - Volunteer Grant is displayed
+2021-09-28 16:41:48,389 - parkIQ -INFO - Volunteer Tracking is displayed
+2021-09-28 16:41:48,405 - parkIQ -INFO - All selected options are cleared
+2021-09-28 16:41:48,405 - parkIQ -INFO - Form Name column displays all forms
+2021-09-28 16:41:48,444 - parkIQ -INFO - All Items Header is displayed
+2021-09-28 16:41:48,484 - parkIQ -INFO - Pending Items Header is displayed
+2021-09-28 16:41:48,524 - parkIQ -INFO - Done Items Header is displayed
+2021-09-28 16:41:51,566 - parkIQ -INFO - Export Excel Button is displayed
+2021-09-28 16:41:51,575 - parkIQ -INFO - Export Excel Text Background Color is displayed
+2021-09-28 16:41:51,784 - parkIQ -INFO - File is exported
+2021-09-28 16:41:54,829 - parkIQ -INFO - Export Options Button is displayed
+2021-09-28 16:41:54,848 - parkIQ -INFO - Export Options Button is clicked
+2021-09-28 16:41:54,877 - parkIQ -INFO - Export Options Text is displayed
+2021-09-28 16:41:54,905 - parkIQ -INFO - Choose A Date Range is displayed
+2021-09-28 16:41:54,931 - parkIQ -INFO - Choose A Date Range Checkbox is displayed
+2021-09-28 16:41:57,992 - parkIQ -INFO - Choose A Date Range Checkbox is clicked
+2021-09-28 16:41:58,024 - parkIQ -INFO - From Date Text is displayed
+2021-09-28 16:41:58,051 - parkIQ -INFO - From Date Field is displayed
+2021-09-28 16:41:58,150 - parkIQ -INFO - To Date Text is displayed
+2021-09-28 16:41:58,178 - parkIQ -INFO - To Date Field is displayed
+2021-09-28 16:42:01,301 - parkIQ -INFO - File is exported
+2021-09-28 16:42:01,319 - parkIQ -INFO - Export To Excel is displayed
+2021-09-28 16:42:04,357 - parkIQ -INFO - "From:" text is not displayed
+2021-09-28 16:42:04,358 - parkIQ -INFO - From date field is not displayed
+2021-09-28 16:42:04,358 - parkIQ -INFO - "To:" text is not displayed
+2021-09-28 16:42:04,358 - parkIQ -INFO - To Date field is not displayed
+2021-09-28 16:42:04,392 - parkIQ -INFO - "Filter By "Pick Up"" text is displayed
+2021-09-28 16:42:04,423 - parkIQ -INFO - Checkbox button is displayed
+2021-09-28 16:42:07,467 - parkIQ -INFO - Checkbox is ticked
+2021-09-28 16:42:07,511 - parkIQ -INFO - File is exported
+2021-09-28 16:42:07,540 - parkIQ -INFO - User is returned to Taskbox header form
+2021-09-28 16:42:10,592 - parkIQ -INFO - “Activity List” header is displayed
+2021-09-28 16:42:10,771 - parkIQ -INFO - “Case #” column is displayed
+2021-09-28 16:42:10,771 - parkIQ -INFO - “Form Name” column is displayed
+2021-09-28 16:42:10,771 - parkIQ -INFO - “Requester” column is displayed
+2021-09-28 16:42:10,771 - parkIQ -INFO - “Status” column is displayed
+2021-09-28 16:42:10,771 - parkIQ -INFO - “Activity” column is displayed
+2021-09-28 16:42:10,772 - parkIQ -INFO - “Created On” column is displayed
+2021-09-28 16:42:10,772 - parkIQ -INFO - “Assignment” column is displayed
+2021-09-28 16:42:10,914 - parkIQ -INFO - Park Supervisor User's Requests Header is displayed
+2021-09-28 16:42:10,956 - parkIQ -INFO - “Filter By” text is displayed
+2021-09-28 16:42:10,990 - parkIQ -INFO - "Filter By" dropdown box is displayed
+2021-09-28 16:42:11,002 - parkIQ -INFO - Filter Button is clicked
+2021-09-28 16:42:11,181 - parkIQ -INFO - Displays filter options All, Create, Completed, Rejected and Pending correctly
+2021-09-28 16:42:11,397 - parkIQ -INFO - Status column displays "Reimbursement Pending" selection only
+2021-09-28 16:42:11,423 - parkIQ -INFO - Status column displays "Created" selection in the first row
+2021-09-28 16:42:11,885 - parkIQ -INFO - Page Number Slider is displayed at the bottom right of the form
+2021-09-28 16:42:11,912 - parkIQ -INFO - "1 to 5 of 5 items" is displayed at the bottom left of the form
+2021-09-28 16:42:19,617 - parkIQ -INFO - AssociateForms login page is successfully opened
+2021-09-28 16:42:20,405 - parkIQ -INFO - Logged in as: Human Resources User is displayed
+2021-09-28 16:42:20,406 - parkIQ -INFO - AssociateForms Portal is successfully opened
+2021-09-28 16:42:24,979 - parkIQ -INFO - Taskbox Header is not displayed
+2021-09-28 16:42:25,001 - parkIQ -INFO - User is taken to Sign In Form
+2021-09-28 16:42:28,476 - parkIQ -INFO - Login Screen is displayed
+2021-09-28 16:42:28,492 - parkIQ -INFO - Logged in as: Human Resources User is displayed
+2021-09-28 16:42:28,492 - parkIQ -INFO - AssociateForms Portal is successfully opened
+2021-09-28 16:42:31,547 - parkIQ -INFO - Taskbox Header is displayed
+2021-09-28 16:42:31,584 - parkIQ -INFO - My Requests Header is displayed
+2021-09-28 16:42:32,448 - parkIQ -INFO - Human Resources User's Requests Header is displayed
+2021-09-28 16:42:32,498 - parkIQ -INFO - Forms Header is displayed
+2021-09-28 16:42:32,658 - parkIQ -INFO - Boots and Luggage Reimburesement Dropdown is displayed
+2021-09-28 16:42:32,658 - parkIQ -INFO - Volunteer Forms Dropdown is displayed
+2021-09-28 16:42:32,658 - parkIQ -INFO - SHARP Form Dropdown is displayed
+2021-09-28 16:42:32,658 - parkIQ -INFO - Tuition Reimburesement Dropdown is displayed
+2021-09-28 16:42:32,696 - parkIQ -INFO - Go To Sample Login is not displayed
+2021-09-28 16:42:32,715 - parkIQ -INFO - User is taken to AssociateForms Form
+2021-09-28 16:42:33,137 - parkIQ -INFO - Login as Sample User is displayed
+2021-09-28 16:42:33,156 - parkIQ -INFO - Logged in as: Human Resources User is displayed
+2021-09-28 16:42:33,156 - parkIQ -INFO - AssociateForms Portal is successfully opened
+2021-09-28 16:42:33,181 - parkIQ -INFO - “Human Resources User” is displayed on the top right
+2021-09-28 16:42:33,709 - parkIQ -INFO - Go To Form: is displayed
+2021-09-28 16:42:33,748 - parkIQ -INFO - SHARP Form Button is displayed
+2021-09-28 16:42:36,297 - parkIQ -INFO - SHARP Form is displayed
+2021-09-28 16:42:40,520 - parkIQ -INFO - SCHOLASTIC HONORS AND RECOGNITION PROGRAM (SHARP) is displayed
+2021-09-28 16:42:41,195 - parkIQ -INFO - User is taken to Associate Forms Portal Form
+2021-09-28 16:42:42,126 - parkIQ -INFO - Volunteer Form Button is displayed
+2021-09-28 16:42:44,617 - parkIQ -INFO - Volunteer Form is displayed
+2021-09-28 16:42:48,906 - parkIQ -INFO - Volunteer Tracking Form Header is displayed
+2021-09-28 16:42:49,597 - parkIQ -INFO - User is taken to Associate Forms Portal Form
+2021-09-28 16:42:50,659 - parkIQ -INFO - Boots and Luggage Form Button is displayed
+2021-09-28 16:42:53,450 - parkIQ -INFO - Boots and Luggage Form is displayed
+2021-09-28 16:42:58,250 - parkIQ -INFO - Boots & Luggage Reimbursement Form Header is displayed
+2021-09-28 16:42:58,976 - parkIQ -INFO - User is taken to Associate Forms Portal Form
+2021-09-28 16:42:59,892 - parkIQ -INFO - Tuition Form Button is displayed
+2021-09-28 16:43:02,417 - parkIQ -INFO - Tuition Form is displayed
+2021-09-28 16:43:07,175 - parkIQ -INFO - Associate Initial Request for Tuition Reimbursement Form Header is displayed
+2021-09-28 16:43:07,924 - parkIQ -INFO - User is taken to Associate Forms Portal Form
+2021-09-28 16:43:08,419 - parkIQ -INFO - Taskbox Header is displayed
+2021-09-28 16:43:08,451 - parkIQ -INFO - Search bar is displayed to the right of “Park Associate User’s Requests” header
+2021-09-28 16:43:08,478 - parkIQ -INFO - Clear Button is displayed next to Search Bar
+2021-09-28 16:43:08,489 - parkIQ -INFO - Clear Button Background Color is displayed
+2021-09-28 16:43:08,865 - parkIQ -INFO - Search Options is selected
+2021-09-28 16:43:08,865 - parkIQ -INFO - Associate Reimbursement is displayed
+2021-09-28 16:43:08,865 - parkIQ -INFO - Final Tuition Reimbursement is displayed
+2021-09-28 16:43:08,866 - parkIQ -INFO - Initial Tuition Reimbursement is displayed
+2021-09-28 16:43:08,866 - parkIQ -INFO - SHARP is displayed
+2021-09-28 16:43:08,866 - parkIQ -INFO - Volunteer Grant is displayed
+2021-09-28 16:43:08,866 - parkIQ -INFO - Volunteer Tracking is displayed
+2021-09-28 16:43:08,880 - parkIQ -INFO - All selected options are cleared
+2021-09-28 16:43:08,880 - parkIQ -INFO - Form Name column displays all forms
+2021-09-28 16:43:08,926 - parkIQ -INFO - All Items Header is displayed
+2021-09-28 16:43:08,968 - parkIQ -INFO - Pending Items Header is displayed
+2021-09-28 16:43:09,007 - parkIQ -INFO - Done Items Header is displayed
+2021-09-28 16:43:12,049 - parkIQ -INFO - Export Excel Button is displayed
+2021-09-28 16:43:12,059 - parkIQ -INFO - Export Excel Text Background Color is displayed
+2021-09-28 16:43:12,231 - parkIQ -INFO - File is exported
+2021-09-28 16:43:15,279 - parkIQ -INFO - Export Options Button is displayed
+2021-09-28 16:43:15,304 - parkIQ -INFO - Export Options Button is clicked
+2021-09-28 16:43:15,343 - parkIQ -INFO - Export Options Text is displayed
+2021-09-28 16:43:15,376 - parkIQ -INFO - Choose A Date Range is displayed
+2021-09-28 16:43:15,412 - parkIQ -INFO - Choose A Date Range Checkbox is displayed
+2021-09-28 16:43:18,460 - parkIQ -INFO - Choose A Date Range Checkbox is clicked
+2021-09-28 16:43:18,489 - parkIQ -INFO - From Date Text is displayed
+2021-09-28 16:43:18,517 - parkIQ -INFO - From Date Field is displayed
+2021-09-28 16:43:18,627 - parkIQ -INFO - To Date Text is displayed
+2021-09-28 16:43:18,658 - parkIQ -INFO - To Date Field is displayed
+2021-09-28 16:43:21,776 - parkIQ -INFO - File is exported
+2021-09-28 16:43:21,794 - parkIQ -INFO - Export To Excel is displayed
+2021-09-28 16:43:24,844 - parkIQ -INFO - "From:" text is not displayed
+2021-09-28 16:43:24,844 - parkIQ -INFO - From date field is not displayed
+2021-09-28 16:43:24,844 - parkIQ -INFO - "To:" text is not displayed
+2021-09-28 16:43:24,845 - parkIQ -INFO - To Date field is not displayed
+2021-09-28 16:43:24,879 - parkIQ -INFO - "Filter By "Pick Up"" text is displayed
+2021-09-28 16:43:24,907 - parkIQ -INFO - Checkbox button is displayed
+2021-09-28 16:43:27,949 - parkIQ -INFO - Checkbox is ticked
+2021-09-28 16:43:27,989 - parkIQ -INFO - File is exported
+2021-09-28 16:43:28,021 - parkIQ -INFO - User is returned to Taskbox header form
+2021-09-28 16:43:31,071 - parkIQ -INFO - “Activity List” header is displayed
+2021-09-28 16:43:31,242 - parkIQ -INFO - “Case #” column is displayed
+2021-09-28 16:43:31,242 - parkIQ -INFO - “Form Name” column is displayed
+2021-09-28 16:43:31,242 - parkIQ -INFO - “Requester” column is displayed
+2021-09-28 16:43:31,242 - parkIQ -INFO - “Status” column is displayed
+2021-09-28 16:43:31,242 - parkIQ -INFO - “Activity” column is displayed
+2021-09-28 16:43:31,242 - parkIQ -INFO - “Created On” column is displayed
+2021-09-28 16:43:31,243 - parkIQ -INFO - “Assignment” column is displayed
+2021-09-28 16:43:34,289 - parkIQ -INFO - "List of All Associates" form is displayed
+2021-09-28 16:43:35,087 - parkIQ -INFO - Search bar is displayed to the right of List of All Associates header
+2021-09-28 16:43:35,124 - parkIQ -INFO - Search Bar placeholder displays "Search by Associate Number, Name, Email"
+2021-09-28 16:43:38,252 - parkIQ -INFO - Associate Number column displays 163
+2021-09-28 16:43:38,280 - parkIQ -INFO - Form refreshes to "List of All Associates" display
+2021-09-28 16:43:38,399 - parkIQ -INFO - Park Supervisor User's Requests Header is displayed
+2021-09-28 16:43:38,437 - parkIQ -INFO - “Filter By” text is displayed
+2021-09-28 16:43:38,483 - parkIQ -INFO - "Filter By" dropdown box is displayed
+2021-09-28 16:43:38,497 - parkIQ -INFO - Filter Button is clicked
+2021-09-28 16:43:38,764 - parkIQ -INFO - Displays filter options All, Create, Completed, Rejected and Pending correctly
+2021-09-28 16:43:38,995 - parkIQ -INFO - Status column displays "Reimbursement Pending" selection only
+2021-09-28 16:43:39,020 - parkIQ -INFO - Status column displays "Created" selection in the first row
+2021-09-28 16:43:39,050 - parkIQ -INFO - Page Number Slider is displayed at the bottom right of the form
+2021-09-28 16:43:39,075 - parkIQ -INFO - "1 to 3 of 3 items" is displayed at the bottom left of the form
+2021-09-28 16:43:46,394 - parkIQ -INFO - AssociateForms login page is successfully opened
+2021-09-28 16:43:46,996 - parkIQ -INFO - Logged in as: Accounting User is displayed
+2021-09-28 16:43:46,996 - parkIQ -INFO - AssociateForms Portal is successfully opened
+2021-09-28 16:43:51,818 - parkIQ -INFO - Taskbox Header is not displayed
+2021-09-28 16:43:51,837 - parkIQ -INFO - User is taken to Sign In Form
+2021-09-28 16:43:55,253 - parkIQ -INFO - Login Screen is displayed
+2021-09-28 16:43:55,273 - parkIQ -INFO - Logged in as: Human Resources User is displayed
+2021-09-28 16:43:55,274 - parkIQ -INFO - AssociateForms Portal is successfully opened
+2021-09-28 16:43:58,325 - parkIQ -INFO - Taskbox Header is displayed
+2021-09-28 16:43:58,362 - parkIQ -INFO - My Requests Header is displayed
+2021-09-28 16:43:59,240 - parkIQ -INFO - Accounting User's Requests Header is displayed
+2021-09-28 16:43:59,296 - parkIQ -INFO - Forms Header is displayed
+2021-09-28 16:43:59,416 - parkIQ -INFO - Boots and Luggage Reimburesement Dropdown is displayed
+2021-09-28 16:43:59,416 - parkIQ -INFO - Volunteer Forms Dropdown is displayed
+2021-09-28 16:43:59,417 - parkIQ -INFO - SHARP Form Dropdown is displayed
+2021-09-28 16:43:59,417 - parkIQ -INFO - Tuition Reimburesement Dropdown is displayed
+2021-09-28 16:43:59,463 - parkIQ -INFO - Go To Sample Login is not displayed
+2021-09-28 16:43:59,481 - parkIQ -INFO - User is taken to AssociateForms Form
+2021-09-28 16:44:00,011 - parkIQ -INFO - Login as Sample User is displayed
+2021-09-28 16:44:00,027 - parkIQ -INFO - Logged in as: Human Resources User is displayed
+2021-09-28 16:44:00,027 - parkIQ -INFO - AssociateForms Portal is successfully opened
+2021-09-28 16:44:00,051 - parkIQ -INFO - “Human Resources User” is displayed on the top right
+2021-09-28 16:44:00,593 - parkIQ -INFO - Go To Form: is displayed
+2021-09-28 16:44:00,629 - parkIQ -INFO - SHARP Form Button is displayed
+2021-09-28 16:44:03,413 - parkIQ -INFO - SHARP Form is displayed
+2021-09-28 16:44:07,647 - parkIQ -INFO - SCHOLASTIC HONORS AND RECOGNITION PROGRAM (SHARP) is displayed
+2021-09-28 16:44:08,310 - parkIQ -INFO - User is taken to Associate Forms Portal Form
+2021-09-28 16:44:09,239 - parkIQ -INFO - Volunteer Form Button is displayed
+2021-09-28 16:44:11,714 - parkIQ -INFO - Volunteer Form is displayed
+2021-09-28 16:44:15,936 - parkIQ -INFO - Volunteer Tracking Form Header is displayed
+2021-09-28 16:44:16,680 - parkIQ -INFO - User is taken to Associate Forms Portal Form
+2021-09-28 16:44:17,580 - parkIQ -INFO - Boots and Luggage Form Button is displayed
+2021-09-28 16:44:20,043 - parkIQ -INFO - Boots and Luggage Form is displayed
+2021-09-28 16:44:24,457 - parkIQ -INFO - Boots & Luggage Reimbursement Form Header is displayed
+2021-09-28 16:44:25,182 - parkIQ -INFO - User is taken to Associate Forms Portal Form
+2021-09-28 16:44:26,076 - parkIQ -INFO - Tuition Form Button is displayed
+2021-09-28 16:44:28,571 - parkIQ -INFO - Tuition Form is displayed
+2021-09-28 16:44:32,836 - parkIQ -INFO - Associate Initial Request for Tuition Reimbursement Form Header is displayed
+2021-09-28 16:44:33,559 - parkIQ -INFO - User is taken to Associate Forms Portal Form
+2021-09-28 16:44:34,068 - parkIQ -INFO - Taskbox Header is displayed
+2021-09-28 16:44:34,097 - parkIQ -INFO - Search bar is displayed to the right of “Park Associate User’s Requests” header
+2021-09-28 16:44:34,136 - parkIQ -INFO - Clear Button is displayed next to Search Bar
+2021-09-28 16:44:34,150 - parkIQ -INFO - Clear Button Background Color is displayed
+2021-09-28 16:44:34,585 - parkIQ -INFO - Search Options is selected
+2021-09-28 16:44:34,585 - parkIQ -INFO - Associate Reimbursement is displayed
+2021-09-28 16:44:34,585 - parkIQ -INFO - Final Tuition Reimbursement is displayed
+2021-09-28 16:44:34,585 - parkIQ -INFO - Initial Tuition Reimbursement is displayed
+2021-09-28 16:44:34,586 - parkIQ -INFO - SHARP is displayed
+2021-09-28 16:44:34,586 - parkIQ -INFO - Volunteer Grant is displayed
+2021-09-28 16:44:34,586 - parkIQ -INFO - Volunteer Tracking is displayed
+2021-09-28 16:44:34,604 - parkIQ -INFO - All selected options are cleared
+2021-09-28 16:44:34,605 - parkIQ -INFO - Form Name column displays all forms
+2021-09-28 16:44:34,659 - parkIQ -INFO - All Items Header is displayed
+2021-09-28 16:44:34,716 - parkIQ -INFO - Pending Items Header is displayed
+2021-09-28 16:44:34,760 - parkIQ -INFO - Done Items Header is displayed
+2021-09-28 16:44:37,793 - parkIQ -INFO - Export Excel Button is displayed
+2021-09-28 16:44:37,802 - parkIQ -INFO - Export Excel Text Background Color is displayed
+2021-09-28 16:44:37,974 - parkIQ -INFO - File is exported
+2021-09-28 16:44:41,025 - parkIQ -INFO - Export Options Button is displayed
+2021-09-28 16:44:41,044 - parkIQ -INFO - Export Options Button is clicked
+2021-09-28 16:44:41,078 - parkIQ -INFO - Export Options Text is displayed
+2021-09-28 16:44:41,109 - parkIQ -INFO - Choose A Date Range is displayed
+2021-09-28 16:44:41,139 - parkIQ -INFO - Choose A Date Range Checkbox is displayed
+2021-09-28 16:44:44,190 - parkIQ -INFO - Choose A Date Range Checkbox is clicked
+2021-09-28 16:44:44,220 - parkIQ -INFO - From Date Text is displayed
+2021-09-28 16:44:44,251 - parkIQ -INFO - From Date Field is displayed
+2021-09-28 16:44:44,351 - parkIQ -INFO - To Date Text is displayed
+2021-09-28 16:44:44,378 - parkIQ -INFO - To Date Field is displayed
+2021-09-28 16:44:47,481 - parkIQ -INFO - File is exported
+2021-09-28 16:44:47,498 - parkIQ -INFO - Export To Excel is displayed
+2021-09-28 16:44:50,538 - parkIQ -INFO - "From:" text is not displayed
+2021-09-28 16:44:50,539 - parkIQ -INFO - From date field is not displayed
+2021-09-28 16:44:50,539 - parkIQ -INFO - "To:" text is not displayed
+2021-09-28 16:44:50,539 - parkIQ -INFO - To Date field is not displayed
+2021-09-28 16:44:50,571 - parkIQ -INFO - "Filter By "Pick Up"" text is displayed
+2021-09-28 16:44:50,600 - parkIQ -INFO - Checkbox button is displayed
+2021-09-28 16:44:53,639 - parkIQ -INFO - Checkbox is ticked
+2021-09-28 16:44:53,681 - parkIQ -INFO - File is exported
+2021-09-28 16:44:53,711 - parkIQ -INFO - User is returned to Taskbox header form
+2021-09-28 16:44:56,755 - parkIQ -INFO - “Activity List” header is displayed
+2021-09-28 16:44:56,935 - parkIQ -INFO - “Case #” column is displayed
+2021-09-28 16:44:56,935 - parkIQ -INFO - “Form Name” column is displayed
+2021-09-28 16:44:56,935 - parkIQ -INFO - “Requester” column is displayed
+2021-09-28 16:44:56,936 - parkIQ -INFO - “Status” column is displayed
+2021-09-28 16:44:56,936 - parkIQ -INFO - “Activity” column is displayed
+2021-09-28 16:44:56,936 - parkIQ -INFO - “Created On” column is displayed
+2021-09-28 16:44:56,936 - parkIQ -INFO - “Assignment” column is displayed
+2021-09-28 16:44:59,978 - parkIQ -INFO - "List of All Associates" form is displayed
+2021-09-28 16:45:00,760 - parkIQ -INFO - Search bar is displayed to the right of List of All Associates header
+2021-09-28 16:45:00,799 - parkIQ -INFO - Search Bar placeholder displays "Search by Associate Number, Name, Email"
+2021-09-28 16:45:03,910 - parkIQ -INFO - Associate Number column displays 163
+2021-09-28 16:45:03,941 - parkIQ -INFO - Form refreshes to "List of All Associates" display
+2021-09-28 16:45:04,070 - parkIQ -INFO - Park Supervisor User's Requests Header is displayed
+2021-09-28 16:45:04,110 - parkIQ -INFO - “Filter By” text is displayed
+2021-09-28 16:45:04,157 - parkIQ -INFO - "Filter By" dropdown box is displayed
+2021-09-28 16:45:04,167 - parkIQ -INFO - Filter Button is clicked
+2021-09-28 16:45:04,411 - parkIQ -INFO - Displays filter options All, Create, Completed, Rejected and Pending correctly
+2021-09-28 16:45:04,637 - parkIQ -INFO - Status column displays "Reimbursement Pending" selection only
+2021-09-28 16:45:04,664 - parkIQ -INFO - Status column displays "Created" selection in the first row
+2021-09-28 16:45:04,689 - parkIQ -INFO - Page Number Slider is displayed at the bottom right of the form
+2021-09-28 16:45:04,715 - parkIQ -INFO - "1 to 3 of 3 items" is displayed at the bottom left of the form
+2021-09-28 16:45:11,992 - parkIQ -INFO - Login Screen is displayed
+2021-09-28 16:45:12,635 - parkIQ -INFO - Logged in as: Park Associate User is displayed
+2021-09-28 16:45:12,635 - parkIQ -INFO - AssociateForms Portal is successfully opened
+2021-09-28 16:45:16,888 - parkIQ -INFO - Park Associate User's Requests Header is displayed
+2021-09-28 16:45:21,165 - parkIQ -INFO - Boots and Luggage Reimbursement Form is displayed
+2021-09-28 16:45:25,469 - parkIQ -INFO - Boots & Luggage Reimbursement Form Header is displayed
+2021-09-28 16:45:28,527 - parkIQ -INFO - Boots & Luggage Reimbursement is displayed on the top left
+2021-09-28 16:45:31,590 - parkIQ -INFO - Associate Forms Portal Header is displayed
+2021-09-28 16:45:35,056 - parkIQ -INFO - User is taken to Associate Forms Portal Form
+2021-09-28 16:45:36,472 - parkIQ -INFO - Park Associate User's Requests Header is displayed
+2021-09-28 16:45:39,936 - parkIQ -INFO - Boots and Luggage Reimbursement Form is displayed
+2021-09-28 16:45:40,925 - parkIQ -INFO - Boots & Luggage Reimbursement Form Header is displayed
+2021-09-28 16:45:43,980 - parkIQ -INFO - Go To Sample Login Header is displayed
+2021-09-28 16:45:44,391 - parkIQ -INFO - User is taken to AssociateForms Form
+2021-09-28 16:45:45,193 - parkIQ -INFO - Login as Sample User is displayed
+2021-09-28 16:45:45,220 - parkIQ -INFO - Logged in as: Park Associate User is displayed
+2021-09-28 16:45:45,221 - parkIQ -INFO - AssociateForms Portal is successfully opened
+2021-09-28 16:45:46,536 - parkIQ -INFO - Park Associate User's Requests Header is displayed
+2021-09-28 16:45:49,968 - parkIQ -INFO - Boots & Luggage Reimbursement form is displayed
+2021-09-28 16:45:53,022 - parkIQ -INFO - “Request List” header is displayed on the top left
+2021-09-28 16:45:56,055 - parkIQ -INFO - Search bar is displayed to the right of “Request List” header
+2021-09-28 16:45:56,075 - parkIQ -INFO - Placeholder text Search by Case# is displayed
+2021-09-28 16:45:56,766 - parkIQ -INFO - No items to show text is displayed
+2021-09-28 16:45:57,421 - parkIQ -INFO - Case # 35 is displayed
+2021-09-28 16:45:57,440 - parkIQ -INFO - All results are displayed
+2021-09-28 16:46:00,497 - parkIQ -INFO - New Request Button is displayed correctly
+2021-09-28 16:46:00,662 - parkIQ -INFO - New Request Text Background Color is displayed
+2021-09-28 16:46:03,872 - parkIQ -INFO - Boots & Luggage Reimbursement Form Header is displayed
+2021-09-28 16:46:03,898 - parkIQ -INFO - Page Number Slider is displayed at the bottom right of the form
+2021-09-28 16:46:03,923 - parkIQ -INFO - "1 to 10 of 47 items" is displayed at the bottom left of the form
+2021-09-28 16:46:03,971 - parkIQ -INFO - "11 to 20 of 47 items" is displayed at the bottom left of the form
+2021-09-28 16:46:07,000 - parkIQ -INFO - Boots & Luggage Reimbursement Request form is displayed
+2021-09-28 16:46:12,278 - parkIQ -INFO - Boots & Luggage Reimbursement Request is not displayed
+2021-09-28 16:46:15,335 - parkIQ -INFO - “Personal Info” header is displayed
+2021-09-28 16:46:18,366 - parkIQ -INFO - “Employee Number” text is displayed
+2021-09-28 16:46:18,391 - parkIQ -INFO - "8888888" is displayed as Employee Number
+2021-09-28 16:46:18,415 - parkIQ -INFO - “Associate Name” text is displayed
+2021-09-28 16:46:18,440 - parkIQ -INFO - "Park Associate User" is displayed as Associate Name
+2021-09-28 16:46:18,464 - parkIQ -INFO - “Department” text is displayed
+2021-09-28 16:46:18,487 - parkIQ -INFO - "SS Customer Service FS FS" is displayed as Department
+2021-09-28 16:46:21,546 - parkIQ -INFO - Add Comment Header is displayed
+2021-09-28 16:46:21,571 - parkIQ -INFO - “Enter your comments here…” placeholder text is displayed
+2021-09-28 16:46:21,597 - parkIQ -INFO - Save Button is displayed
+2021-09-28 16:46:21,607 - parkIQ -INFO - Save Text Background Color is displayed
+2021-09-28 16:46:24,853 - parkIQ -INFO - Text is entered
+2021-09-28 16:46:24,868 - parkIQ -INFO - "Comment added" message is displayed
+2021-09-28 16:46:24,884 - parkIQ -INFO - Timeline is updated below the Save button
+2021-09-28 16:46:25,720 - parkIQ -INFO - "Park Associate User" text is displayed
+2021-09-28 16:46:25,747 - parkIQ -INFO - "Comment" text is displayed
+2021-09-28 16:46:25,772 - parkIQ -INFO - "test" text is displayed
+2021-09-28 16:46:28,829 - parkIQ -INFO - Reimbursement Form Details Header is displayed
+2021-09-28 16:46:28,853 - parkIQ -INFO - "Created" tag is displayed
+2021-09-28 16:46:28,862 - parkIQ -INFO - Tag background is of color #2652AF
+2021-09-28 16:46:32,078 - parkIQ -INFO - "Created" tag is displayed
+2021-09-28 16:46:32,103 - parkIQ -INFO - "Case #" text is displayed next to Created Tag
+2021-09-28 16:46:32,116 - parkIQ -INFO - "Delete Request" link is displayed to the right
+2021-09-28 16:46:32,129 - parkIQ -INFO - link color is of #EE3224
+2021-09-28 16:46:32,346 - parkIQ -INFO - Message pop-up appears
+2021-09-28 16:46:32,379 - parkIQ -INFO - User is taken back to "Boots & Luggage Reimbursement Request" header form
+2021-09-28 16:46:32,390 - parkIQ -INFO - Message pop-up appears
+2021-09-28 16:46:32,395 - parkIQ -INFO - User is taken back to "Request List" header form
+2021-09-28 16:46:36,607 - parkIQ -INFO - Boots & Luggage Reimbursement Request form is not displayed
+2021-09-28 16:46:39,655 - parkIQ -INFO - “Boots & Luggage Reimbursement Policy” header is displayed
+2021-09-28 16:46:39,681 - parkIQ -INFO - “Park Industries provides safety Personal Protective Equipment (PPE) to all associates as required by OSHA 1910 requirements. Shop associates, installers and field service associates must wear ANSI approved (OSHA Z41 or Z41.1 approved) steel-toe footwear.” text is displayed
+2021-09-28 16:46:42,726 - parkIQ -INFO - “Calendar Year Reimbursement Allowed” header is displayed
+2021-09-28 16:46:45,774 - parkIQ -INFO - “Boots:” header is displayed
+2021-09-28 16:46:45,799 - parkIQ -INFO - “• $400.00 annually: Large Machine, Plasma/Flame, Paint, Blast, Maintenance, Installation and Field Service • $200.00 annually: All other departments” text is displayed
+2021-09-28 16:46:45,825 - parkIQ -INFO - “***Park does not reimburse for orthotics.” Text is displayed
+2021-09-28 16:46:48,878 - parkIQ -INFO - “Boots:” header is displayed
+2021-09-28 16:46:48,898 - parkIQ -INFO - “• $200.00 annually for Installers and Field Service only” text is displayed
+2021-09-28 16:46:51,953 - parkIQ -INFO - “Year” text is displayed
+2021-09-28 16:46:51,978 - parkIQ -INFO - Year field is displayed
+2021-09-28 16:46:55,023 - parkIQ -INFO - “Receipts” text is not displayed
+2021-09-28 16:46:55,048 - parkIQ -INFO - "Add New Receipt" text is displayed
+2021-09-28 16:46:58,103 - parkIQ -INFO - “Receipt Type” text is displayed
+2021-09-28 16:46:58,128 - parkIQ -INFO - “Receipt Type” field is displayed
+2021-09-28 16:46:58,228 - parkIQ -INFO -  “Boots” and “Luggage” options are displayed
+2021-09-28 16:47:01,284 - parkIQ -INFO - “USD Requested” text is displayed
+2021-09-28 16:47:01,316 - parkIQ -INFO - “USD Requested” field is displayed
+2021-09-28 16:47:01,339 - parkIQ -INFO - Add Receipt button is displayed
+2021-09-28 16:47:04,395 - parkIQ -INFO - “Request Summary” header is displayed
+2021-09-28 16:47:04,417 - parkIQ -INFO - "(The request is currently empty)" text is displayed
+2021-09-28 16:47:04,436 - parkIQ -INFO - Add Receipt button is displayed
+2021-09-28 16:47:04,469 - parkIQ -INFO - Back Button is displayed
+2021-09-28 16:47:04,469 - parkIQ -INFO - User is taken to Request List Form
+2021-09-28 16:47:07,583 - parkIQ -INFO - Boots & Luggage Reimbursement Request form is displayed
+2021-09-28 16:47:07,661 - parkIQ -INFO - 2021 is displayed
+2021-09-28 16:47:07,762 - parkIQ -INFO - Luggage is selected
+2021-09-28 16:47:07,829 - parkIQ -INFO - value of 5 is entered
+2021-09-28 16:47:07,829 - parkIQ -INFO - File Selection window opens
+2021-09-28 16:47:07,888 - parkIQ -INFO - File is selected and uploaded successfully
+2021-09-28 16:47:10,938 - parkIQ -INFO - Edit Pen Icon is displayed
+2021-09-28 16:47:10,965 - parkIQ -INFO - Trashcan Symbol is displayed
+2021-09-28 16:47:11,001 - parkIQ -INFO - Floppy Disk icon is displayed
+2021-09-28 16:47:11,026 - parkIQ -INFO - AntiClockwise Arrow Circle Icon is displayed
+2021-09-28 16:47:11,084 - parkIQ -INFO - Receipt Type field becomes editable
+2021-09-28 16:47:11,150 - parkIQ -INFO - USD Requested field becomes editable
+2021-09-28 16:47:14,185 - parkIQ -INFO - "Receipt updated" message is displayed
+2021-09-28 16:47:17,246 - parkIQ -INFO - Floppy Disk icon is displayed
+2021-09-28 16:47:17,274 - parkIQ -INFO - AntiClockwise Arrow Circle Icon is displayed
+2021-09-28 16:47:17,333 - parkIQ -INFO - Receipt Type field becomes editable
+2021-09-28 16:47:17,387 - parkIQ -INFO - USD Requested field becomes editable
+2021-09-28 16:47:20,430 - parkIQ -INFO - "Deleting receipt" message is displayed
+2021-09-28 16:47:20,430 - parkIQ -INFO - "Receipt deleted." message is displayed
+2021-09-28 16:47:44,886 - parkIQ -INFO - 2021 is displayed
+2021-09-28 16:47:47,997 - parkIQ -INFO - Luggage is selected
+2021-09-28 16:47:51,080 - parkIQ -INFO - value of 5 is entered
+2021-09-28 16:47:54,094 - parkIQ -INFO - File Selection window opens
+2021-09-28 16:47:54,151 - parkIQ -INFO - File is selected and uploaded successfully
+2021-09-28 16:47:57,198 - parkIQ -INFO - "Luggage" text is displayed
+2021-09-28 16:47:57,226 - parkIQ -INFO - "Total requested: $5.00" text is displayed
+2021-09-28 16:47:57,250 - parkIQ -INFO - "Total approved: $0.00 (Review Pending)" text is displayed
+2021-09-28 16:47:57,273 - parkIQ -INFO - "Calendar Year Reimbursement Allowed" text is displayed
+2021-09-28 16:47:57,298 - parkIQ -INFO - "$200.00 (Remaining: $30.00) text is displayed
+2021-09-28 16:47:57,323 - parkIQ -INFO - "Tick" is displayed
+2021-09-28 16:47:57,336 - parkIQ -INFO - "Amount requested is under the remaining allowed amount." text is displayed
+2021-09-28 16:48:00,377 - parkIQ -INFO - Save and Submit button is displayed
+2021-09-28 16:48:00,386 - parkIQ -INFO - Save and Submit Button Background Color is displayed
+2021-09-28 16:48:00,562 - parkIQ -INFO - User is taken to Reimbursement Form Details form
+2021-09-28 16:48:00,562 - parkIQ -INFO - "Form submitted" message is displayed
+2021-09-28 16:48:03,595 - parkIQ -INFO - Created Tag is updated to Submitted
+2021-09-28 16:48:03,620 - parkIQ -INFO - "Awaiting Supervisor Review - For any questions please contact your Supervisor or the HR Team" text is displayed
+2021-09-28 16:48:03,644 - parkIQ -INFO - "Date Submitted" text is displayed
+2021-09-28 16:48:03,644 - parkIQ -INFO - "MM/DD/YYYY" Date is displayed
+2021-09-28 16:48:03,664 - parkIQ -INFO - "Status changed" text is displayed
+2021-09-28 16:48:03,688 - parkIQ -INFO - "Submitted" text is displayed
+2021-09-29 08:26:28,289 - parkIQ -INFO - 2021 is displayed
+2021-09-29 08:26:31,713 - parkIQ -INFO - Luggage is selected
+2021-09-29 08:26:34,795 - parkIQ -INFO - value of 5 is entered
+2021-09-29 08:26:37,810 - parkIQ -INFO - File Selection window opens
+2021-09-29 08:26:37,919 - parkIQ -INFO - File is selected and uploaded successfully
+2021-09-29 08:26:40,987 - parkIQ -INFO - "Luggage" text is displayed
+2021-09-29 08:26:41,022 - parkIQ -INFO - "Total requested: $5.00" text is displayed
+2021-09-29 08:26:41,052 - parkIQ -INFO - "Total approved: $0.00 (Review Pending)" text is displayed
+2021-09-29 08:26:41,079 - parkIQ -INFO - "Calendar Year Reimbursement Allowed" text is displayed
+2021-09-29 08:26:41,106 - parkIQ -INFO - "$200.00 (Remaining: $30.00) text is displayed
+2021-09-29 08:26:41,136 - parkIQ -INFO - "Tick" is displayed
+2021-09-29 08:26:41,150 - parkIQ -INFO - "Amount requested is under the remaining allowed amount." text is displayed
+2021-09-29 08:26:44,204 - parkIQ -INFO - Save and Submit button is displayed
+2021-09-29 08:26:44,429 - parkIQ -INFO - Save and Submit Button Background Color is displayed
+2021-09-29 08:26:44,649 - parkIQ -INFO - User is taken to Reimbursement Form Details form
+2021-09-29 08:26:44,649 - parkIQ -INFO - "Form submitted" message is displayed
+2021-09-29 08:26:47,709 - parkIQ -INFO - Created Tag is updated to Submitted
+2021-09-29 08:26:47,739 - parkIQ -INFO - "Awaiting Supervisor Review - For any questions please contact your Supervisor or the HR Team" text is displayed
+2021-09-29 08:26:47,770 - parkIQ -INFO - "Date Submitted" text is displayed
+2021-09-29 08:26:47,770 - parkIQ -INFO - "MM/DD/YYYY" Date is displayed
+2021-09-29 08:26:47,794 - parkIQ -INFO - "Status changed" text is displayed
+2021-09-29 08:26:47,821 - parkIQ -INFO - "Submitted" text is displayed

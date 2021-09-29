@@ -62,10 +62,10 @@ public class ReadConfig {
 		return operaPath;
 	}
 	
-	public String getReceiptPath()
+	public String getLuggageReceiptPath()
 	{
-		String receiptPath =pro.getProperty("receiptPath");
-		return receiptPath;
+		String luggageReceiptPath =pro.getProperty("luggageReceiptPath");
+		return luggageReceiptPath;
 	}
 	
 	public String getUploadPath()
