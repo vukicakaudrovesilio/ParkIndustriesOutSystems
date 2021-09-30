@@ -868,7 +868,7 @@ public class TC_BootsAndLuggageReimbursementForm_001 extends BaseClass {
 		logger.info("File Selection window opens");
 		
 		WebElement upload = driver.findElement(By.xpath("//input[contains(@type,'file')]"));
-		upload.sendKeys("C:\\LuggageReceipt.jpg");
+		upload.sendKeys(getFile());
 		logger.info("File is selected and uploaded successfully");
 		
 	}
