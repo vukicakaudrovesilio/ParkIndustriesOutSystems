@@ -74,4 +74,64 @@ public class ReadConfig {
 		return uploadPath;
 	}
 
+	public String getComment() 
+	{
+		String comment = pro.getProperty("comment");
+		return comment;
+	}
+
+	public String getText() 
+	{
+		String text = pro.getProperty("text");
+		return text;
+	}
+
+	public String getNum() 
+	{
+		String number = pro.getProperty("number");
+		return number;
+	}
+
+	public String getUni() 
+	{
+		String uni = pro.getProperty("uni");
+		return uni;
+	}
+
+	public String getLoc() 
+	{
+		String Loc = pro.getProperty("Loc");
+		return Loc;
+	}
+
+	public String getDegree() 
+	{
+		String degree = pro.getProperty("degree");
+		return degree;
+	}
+
+	public String getMajor() 
+	{
+		String major = pro.getProperty("Major");
+		return major;
+	}
+
+	public String getDescrip() 
+	{
+		String description = pro.getProperty("description");
+		return description;
+	}
+
+	public String getCost() 
+	{
+		String cost = pro.getProperty("cost");
+		return cost;
+	}
+
+	public String getCareer() 
+	{
+		String Career = pro.getProperty("Career");
+		return Career;
+	}
+
 }
