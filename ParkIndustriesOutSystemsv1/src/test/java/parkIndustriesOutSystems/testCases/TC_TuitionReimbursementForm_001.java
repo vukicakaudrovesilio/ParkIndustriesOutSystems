@@ -7,6 +7,7 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -1017,9 +1018,14 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 		upload2.sendKeys("C:\\Users\\Dilshana\\Documents\\Sample.txt");
 	
 //		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
-		
-		trf.clickCloseBtn();
-		logger.info("Close button is clicked");
+		try {
+			trf.clickCloseBtn();
+			logger.info("Close button is clicked");
+		}
+		catch (StaleElementReferenceException ex)
+		{
+			logger.info("Error");
+		}
 		
 		trf.setUni(uni);
 		logger.info("University of America is entered successfully");
