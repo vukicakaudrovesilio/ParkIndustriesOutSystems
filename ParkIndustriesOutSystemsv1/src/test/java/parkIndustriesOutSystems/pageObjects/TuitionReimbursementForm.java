@@ -2,6 +2,7 @@ package parkIndustriesOutSystems.pageObjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
@@ -191,7 +192,7 @@ public class TuitionReimbursementForm {
 	WebElement pageItems1;
 	
 	//Page 2
-	@FindBy(xpath="//div//button[@aria-label='go to page 2']")
+	@FindBy(xpath="//body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/button[1]")
 	@CacheLookup
 	WebElement page2;
 	
@@ -528,17 +529,17 @@ public class TuitionReimbursementForm {
 	WebElement programField;
 	
 	//Major text
-	@FindBy(xpath="//label[contains(text(),'Degree Major')]")
+	@FindBy(xpath="//div[@class='margin-top-s ThemeGrid_Width6 ThemeGrid_MarginGutter']//label[contains(text(),'Degree Major')]")
 	@CacheLookup
 	WebElement majorText;
 	
 	//Degree major field
-	@FindBy(xpath="//span[@class='input-text']//input[@id='Input_DegreeMajor']")
+	@FindBy(xpath="//div[@class='margin-top-s ThemeGrid_Width6 ThemeGrid_MarginGutter']//input[@id='Input_DegreeMajor']")
 	@CacheLookup
 	WebElement majorField;
 	
 	//Decription text
-	@FindBy(xpath="//div//label[@for='TextArea_DegreeProgramDescription']")
+	@FindBy(xpath="//div[@class='margin-top-s']//label[contains(text(),'Degree Program Description (include estimated comp')]")
 	@CacheLookup
 	WebElement descripText;
 	
@@ -603,7 +604,7 @@ public class TuitionReimbursementForm {
 	WebElement uploadBtn;
 	
 	//Close btn
-	@FindBy(xpath="//button[contains(text(),'Close')]")
+	@FindBy(xpath="//body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/button[1]")
 	@CacheLookup
 	WebElement closeBtn;
 	
@@ -720,8 +721,8 @@ public class TuitionReimbursementForm {
 	WebElement approvedByTag;
 	
 	//HR pickup
-	@FindBy(xpath="//body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/table[1]/tbody[1]/tr[2]/td[7]/button[1]")
-	@CacheLookup
+	@FindBy(xpath="//tbody/tr[1]/td[7]/button[1]")
+	@CacheLookup ////td[@data-header='Assignment']//button[contains(text(), 'Pick Up')]
 	WebElement pickup;
 	
 	//HR Tag
@@ -771,7 +772,7 @@ public class TuitionReimbursementForm {
 	@CacheLookup
 	WebElement completed;
 	
-	@FindBy(xpath="//span[contains(text(),'Request closed')]")
+	@FindBy(xpath="//div//span[contains(text(),'Request closed')]")
 	@CacheLookup
 	WebElement reqClosed;
 	
@@ -1355,7 +1356,8 @@ public class TuitionReimbursementForm {
 	
 	public boolean institutionTextDisplayed()
 	{
-		return institutionText.isDisplayed();
+		return func.verifyElementDisplayedWithText(institutionText, "Institution (School/Facility Name)");
+//		return institutionText.isDisplayed();
 	}
 	
 	public boolean insFieldDisplayed()
@@ -1365,17 +1367,19 @@ public class TuitionReimbursementForm {
 	
 	public boolean locTextDisplayed()
 	{
-		return locField.isDisplayed();
+		return func.verifyElementDisplayedWithText(locText, "Location (where the institution is located)");
+//		return locField.isDisplayed();
 	}
 	
 	public boolean locFieldDisplayed()
 	{
-		return locText.isDisplayed();
+		return locField.isDisplayed();
 	}
 	
 	public boolean programTextDisplayed()
 	{
-		return programText.isDisplayed();
+		return func.verifyElementDisplayedWithText(programText, "Degree Program Name");
+//		return programText.isDisplayed();
 	}
 	
 	public boolean programFieldDisplayed()
@@ -1385,7 +1389,8 @@ public class TuitionReimbursementForm {
 	
 	public boolean majorTextDisplayed()
 	{
-		return majorText.isDisplayed();
+		return func.verifyElementDisplayedWithText(majorText, "Degree Major");
+//		return majorText.isDisplayed();
 	}
 	
 	public boolean majorFieldDisplayed()
@@ -1395,7 +1400,8 @@ public class TuitionReimbursementForm {
 	
 	public boolean descripTextDisplayed()
 	{
-		return descripText.isDisplayed();
+		return func.verifyElementDisplayedWithText(descripText, "Degree Program Description (include estimate completion date)");
+//		return descripText.isDisplayed();
 	}
 	
 	public boolean descripFieldDisplayed()
@@ -1405,7 +1411,8 @@ public class TuitionReimbursementForm {
 	
 	public boolean totalcostTextDisplayed()
 	{
-		return totalcostText.isDisplayed();
+		return func.verifyElementDisplayedWithText(totalcostText, "Provide approximate total cost details (books, lab fees, etc.)");
+//		return totalcostText.isDisplayed();
 	}
 	
 	public boolean totalcostFieldDisplayed()
@@ -1415,7 +1422,8 @@ public class TuitionReimbursementForm {
 	
 	public boolean careerTextDisplayed()
 	{
-		return careerText.isDisplayed();
+		return func.verifyElementDisplayedWithText(careerText, "How does degree relate to your career plan at Park?");
+//		return careerText.isDisplayed();
 	}
 	
 	public boolean careerFieldDisplayed()
@@ -1430,7 +1438,8 @@ public class TuitionReimbursementForm {
 	
 	public boolean linkTextDisplayed()
 	{
-		return linkText.isDisplayed();
+		return func.verifyElementDisplayedWithText(linkText, "*Attach the Program Curriculum. (must list all classes/courses required");
+//		return linkText.isDisplayed();
 	}
 	
 	public boolean remainingAmtDisplayed()
@@ -1468,15 +1477,23 @@ public class TuitionReimbursementForm {
 	
 	public boolean closeBtnDisplayed()
 	{
-		JavascriptExecutor js = (JavascriptExecutor)ldriver;
-		js.executeScript("arguments[0].scrollIntoView(true);", closeBtn);
 		return func.verifyElementDisplayedWithText(closeBtn, "Close");
 	}
 	
 	public void clickCloseBtn()
 	{
+		for(int i=0; i<=2;i++){
+			  try{
+			     ldriver.findElement(By.xpath("//body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/button[1]")).click();
+			     break;
+			  }
+			  catch(StaleElementReferenceException e){
+				  System.out.println(e.getMessage());
+			  }
+			  
 		JavascriptExecutor js = (JavascriptExecutor)ldriver;
 		js.executeScript("arguments[0].click()", closeBtn);
+		}
 	}
 	
 	public void clickUploadBtn()
@@ -1592,13 +1609,23 @@ public class TuitionReimbursementForm {
 	public boolean acceptSubmitDisplayed()
 	{
 		return func.verifyElementDisplayedWithText(acceptBtn, "Accept & Submit");
+//		return acceptBtn.isDisplayed();
 	}
 	
 	public void clickAcceptFormBtn()
 	{
+		for(int i=0; i<=2;i++){
+			  try{
+			     ldriver.findElement(By.xpath("//div[contains(text(),'Accept & Submit')]")).click();
+			     break;
+			  }
+			  catch(StaleElementReferenceException e){
+				  System.out.println(e.getMessage());
+			  }
 //		((JavascriptExecutor) ldriver).executeScript("arguments[0].scrollIntoView(true);", acceptBtn);
 		JavascriptExecutor js = (JavascriptExecutor)ldriver;
 		js.executeScript("arguments[0].click()", acceptBtn);
+		}
 	}
 	
 	public String acceptbtnColour()
