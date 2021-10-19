@@ -1,9 +1,11 @@
 package parkIndustriesOutSystems.common;
 
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -156,7 +158,19 @@ public class WebElementFunctions {
 	}
 
 
-
+	//Is Displayed and Capture StaleElement Exception
+	public boolean verifyIsElementDisplayed(WebElement element)
+	{
+		boolean isDisp = false;
+		try{
+			isDisp = element.isDisplayed();
+		}catch (StaleElementReferenceException ex){
+			isDisp = true;
+		}catch (NoSuchElementException ex){
+			System.out.print("Failed to locate Element\n\n");
+		}
+		return isDisp;
+	}
 
 
 }

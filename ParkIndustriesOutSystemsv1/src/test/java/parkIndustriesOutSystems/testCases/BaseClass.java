@@ -34,6 +34,16 @@ public class BaseClass {
 	public String operadriverPath= readConfig.getOperaPath();
 	public String luggageReceiptPath= readConfig.getLuggageReceiptPath();
 	public String uploadFile= readConfig.getUploadPath();
+	public String comment = readConfig.getComment();
+	public String text = readConfig.getText();
+	public String number = readConfig.getNum();
+	public String uni = readConfig.getUni();
+	public String Loc = readConfig.getLoc();
+	public String degree = readConfig.getDegree();
+	public String Major = readConfig.getMajor();
+	public String description = readConfig.getDescrip();
+	public String cost = readConfig.getCost();
+	public String Career = readConfig.getCareer();
 	
 	@Parameters("browser")
 	@BeforeClass
