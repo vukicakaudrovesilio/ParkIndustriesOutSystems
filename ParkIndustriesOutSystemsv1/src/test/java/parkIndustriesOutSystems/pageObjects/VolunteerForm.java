@@ -26,6 +26,11 @@ public class VolunteerForm {
 	@CacheLookup
 	WebElement lbtnVolunteerForm;
 	
+	//Volunteer Form Link Button
+	@FindBy(xpath="//button[contains(.,'Volunteer Forms')]")
+	@CacheLookup
+	WebElement lbtnVolunteerForm2;
+	
 	//Volunteer Tracking Header
 	@FindBy(xpath="//a[@class='ThemeGrid_MarginGutter active'][contains(.,'Volunteer Tracking')]")
 	@CacheLookup
@@ -213,8 +218,18 @@ public class VolunteerForm {
 	
 	//Save & Submit Button
 	@FindBy(xpath="//button[@class='btn btn-primary'][contains(.,'Save & Submit')]")
-	@CacheLookup
+	@CacheLookup   
 	WebElement btnSaveSubmit;
+	
+	//Save & Submit Button Volunteer Grant
+	@FindBy(xpath="//button[contains(.,'Save & Submit')]")
+	@CacheLookup   
+	WebElement btnSaveSubmit2;
+	
+	//Close Button
+	@FindBy(xpath="//button[contains(.,'Close')]")
+	@CacheLookup
+	WebElement btnClose2;
 	
 	//Volunteer Grant Form Header
 	@FindBy(xpath="//span[@class='heading3'][contains(.,'Volunteer Grant Form')]")
@@ -486,11 +501,368 @@ public class VolunteerForm {
 	@CacheLookup
 	WebElement txtUSDAmountResult;
 	
+	//Create Volunteer Grant Button
+	@FindBy(xpath="(//button[contains(.,'Create Volunteer Grant')])[2]")
+	@CacheLookup
+	WebElement btnCreateVolunteerGrant;
+	
+	//Submitted Tag Volunteer Grant Form
+	@FindBy(xpath="(//span[contains(.,'Submitted')])[1]")
+	@CacheLookup
+	WebElement tagSubmitted;
+	
+	//Status Changed Text Volunteer Grant Form
+	@FindBy(xpath="//span[contains(.,'Status changed')]")
+	@CacheLookup
+	WebElement txtStatusChanged;
+	
+	//Submitted Text Volunteer Grant Form
+	@FindBy(xpath="(//span[contains(.,'Submitted')])[2]")
+	@CacheLookup
+	WebElement txtSubmitted;
+	
+	//Eligible Agencies for Volunteer Grant Text Volunteer Grant Form
+	@FindBy(xpath="//span[contains(.,'Eligible Agencies for Volunteer Grant')]")
+	@CacheLookup
+	WebElement txtEligibleAgenciesForVolunteerGrant;
+	
+	//Create Volunteer Grant Button Volunteer Grant Form
+	@FindBy(xpath="//button[contains(.,'Create Volunteer Grant')]")
+	@CacheLookup
+	WebElement btnCreateVolunteerGrant2;
+	
+	//Created Tag Volunteer Grant Form
+	@FindBy(xpath="(//span[contains(.,'Created')])[1]")
+	@CacheLookup
+	WebElement tagCreated;
+	
+	//New request by Park Associate User Text Volunteer Grant Form
+	@FindBy(xpath="//span[contains(.,'New request by Park Associate User')]")
+	@CacheLookup
+	WebElement txtNewRequestByParkAssociateUser;
+	
+	//Created Text Volunteer Grant Form
+	@FindBy(xpath="(//span[contains(.,'Created')])[2]")
+	@CacheLookup
+	WebElement txtCreated;
+	
+	//Input Address
+	@FindBy(xpath="//input[contains(@id,'Input_Address')]")
+	@CacheLookup
+	WebElement inputAddress1;
+	
+	//Input Associate City
+	@FindBy(xpath="//input[@type='text'][contains(@id,'AssociateCity')]")
+	@CacheLookup
+	WebElement inputAssociateCity;
+	
+	//Input Associate State
+	@FindBy(xpath="//input[@type='text'][contains(@id,'AssociateState')]")
+	@CacheLookup
+	WebElement inputAssociateState;
+	
+	//Input Zip
+	@FindBy(xpath="//input[contains(@id,'Input_Zip')]")
+	@CacheLookup
+	WebElement inputZip;
+	
+	//Input Directors Name
+	@FindBy(xpath="//input[@type='text'][contains(@id,'DirectorsName')]")
+	@CacheLookup
+	WebElement inputDirectorsName;
+	
+	//Input Agency Phone Number
+	@FindBy(xpath="//input[@type='tel'][contains(@id,'AgencyPhoneNumber')]")
+	@CacheLookup
+	WebElement inputAgencyPhoneNumber;
+	
+	//Input Agency Tax Excempt Code
+	@FindBy(xpath="//input[@type='text'][contains(@id,'AgencyTaxExcemptCode')]")
+	@CacheLookup
+	WebElement inputAgencyTaxExcemptCode;
+	
+	//Input Agency Address
+	@FindBy(xpath="//input[@type='text'][contains(@id,'AgencyAddress')]")
+	@CacheLookup
+	WebElement inputAgencyAddress;
+	
+	//Input Agency City
+	@FindBy(xpath="//input[@type='text'][contains(@id,'AgencyCity')]")
+	@CacheLookup
+	WebElement inputAgencyCity;
+	
+	//Input Agency State
+	@FindBy(xpath="//input[@type='text'][contains(@id,'AgencyState')]")
+	@CacheLookup
+	WebElement inputAgencyState;
+	
+	//Input Agency Zip
+	@FindBy(xpath="//input[@type='text'][contains(@id,'AgencyZip')]")
+	@CacheLookup
+	WebElement inputAgencyZip;
+	
+	//Volunteer Grant Link Button
+	@FindBy(xpath="//input[@type='text'][contains(@id,'AgencyZip')]")
+	@CacheLookup
+	WebElement lbtnVolunteerGrant;
+	
+	//Approve Button
+	@FindBy(xpath="//button[contains(.,'Approve')]")
+	@CacheLookup   
+	WebElement btnApprove;
+	
+	//Confirm Approval Header
+	@FindBy(xpath="//span[contains(.,'Confirm Approval')]")
+	@CacheLookup   
+	WebElement headerConfirmApproval;
+	
+	//Add Comment Text 
+	@FindBy(xpath="//span[contains(.,'Add Comment (Optional)')]")
+	@CacheLookup   
+	WebElement txtAddCommentPS;
+	
+	//Add Comment Input
+	@FindBy(xpath="//textarea[@class='form-control OSFillParent'][contains(@id,'ApproveRejectComment')]")
+	@CacheLookup   
+	WebElement inputAddCommentPS;
+	
+	//Cancel Button
+	@FindBy(xpath="//button[contains(.,'Cancel')]")
+	@CacheLookup   
+	WebElement btnCancelPS;
+	
+	//Approve Button
+	@FindBy(xpath="//div[@class='btn-label OSInline'][contains(.,'Approve')]")
+	@CacheLookup   
+	WebElement btnApprovePS;
+	
+	//Status changed by Park Supervisor User Text
+	@FindBy(xpath="//span[contains(.,'Status changed by Park Supervisor User')]")
+	@CacheLookup   
+	WebElement txtStatusChangedByParkSupervisorUser;
+	
+	//Approved by Supervisor Text
+	@FindBy(xpath="(//span[contains(.,'Approved by Supervisor')])[2]")
+	@CacheLookup   
+	WebElement txtApprovedBySupervisor;
+	
+	//Approved Text
+	@FindBy(xpath="(//span[contains(.,'Approved')])[3]")
+	@CacheLookup   
+	WebElement txtApproved;
+	
+	//Approved by Supervisor Tag
+	@FindBy(xpath="(//span[contains(.,'Approved by Supervisor')])[1]")
+	@CacheLookup   
+	WebElement tagApprovedBySupervisor;
+	
+	//Pick Up Button
+	@FindBy(xpath="(//button[@class='btn btn-small btn-primary'][contains(.,'Pick Up')])[1]")
+	@CacheLookup   
+	WebElement btnPickUp;
+	
+	//Status Changed Text Comment Section
+	@FindBy(xpath="(//span[contains(.,'Status changed')])[1]")
+	@CacheLookup   
+	WebElement txtStatusChanged2;
+	
+	//HR Review Text Comment Section
+	@FindBy(xpath="(//span[contains(.,'HR Review')])[2]")
+	@CacheLookup   
+	WebElement txtHRReview;
+	
+	//Approved by HR Tag
+	@FindBy(xpath="(//span[contains(.,'Approved by HR')])[1]")
+	@CacheLookup   
+	WebElement tagApprovedByHR;
+	
+	//Status changed by Human Resources User Text
+	@FindBy(xpath="//span[contains(.,'Status changed by Human Resources User')]")
+	@CacheLookup   
+	WebElement txtStatusChangedByHumanResourcesUser;
+	
+	//Approved by HR Text
+	@FindBy(xpath="(//span[contains(.,'Approved by HR')])[2]")
+	@CacheLookup   
+	WebElement txtApprovedByHR;
+	
+	//Check Request Pending Tag
+	@FindBy(xpath="(//span[contains(.,'Check Request Pending')])[1]")
+	@CacheLookup   
+	WebElement tagCheckRequestPending;
+	
+	//Check Request Pending Tag
+	@FindBy(xpath="(//span[contains(.,'Check Request Pending')])[1]")
+	@CacheLookup   
+	WebElement txtCheckRequestPending;
+	
+	//Check Request Pending Address Text
+	@FindBy(xpath="//input[@type='text'][contains(@id,'Address2')]")
+	@CacheLookup   
+	WebElement txtCheckRequestPendingAddress;
+	
+	//Check Request Pending Payable To Text
+	@FindBy(xpath="//input[@type='text'][contains(@id,'PayableTo')]")
+	@CacheLookup   
+	WebElement txtCheckRequestPendingPayableTo;
+	
+	//Check Request Pending Vendor Drop Down
+	@FindBy(xpath="//div[contains(@class,'drop-down-field-value')]")
+	@CacheLookup   
+	WebElement checkRequestPendingVendorDropDown;
+	
+	//Check Request Pending Vendor 15661 - Carter Products Co Inc
+	@FindBy(xpath="//span[contains(.,'15661 - Carter Products Co Inc')]")
+	@CacheLookup   
+	WebElement checkRequestPendingVendorCarter;
+	
+	//Check Request Pending Vendor 12540 - Al's Fan Balancing Services 
+	@FindBy(xpath="/html/body/div/div/div/div/div/div/div/div/div/div[3]/div/div/div/div/div[2]/div/div/div[1]/form/div[23]/div[4]/div/div/div/div[2]/div/div[2]/div/div[15]/span")
+	@CacheLookup   
+	WebElement checkRequestPendingVendorAl;
+	
+	//Check Request Pending Payment Target Date
+	@FindBy(xpath="//input[@type='date'][contains(@id,'PaymentTargetDate')]")
+	@CacheLookup   
+	WebElement checkRequestPendingPaymentTargetDate;
+	
+	//Check Request Pending Payment Target Date
+	@FindBy(xpath="//button[contains(.,'Save & Mark as Complete')]")
+	@CacheLookup   
+	WebElement btnSaveMarkAsComplete;
+	
+	//Completed Tag
+	@FindBy(xpath="(//span[contains(.,'Completed')])[1]")
+	@CacheLookup   
+	WebElement tagCompleted;
+	
+	//Status changed by Accounting User Text Comment Section
+	@FindBy(xpath="//span[contains(.,'Status changed by Accounting User')]")
+	@CacheLookup   
+	WebElement txtStatusChangedByAccountingUser;
+	
+	//Completed Tag
+	@FindBy(xpath="(//span[contains(.,'Completed')])[2]")
+	@CacheLookup   
+	WebElement txtCompleted;
+	
+	//Reject Button
+	@FindBy(xpath="//button[contains(.,'Reject')]")
+	@CacheLookup   
+	WebElement btnReject;
+
+	//Confirm Rejection Header
+	@FindBy(xpath="//span[contains(.,'Confirm Rejection')]")
+	@CacheLookup   
+	WebElement headerConfirmRejection;
+	
+	//Add Comment Text 
+	@FindBy(xpath="//span[contains(.,'Add Comment* (Mandatory)')]")
+	@CacheLookup   
+	WebElement txtAddCommentHR;
+	
+	//Reject Button
+	@FindBy(xpath="//button[contains(.,'Reject')]")
+	@CacheLookup   
+	WebElement btnReject2;
+	
+	//Rejected Text
+	@FindBy(xpath="(//span[contains(.,'Rejected')])[2]")
+	@CacheLookup   
+	WebElement txtRejectedHR;
+	
+	//Rejected Text
+	@FindBy(xpath="(//span[contains(.,'Reject')])[3]")
+	@CacheLookup   
+	WebElement txtRejectHR;
+	
+	//Case Number Link Button 
+	@FindBy(xpath="/html/body/div/div/div/div/div/div/div/div/div/div[3]/div/div[1]/div/table/tbody/tr[1]/td[1]/a/span")
+	@CacheLookup   
+	WebElement lbtnCaseNumber;
+	
+	//Park Industries Committee Link Button 
+	@FindBy(xpath="//span[@class='OSFillParent'][contains(.,'Park Industries Committee')]")
+	@CacheLookup   
+	WebElement lbtnParkIndustriesCommittee;
+	
+	//Skip Supervisor Review Button 
+	@FindBy(xpath="//button[contains(.,'Skip Supervisor Review')]")
+	@CacheLookup   
+	WebElement btnSkipSupervisorReview;
+	
+	//Confirm To Skip Supervisor Text 
+	@FindBy(xpath="//span[contains(.,'Confirm To Skip Supervisor')]")
+	@CacheLookup   
+	WebElement txtConfirmToSkipSupervisor;
+	
+	//Add Comment Text 
+	@FindBy(xpath="//label[contains(.,'Add Comment')]")
+	@CacheLookup   
+	WebElement txtAddComment;
+	
+	//Input Add Comment Text 
+	@FindBy(xpath="//textarea[@class='form-control OSFillParent'][contains(@id,'SkipSupervisorComment')]")
+	@CacheLookup   
+	WebElement inputAddComment;
+	
+	//Skip Supervisor Button
+	@FindBy(xpath="//button[@class='btn btn-primary ThemeGrid_MarginGutter'][contains(.,'Skip Supervisor')]")
+	@CacheLookup   
+	WebElement btnSkipSupervisor;
+	
+	//HR Review Tag 
+	@FindBy(xpath="(//span[contains(.,'HR Review')])[1]")
+	@CacheLookup   
+	WebElement tagHRReview;
+	
+	//Associate Forms Portal Header
+	@FindBy(xpath="//a[contains(.,'Associate Forms Portal')]")
+	@CacheLookup
+	WebElement headerAssociateFormsPortal;
+	
+	//Reject & Return to HR Button 
+	@FindBy(xpath="//button[contains(.,'Reject & Return to HR')]")
+	@CacheLookup   
+	WebElement btnRejectReturnHR;
+	
+	//Confirm Return to HR Text 
+	@FindBy(xpath="//span[contains(.,'Confirm Return to HR')]")
+	@CacheLookup   
+	WebElement txtConfirmReturnToHR;
+	
+	//Return to HR Button 
+	@FindBy(xpath="//button[@class='btn btn-primary ThemeGrid_MarginGutter'][contains(.,'Return to HR')]")
+	@CacheLookup   
+	WebElement btnReturnToHR;
+	
+	//Returned to HR Tag 
+	@FindBy(xpath="(//span[contains(.,'Returned to HR')])[1]")
+	@CacheLookup   
+	WebElement tagReturnToHR;
+	
+	//Confirm Return to HR Text 
+	@FindBy(xpath="(//span[contains(.,'Returned to HR')])[2]")
+	@CacheLookup   
+	WebElement txtReturnedToHR;
+	
+	//Rejected Text 
+	@FindBy(xpath="//span[contains(.,'Reject')]")
+	@CacheLookup   
+	WebElement txtRejectedAccountingComments;
+
 	//Volunteer Form Link Button
 	public void clickVolunteerForm()
 	{
 		JavascriptExecutor js = (JavascriptExecutor)ldriver;
 		js.executeScript("arguments[0].click()", lbtnVolunteerForm);
+	}
+	
+	//Volunteer Form Link Button
+	public void clickVolunteer2Form()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", lbtnVolunteerForm2);
 	}
 	
 	//Confirm Header "Volunteer Tracking"
@@ -642,6 +1014,12 @@ public class VolunteerForm {
 		txtAgencyOrParkIndustriesCommittee.sendKeys("Agent 1");
 	}
 	
+	//Agency Or ParkIndustries Committee Text Input
+	public void agencyOrParkIndustriesCommitteeInput2()
+	{
+		txtAgencyOrParkIndustriesCommittee.sendKeys("Park Industries Committee");
+	}
+	
 	//Confirm Header "Volunteering Activity"
 	public boolean verifyHeaderVolunteeringActivity()
 	{
@@ -652,6 +1030,12 @@ public class VolunteerForm {
 	public void volunteeringActivityInput()
 	{
 		txtVolunteeringActivity.sendKeys("Activity 1");
+	}
+	
+	//Volunteering Activity Text Input
+	public void volunteeringActivityInput2()
+	{
+		txtVolunteeringActivity.sendKeys("Training");
 	}
 	
 	//Confirm Header "Date Start"
@@ -667,6 +1051,13 @@ public class VolunteerForm {
 		txtDateStart.sendKeys("30072021");
 	}
 	
+	//Date Start Text Input
+	public void dateStartInput2()
+	{
+		txtDateStart.click();
+		txtDateStart.sendKeys("01092021");
+	}
+	
 	//Confirm Header "Date End"
 	public boolean verifyHeaderDateEnd()
 	{
@@ -678,6 +1069,13 @@ public class VolunteerForm {
 	{
 		txtDateEnd.click();
 		txtDateEnd.sendKeys("06082021");
+	}
+	
+	//Date End Text Input
+	public void dateEndInput2()
+	{
+		txtDateEnd.click();
+		txtDateEnd.sendKeys("30092021");
 	}
 	
 	//Confirm Header "Company Time Hours"
@@ -692,6 +1090,12 @@ public class VolunteerForm {
 		txtCompanyTimeHours.sendKeys("30");
 	}
 	
+	//Company Time Hours Text Input
+	public void companyTimeHoursInput2()
+	{
+		txtCompanyTimeHours.sendKeys("50");
+	}
+	
 	//Confirm Header "Personal Time Hours"
 	public boolean verifyHeaderPersonalTimeHours()
 	{
@@ -702,6 +1106,12 @@ public class VolunteerForm {
 	public void personalTimeHoursInput()
 	{
 		txtPersonalTimeHours.sendKeys("4");
+	}
+	
+	//Personal Time Hours Text Input
+	public void personalTimeHoursInput2()
+	{
+		txtPersonalTimeHours.sendKeys("50");
 	}
 	
 	//Close is clickable and displayed
@@ -719,7 +1129,7 @@ public class VolunteerForm {
 	}
 	
 	//Save and Close Button Background Color
-	public String btnSaveClosetBgColour()
+	public String btnSaveCloseBgColour()
 	{
 		String bgColour = Color.fromString(btnSaveClose.getCssValue("background-color")).asHex();
 		return bgColour;
@@ -755,6 +1165,20 @@ public class VolunteerForm {
 	{
 		JavascriptExecutor js = (JavascriptExecutor)ldriver;
 		js.executeScript("arguments[0].click()", btnSaveSubmit);
+	}
+	
+	//Save and Submit is clickable and displayed in Volunteer Grant
+	public void saveSubmit2Clickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", btnSaveSubmit2);
+	}
+	
+	//Close 2 is clickable and displayed
+	public void close2Clickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", btnClose2);
 	}
 	
 	//Save and Submit Button Background Color
@@ -1104,4 +1528,499 @@ public class VolunteerForm {
 		return txtUSDAmountResult.isDisplayed();
 	}
 	
+	//Create Volunteer Grant Button
+	public void btnCreateVolunteerGrantClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", btnCreateVolunteerGrant);
+	}
+	
+	//Submitted Tag Displayed In Volunteer Grant Form
+	public boolean tagSubmittedDisplayed()
+	{
+		return tagSubmitted.isDisplayed();
+	}
+	
+	//Status Changed Text Displayed In Volunteer Grant Form
+	public boolean txtStatusChangedDisplayed()
+	{
+		return txtStatusChanged.isDisplayed();
+	}
+	
+	//Submitted Text Displayed In Volunteer Grant Form
+	public boolean txtSubmittedDisplayed()
+	{
+		return txtSubmitted.isDisplayed();
+	}
+	
+	//Eligible Agencies For Volunteer Grant Text Displayed In Volunteer Grant Form
+	public boolean txtEligibleAgenciesForVolunteerGrantDisplayed()
+	{
+		return txtEligibleAgenciesForVolunteerGrant.isDisplayed();
+	}
+	
+	//Create Volunteer Grant 2 Button
+	public void btnCreateVolunteerGrant2Clickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", btnCreateVolunteerGrant2);
+	}
+	
+	//Created Tag Displayed In Volunteer Grant Form
+	public boolean tagCreatedDisplayed()
+	{
+		return tagCreated.isDisplayed();
+	}
+	
+	//New Request By Park Associate User Tag Displayed In Volunteer Grant Form
+	public boolean txtNewRequestByParkAssociateUserDisplayed()
+	{
+		return txtNewRequestByParkAssociateUser.isDisplayed();
+	}
+	
+	//Created Text Displayed In Volunteer Grant Form
+	public boolean txtCreatedDisplayed()
+	{
+		return txtCreated.isDisplayed();
+	}
+	
+	//Address Input 4283 Express Lane
+	public void inputAddress()
+	{
+		inputAddress1.sendKeys("4283 Express Lane");
+	}
+	
+	//Associate City Sarasota
+	public void inputAssociateCity()
+	{
+		inputAssociateCity.sendKeys("Sarasota");
+	}
+	
+	//Associate State Florida
+	public void inputAssociateState()
+	{
+		inputAssociateState.sendKeys("Florida");
+	}
+	
+	//Associate Zip 34249
+	public void inputAssociateZip()
+	{
+		inputZip.sendKeys("34249");
+	}
+	
+	//Directors Name Input Santiago Gangotena
+	public void inputDirectorsName()
+	{
+		inputDirectorsName.sendKeys("Santiago Gangotena");
+	}
+	 
+	//Agency Phone Number Input 9415386941
+	public void inputAgencyPhoneNumber()
+	{
+		inputAgencyPhoneNumber.sendKeys("9415386941");
+	}
+	
+	//Agency Tax Excempt Code Input 161007
+	public void inputAgencyTaxExcemptCode()
+	{
+		inputAgencyTaxExcemptCode.sendKeys("161007");
+	}
+	
+	//Agency Address Input 4283 Express Lane
+	public void inputAgencyAddress()
+	{
+		inputAgencyAddress.sendKeys("4283 Express Lane");
+	}
+	
+	//Agency City Input Sarasota
+	public void inputAgencyCity()
+	{
+		inputAgencyCity.sendKeys("Sarasota");
+	}
+	
+	//Agency State Input Florida
+	public void inputAgencyState()
+	{
+		inputAgencyState.sendKeys("Florida");
+	}
+	
+	//Agency Zip Input 34249
+	public void inputAgencyZip()
+	{
+		inputAgencyZip.sendKeys("34249");
+	}
+	
+	//Volunteer Grant Link Button
+	public void clickVolunteerGrant()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", lbtnVolunteerGrant);
+	}
+	
+	//Approve Button is clickable and displayed
+	public void btnApproveClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", btnApprove);
+	}
+	
+	//Confirm Header "Confirm Approval"
+	public boolean verifyHeaderConfirmApproval()
+	{
+		return func.verifyElementDisplayedWithText(headerConfirmApproval, "Confirm Approval");
+	}
+	
+	//Add Comment in Park Supervisor Approval is displayed 
+	public boolean txtAddCommentPSDisplayed()
+	{
+		return txtAddCommentPS.isDisplayed();
+	}
+	
+	//Input Add Comment in Park Supervisor Approval is displayed 
+	public boolean inputAddCommentPSDisplayed()
+	{
+		return inputAddCommentPS.isDisplayed();
+	}
+		
+	//Cancel Button in Park Supervisor Approval is displayed 
+	public boolean btnCancelPSDisplayed()
+	{
+		return btnCancelPS.isDisplayed();
+	}
+	
+	//Cancel Button is clickable and displayed
+	public void btnCancelPSClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", btnCancelPS);
+	}
+	
+	//Approve Button in Park Supervisor Approval is displayed 
+	public boolean btnApprovePSDisplayed()
+	{
+		return btnApprovePS.isDisplayed();
+	}
+	
+	//Enter Approved
+	public void enterApproved()
+	{
+		inputAddCommentPS.sendKeys("Approved");
+	}
+	
+	//Approve Button is clickable and displayed
+	public void btnApprovePSClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", btnApprovePS);
+	}
+	
+	//Status Changed By Park Supervisor User Text is displayed 
+	public boolean txtStatusChangedByParkSupervisorUserDisplayed()
+	{
+		return txtStatusChangedByParkSupervisorUser.isDisplayed();
+	}
+	
+	//Approved By Supervisor Text is displayed 
+	public boolean txtApprovedBySupervisorDisplayed()
+	{
+		return txtApprovedBySupervisor.isDisplayed();
+	}
+	
+	//Approved Text is displayed 
+	public boolean txtApprovedDisplayed()
+	{
+		return txtApproved.isDisplayed();
+	}
+	
+	//Approved By Supervisor Tag is displayed 
+	public boolean tagApprovedBySupervisorDisplayed()
+	{
+		return tagApprovedBySupervisor.isDisplayed();
+	}
+	
+	//Pick Up Button is clickable and displayed
+	public void btnPickUpClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", btnPickUp);
+	}
+	
+	//Status Changed Text is displayed in comments field
+	public boolean txtStatusChanged2Displayed()
+	{
+		return txtStatusChanged2.isDisplayed();
+	}
+	
+	//HR Review Text is displayed in comments field
+	public boolean txtHRReviewDisplayed()
+	{
+		return txtHRReview.isDisplayed();
+	}
+	
+	//Approved By HR Tag is displayed 
+	public boolean tagApprovedByHRDisplayed()
+	{
+		return tagApprovedByHR.isDisplayed();
+	}
+	
+	//Status Changed By Human Resources User Text is displayed 
+	public boolean txtStatusChangedByHumanResourcesUserDisplayed()
+	{
+		return txtStatusChangedByHumanResourcesUser.isDisplayed();
+	}
+	
+	//Approved By HR Text is displayed 
+	public boolean txtApprovedByHRDisplayed()
+	{
+		return txtApprovedByHR.isDisplayed();
+	}
+	
+	//Check Request Pending Tag is displayed 
+	public boolean tagCheckRequestPendingDisplayed()
+	{
+		return tagCheckRequestPending.isDisplayed();
+	}
+	
+	//Check Request Pending Text is displayed 
+	public boolean txtCheckRequestPendingDisplayed()
+	{
+		return txtCheckRequestPending.isDisplayed();
+	}
+	
+	//Check Request Pending Address Text is displayed 
+	public boolean txtCheckRequestPendingAddressDisplayed()
+	{
+		return txtCheckRequestPendingAddress.isDisplayed();
+	}
+	
+	//Check Request Pending Payable To Text is displayed 
+	public boolean txtCheckRequestPendingPayableToDisplayed()
+	{
+		return txtCheckRequestPendingPayableTo.isDisplayed();
+	}
+	
+	//Enter Agency At Check Request Pending Payable To Text is displayed 
+	public void inputCheckRequestPendingPayableTo()
+	{
+		txtCheckRequestPendingPayableTo.clear();
+		txtCheckRequestPendingPayableTo.sendKeys("Agency");
+	}
+	
+	//Vendor Drop Down Button is clickable and displayed
+	public void checkRequestPendingVendorDropDownClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", checkRequestPendingVendorDropDown);
+	}
+	
+	//Vendor Carter Button is clickable and displayed
+	public void checkRequestPendingVendorCarterClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", checkRequestPendingVendorCarter);
+	}
+	
+	//Vendor Al Button is clickable and displayed
+	public void checkRequestPendingVendorAlClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", checkRequestPendingVendorAl);
+	}
+	
+	//Check Request Pending Payment Target Date Text Input
+	public void checkRequestPendingPaymentTargetDateInput()
+	{
+		checkRequestPendingPaymentTargetDate.click();
+		checkRequestPendingPaymentTargetDate.sendKeys("21102021");
+	}
+	
+	//Save Mark As Complete Button is clickable and displayed
+	public void btnSaveMarkAsCompleteClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", btnSaveMarkAsComplete);
+	}
+	
+	//Completed Tag is displayed
+	public boolean tagCompletedDisplayed()
+	{
+		return tagCompleted.isDisplayed();
+	}
+	
+	//Status Changed By Accounting User Text is displayed in comments field
+	public boolean txtStatusChangedByAccountingUserDisplayed()
+	{
+		return txtStatusChangedByAccountingUser.isDisplayed();
+	}
+	
+	//Completed Text is displayed in comments field
+	public boolean txtCompletedDisplayed()
+	{
+		return txtCompleted.isDisplayed();
+	}
+	
+	//Reject Button is clickable and displayed
+	public void btnRejectClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", btnReject);
+	}
+	
+	//Confirm Header "Confirm Rejection"
+	public boolean verifyHeaderConfirmRejection()
+	{
+		return func.verifyElementDisplayedWithText(headerConfirmRejection, "Confirm Rejection");
+	}
+	
+	//Add Comment HR is displayed 
+	public boolean txtAddCommentHRDisplayed()
+	{
+		return txtAddCommentHR.isDisplayed();
+	}
+	
+	//Reject2 Text is displayed 
+	public boolean btnReject2Displayed()
+	{
+		return btnReject2.isDisplayed();
+	}
+	
+	//Reject Button is clickable and displayed
+	public void btnReject2Clickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", btnReject2);
+	}
+	
+	//Enter Reject
+	public void enterReject()
+	{
+		inputAddCommentPS.sendKeys("Reject");
+	}
+	
+	//Rejected HR Text is displayed in comments field
+	public boolean txtRejectedHRDisplayed()
+	{
+		return txtRejectedHR.isDisplayed();
+	}
+	
+	//Reject HR Text is displayed in comments field
+	public boolean txtRejectHRDisplayed()
+	{
+		return txtRejectHR.isDisplayed();
+	}
+	
+	//Case Number Link Button is clickable and displayed
+	public void lbtnCaseNumberClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", lbtnCaseNumber);
+	}
+	
+	//Park Industries Committee Link Button is clickable and displayed
+	public void lbtnParkIndustriesCommitteeClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", lbtnParkIndustriesCommittee);
+	}
+	
+	//Skip Supervisor Review Button is clickable and displayed
+	public void btnSkipSupervisorReviewClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", btnSkipSupervisorReview);
+	}
+	
+	//Confirm To Skip Supervisor is displayed 
+	public boolean txtConfirmToSkipSupervisorDisplayed()
+	{
+		return txtConfirmToSkipSupervisor.isDisplayed();
+	}
+	
+	//Add Comment Text is displayed 
+	public boolean txtAddCommentDisplayed()
+	{
+		return txtAddComment.isDisplayed();
+	}
+	
+	//Add Comment Input is displayed 
+	public boolean inputAddCommentDisplayed()
+	{
+		return inputAddComment.isDisplayed();
+	}
+	
+	//Enter Approved
+	public void enterApprovedHR()
+	{
+		inputAddComment.sendKeys("Approved");
+	}
+	
+	//Skip Supervisor Button is displayed 
+	public boolean btnSkipSupervisorDisplayed()
+	{
+		return btnSkipSupervisor.isDisplayed();
+	}
+	
+	//Skip Supervisor Button is clickable and displayed
+	public void btnSkipSupervisorClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", btnSkipSupervisor);
+	}
+	
+	//Associate Forms Portal Link Button
+	public void clickheaderAssociateFormsPortal()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", headerAssociateFormsPortal);
+	}
+	
+	//Reject & Return To HR Button is clickable and displayed
+	public void btnRejectReturnHRClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", btnRejectReturnHR);
+	}
+	
+	//Confirm Return To HR Text is displayed in comments field
+	public boolean txtConfirmReturnToHRDisplayed()
+	{
+		return txtConfirmReturnToHR.isDisplayed();
+	}
+	
+	//Return To HR Button is displayed in comments field
+	public boolean btnReturnToHRDisplayed()
+	{
+		return btnReturnToHR.isDisplayed();
+	}
+	
+	//Return To HR Button is clickable and displayed
+	public void btnReturnToHRClickable()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", btnReturnToHR);
+	}
+	
+	//Enter Rejected
+	public void enterRejected()
+	{
+		inputAddCommentPS.sendKeys("Reject");
+	}
+	
+	//Return To HR Tag is displayed in comments field
+	public boolean tagReturnToHRDisplayed()
+	{
+		return tagReturnToHR.isDisplayed();
+	}
+	
+	//Returned To HR Text is displayed in comments field
+	public boolean txtReturnedToHRDisplayed()
+	{
+		return txtReturnedToHR.isDisplayed();
+	}
+	
+	//Rejected is displayed in Accounting comments field
+	public boolean txtRejectedAccountingCommentsDisplayed()
+	{
+		return txtRejectedAccountingComments.isDisplayed();
+	}
 }

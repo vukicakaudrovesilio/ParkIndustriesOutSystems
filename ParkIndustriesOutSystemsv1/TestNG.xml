@@ -16,7 +16,12 @@
 			<class name="parkIndustriesOutSystems.testCases.TC_HumanResourcesUser_001" />
 			<class name="parkIndustriesOutSystems.testCases.TC_AccountingUser_001" />
 			<class name="parkIndustriesOutSystems.testCases.TC_BootsAndLuggageReimbursementForm_001" /> -->
-			<class name="parkIndustriesOutSystems.testCases.TC_BootsAndLuggageReimbursementForm_002" />
+			<!-- <class name="parkIndustriesOutSystems.testCases.TC_BootsAndLuggageReimbursementForm_002" /> -->
+			<!-- <class name="parkIndustriesOutSystems.testCases.TC_BootsAndLuggageReimbursementFormApproval_001" /> -->
+			<!-- <class name="parkIndustriesOutSystems.testCases.TC_BootsAndLuggageReimbursementFormRejectSupervisor_001" /> -->
+			<!-- <class name="parkIndustriesOutSystems.testCases.TC_BootsAndLuggageReimbursementFormRejectHR_001" /> -->
+			<!-- <class name="parkIndustriesOutSystems.testCases.TC_BootsAndLuggageReimbursementFormRejectAccounting_001" /> -->
+			<class name="parkIndustriesOutSystems.testCases.TC_BootsAndLuggageReimbursementFormSkipSupervisor_001" />
 			<!-- <class name="parkIndustriesOutSystems.testCases.TC_VolunteerForm_001" /> -->
 			<!-- <class name="parkIndustriesOutSystems.testCases.TC_VolunteerGrants_001" /> -->
 			<!-- <class name="parkIndustriesOutSystems.testCases.TC_SHARPForm_001" /> -->

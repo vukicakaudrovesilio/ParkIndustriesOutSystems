@@ -589,9 +589,9 @@ public class TC_VolunteerForm_001 extends BaseClass {
 		ParkAssociateUser pau= new ParkAssociateUser(driver);
 		
 		pau.waitForPageLoaded();
-		vf.btnSaveClosetBgColour();
+		vf.btnSaveCloseBgColour();
 		logger.info("Save Submit Text Background Color is displayed");
-		System.out.println("Background Color is :" + vf.btnSaveClosetBgColour());
+		System.out.println("Background Color is :" + vf.btnSaveCloseBgColour());
 		captureScreen(driver, "SaveSubmit");
 		
 		vf.saveCloseClickable();

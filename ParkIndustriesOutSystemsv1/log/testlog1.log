@@ -17338,3 +17338,926 @@
 2021-09-29 08:26:47,770 [main] INFO parkIQ - "MM/DD/YYYY" Date is displayed
 2021-09-29 08:26:47,794 [main] INFO parkIQ - "Status changed" text is displayed
 2021-09-29 08:26:47,821 [main] INFO parkIQ - "Submitted" text is displayed
+2021-10-01 00:21:27,723 [main] INFO parkIQ - Login Screen is displayed
+2021-10-01 00:21:27,992 [main] INFO parkIQ - Logged in as: Park Associate User is displayed
+2021-10-01 00:21:27,993 [main] INFO parkIQ - AssociateForms Portal is successfully opened
+2021-10-01 00:21:33,275 [main] INFO parkIQ - Park Associate User's Requests Header is displayed
+2021-10-01 00:21:37,901 [main] INFO parkIQ - Boots and Luggage Reimbursement Form is displayed
+2021-10-01 00:21:44,317 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-01 00:21:51,716 [main] INFO parkIQ - "Created" tag is displayed
+2021-10-01 00:22:09,978 [main] INFO parkIQ - 2021 entered
+2021-10-01 00:22:10,132 [main] INFO parkIQ - Luggage is selected
+2021-10-01 00:22:10,220 [main] INFO parkIQ - value of 5 is entered
+2021-10-01 00:22:10,220 [main] INFO parkIQ - File Selection window opens
+2021-10-01 00:22:10,274 [main] INFO parkIQ - File Selected
+2021-10-01 00:22:10,274 [main] INFO parkIQ - File uploaded
+2021-10-01 00:22:13,340 [main] INFO parkIQ - "Form Submitted!" message is displayed
+2021-10-01 00:22:34,983 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-01 00:22:35,789 [main] INFO parkIQ - "Logged in as: Park Supervisor User" message appears
+2021-10-01 00:22:35,791 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-01 00:22:41,134 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-01 00:22:43,055 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-01 00:22:46,175 [main] INFO parkIQ - Confirm Approval header is displayed
+2021-10-01 00:22:49,232 [main] INFO parkIQ - "Luggage" text is displayed
+2021-10-01 00:22:49,266 [main] INFO parkIQ - "Total requested: $5.00" text is displayed
+2021-10-01 00:22:49,299 [main] INFO parkIQ - "Total approved: $0.00" text is displayed
+2021-10-01 00:22:49,332 [main] INFO parkIQ - "Calendar Year" text is displayed
+2021-10-01 00:23:07,415 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-01 00:23:07,462 [main] INFO parkIQ - Confirm Approval header is displayed
+2021-10-01 00:23:07,584 [main] INFO parkIQ - Approved is entered
+2021-10-01 00:23:10,641 [main] INFO parkIQ - "Form Approved!" message is displayed
+2021-10-01 00:23:14,255 [main] INFO parkIQ - "Status changed by Park Supervisor User" text is displayed
+2021-10-01 00:23:14,289 [main] INFO parkIQ - "Approved by Supervisor" text is displayed
+2021-10-01 00:23:14,323 [main] INFO parkIQ - "Approved" text is displayed
+2021-10-01 00:23:14,357 [main] INFO parkIQ - Approved by Supervisor tag is displayed
+2021-10-01 00:23:44,998 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-01 00:27:42,412 [main] INFO parkIQ - Login Screen is displayed
+2021-10-01 00:27:42,905 [main] INFO parkIQ - Logged in as: Park Associate User is displayed
+2021-10-01 00:27:42,949 [main] INFO parkIQ - AssociateForms Portal is successfully opened
+2021-10-01 00:27:47,856 [main] INFO parkIQ - Park Associate User's Requests Header is displayed
+2021-10-01 00:27:52,134 [main] INFO parkIQ - Boots and Luggage Reimbursement Form is displayed
+2021-10-01 00:27:56,335 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-01 00:27:56,370 [main] INFO parkIQ - "Created" tag is displayed
+2021-10-01 00:28:14,570 [main] INFO parkIQ - 2021 entered
+2021-10-01 00:28:14,692 [main] INFO parkIQ - Luggage is selected
+2021-10-01 00:28:14,756 [main] INFO parkIQ - value of 5 is entered
+2021-10-01 00:28:14,757 [main] INFO parkIQ - File Selection window opens
+2021-10-01 00:28:14,805 [main] INFO parkIQ - File Selected
+2021-10-01 00:28:14,806 [main] INFO parkIQ - File uploaded
+2021-10-01 00:28:17,856 [main] INFO parkIQ - "Form Submitted!" message is displayed
+2021-10-01 00:28:39,413 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-01 00:28:40,222 [main] INFO parkIQ - "Logged in as: Park Supervisor User" message appears
+2021-10-01 00:28:40,224 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-01 00:28:46,610 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-01 00:28:47,949 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-01 00:28:51,054 [main] INFO parkIQ - Confirm Approval header is displayed
+2021-10-01 00:28:54,092 [main] INFO parkIQ - "Luggage" text is displayed
+2021-10-01 00:28:54,119 [main] INFO parkIQ - "Total requested: $5.00" text is displayed
+2021-10-01 00:28:54,147 [main] INFO parkIQ - "Total approved: $0.00" text is displayed
+2021-10-01 00:28:54,173 [main] INFO parkIQ - "Calendar Year" text is displayed
+2021-10-01 00:29:12,277 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-01 00:29:12,319 [main] INFO parkIQ - Confirm Approval header is displayed
+2021-10-01 00:29:12,406 [main] INFO parkIQ - Approved is entered
+2021-10-01 00:29:15,446 [main] INFO parkIQ - "Form Approved!" message is displayed
+2021-10-01 00:29:17,611 [main] INFO parkIQ - "Status changed by Park Supervisor User" text is displayed
+2021-10-01 00:29:17,640 [main] INFO parkIQ - "Approved by Supervisor" text is displayed
+2021-10-01 00:29:17,669 [main] INFO parkIQ - "Approved" text is displayed
+2021-10-01 00:29:17,696 [main] INFO parkIQ - Approved by Supervisor tag is displayed
+2021-10-01 00:29:21,135 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-01 00:29:22,020 [main] INFO parkIQ - Logged in as: Human Resources User message is displayed
+2021-10-01 00:29:22,020 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-01 00:29:25,635 [main] INFO parkIQ - User is taken to SHARP Request form
+2021-10-01 00:29:27,538 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-01 00:29:27,566 [main] INFO parkIQ - "HR Review" text is displayed
+2021-10-01 00:29:30,641 [main] INFO parkIQ - Set Approved Amount To Options are not displayed correctly
+2021-10-01 00:29:33,696 [main] INFO parkIQ - USD Approved is set to $5.00
+2021-10-01 00:29:33,697 [main] INFO parkIQ - "Approved Amounts Updated!" message is displayed
+2021-10-01 00:29:36,755 [main] INFO parkIQ - USD Approved is set to $5.00
+2021-10-01 00:29:36,755 [main] INFO parkIQ - "Approved Amounts Updated!" message is displayed
+2021-10-01 00:29:57,924 [main] INFO parkIQ - "Full Amount Requested" option is displayed
+2021-10-01 00:29:57,945 [main] INFO parkIQ - USD Approved is set to $5.00
+2021-10-01 00:29:57,945 [main] INFO parkIQ - "Approved Amounts Updated!" message is displayed
+2021-10-01 00:30:01,001 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-01 00:30:01,047 [main] INFO parkIQ - Confirm Approval header is displayed
+2021-10-01 00:30:04,154 [main] INFO parkIQ - Approved is entered
+2021-10-01 00:30:04,177 [main] INFO parkIQ - "Form Approved" message is displayed
+2021-10-01 00:30:07,228 [main] INFO parkIQ - Approved by HR tag is displayed
+2021-10-01 00:30:07,255 [main] INFO parkIQ - "Status changed by Human Resources User" text is displayed
+2021-10-01 00:30:07,281 [main] INFO parkIQ - "Approved by HR" text is displayed
+2021-10-01 00:30:07,307 [main] INFO parkIQ - "Approved" text is displayed
+2021-10-01 00:30:10,744 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-01 00:30:11,566 [main] INFO parkIQ - Logged in as: Accounting User message is displayed
+2021-10-01 00:30:11,566 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-01 00:30:15,164 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-01 00:30:15,190 [main] INFO parkIQ - Reimbursement Pending tag is displayed
+2021-10-01 00:30:17,096 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-01 00:30:17,122 [main] INFO parkIQ - "Reimbursement Pending" text is displayed
+2021-10-01 00:30:18,104 [main] INFO parkIQ - "parkindustries-tst.outsystemsenterprise.com says" "Are you sure you want to Mark as Complete? This action cannot be undone." message is displayed
+2021-10-01 00:30:18,112 [main] INFO parkIQ - Case Marked as Complete" message is displayed
+2021-10-01 00:30:19,081 [main] INFO parkIQ - Reimbursement - Completed tag is displayed
+2021-10-01 00:30:19,878 [main] INFO parkIQ - "Status changed by Accounting User" text is displayed
+2021-10-01 00:30:19,905 [main] INFO parkIQ - "Reimbursement - Completed" text is displayed
+2021-10-01 08:54:05,437 [main] INFO parkIQ - Login Screen is displayed
+2021-10-01 08:54:06,817 [main] INFO parkIQ - Logged in as: Park Associate User is displayed
+2021-10-01 08:54:06,818 [main] INFO parkIQ - AssociateForms Portal is successfully opened
+2021-10-01 08:54:12,289 [main] INFO parkIQ - Park Associate User's Requests Header is displayed
+2021-10-01 08:54:16,613 [main] INFO parkIQ - Boots and Luggage Reimbursement Form is displayed
+2021-10-01 08:54:22,846 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-01 08:54:29,856 [main] INFO parkIQ - "Created" tag is displayed
+2021-10-01 08:54:48,075 [main] INFO parkIQ - 2021 entered
+2021-10-01 08:54:48,249 [main] INFO parkIQ - Luggage is selected
+2021-10-01 08:54:48,339 [main] INFO parkIQ - value of 5 is entered
+2021-10-01 08:54:48,340 [main] INFO parkIQ - File Selection window opens
+2021-10-01 08:54:48,392 [main] INFO parkIQ - File Selected
+2021-10-01 08:54:48,392 [main] INFO parkIQ - File uploaded
+2021-10-01 08:54:51,457 [main] INFO parkIQ - "Form Submitted!" message is displayed
+2021-10-01 08:55:13,057 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-01 08:55:13,905 [main] INFO parkIQ - "Logged in as: Park Supervisor User" message appears
+2021-10-01 08:55:13,907 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-01 08:55:19,308 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-01 08:55:20,746 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-01 08:55:23,870 [main] INFO parkIQ - Confirm Approval header is displayed
+2021-10-01 08:55:26,922 [main] INFO parkIQ - "Luggage" text is displayed
+2021-10-01 08:55:26,953 [main] INFO parkIQ - "Total requested: $5.00" text is displayed
+2021-10-01 08:55:26,986 [main] INFO parkIQ - "Total approved: $0.00" text is displayed
+2021-10-01 08:55:27,017 [main] INFO parkIQ - "Calendar Year" text is displayed
+2021-10-01 08:55:45,124 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-01 08:55:45,173 [main] INFO parkIQ - Confirm Approval header is displayed
+2021-10-01 08:55:45,302 [main] INFO parkIQ - Approved is entered
+2021-10-01 08:55:48,365 [main] INFO parkIQ - "Form Approved!" message is displayed
+2021-10-01 08:55:50,577 [main] INFO parkIQ - "Status changed by Park Supervisor User" text is displayed
+2021-10-01 08:55:50,614 [main] INFO parkIQ - "Approved by Supervisor" text is displayed
+2021-10-01 08:55:50,650 [main] INFO parkIQ - "Approved" text is displayed
+2021-10-01 08:55:50,687 [main] INFO parkIQ - Approved by Supervisor tag is displayed
+2021-10-01 08:55:54,158 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-01 08:55:55,052 [main] INFO parkIQ - Logged in as: Human Resources User message is displayed
+2021-10-01 08:55:55,053 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-01 08:55:58,816 [main] INFO parkIQ - User is taken to SHARP Request form
+2021-10-01 08:56:00,936 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-01 08:56:00,975 [main] INFO parkIQ - "HR Review" text is displayed
+2021-10-01 08:56:04,054 [main] INFO parkIQ - Set Approved Amount To Options are not displayed correctly
+2021-10-01 08:56:07,116 [main] INFO parkIQ - USD Approved is set to $5.00
+2021-10-01 08:56:07,116 [main] INFO parkIQ - "Approved Amounts Updated!" message is displayed
+2021-10-01 08:56:10,190 [main] INFO parkIQ - USD Approved is set to $5.00
+2021-10-01 08:56:10,190 [main] INFO parkIQ - "Approved Amounts Updated!" message is displayed
+2021-10-01 08:56:31,273 [main] INFO parkIQ - "Full Amount Requested" option is displayed
+2021-10-01 08:56:31,310 [main] INFO parkIQ - USD Approved is set to $5.00
+2021-10-01 08:56:31,310 [main] INFO parkIQ - "Approved Amounts Updated!" message is displayed
+2021-10-01 08:56:34,366 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-01 08:56:34,427 [main] INFO parkIQ - Confirm Approval header is displayed
+2021-10-01 08:56:37,562 [main] INFO parkIQ - Approved is entered
+2021-10-01 08:56:37,589 [main] INFO parkIQ - "Form Approved" message is displayed
+2021-10-01 08:56:40,654 [main] INFO parkIQ - Approved by HR tag is displayed
+2021-10-01 08:56:40,688 [main] INFO parkIQ - "Status changed by Human Resources User" text is displayed
+2021-10-01 08:56:40,724 [main] INFO parkIQ - "Approved by HR" text is displayed
+2021-10-01 08:56:40,765 [main] INFO parkIQ - "Approved" text is displayed
+2021-10-01 08:56:44,311 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-01 08:56:45,116 [main] INFO parkIQ - Logged in as: Accounting User message is displayed
+2021-10-01 08:56:45,117 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-01 08:56:48,818 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-01 08:56:48,849 [main] INFO parkIQ - Reimbursement Pending tag is displayed
+2021-10-01 08:56:50,766 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-01 08:56:50,804 [main] INFO parkIQ - "Reimbursement Pending" text is displayed
+2021-10-01 08:56:51,832 [main] INFO parkIQ - "parkindustries-tst.outsystemsenterprise.com says" "Are you sure you want to Mark as Complete? This action cannot be undone." message is displayed
+2021-10-01 08:56:51,873 [main] INFO parkIQ - Case Marked as Complete" message is displayed
+2021-10-01 08:56:52,874 [main] INFO parkIQ - Reimbursement - Completed tag is displayed
+2021-10-01 08:56:53,743 [main] INFO parkIQ - "Status changed by Accounting User" text is displayed
+2021-10-01 08:56:53,775 [main] INFO parkIQ - "Reimbursement - Completed" text is displayed
+2021-10-03 21:03:27,712 [main] INFO parkIQ - Login Screen is displayed
+2021-10-03 21:03:28,641 [main] INFO parkIQ - Logged in as: Park Associate User is displayed
+2021-10-03 21:03:28,641 [main] INFO parkIQ - AssociateForms Portal is successfully opened
+2021-10-03 21:03:33,121 [main] INFO parkIQ - Park Associate User's Requests Header is displayed
+2021-10-03 21:03:38,176 [main] INFO parkIQ - Boots and Luggage Reimbursement Form is displayed
+2021-10-03 21:03:45,395 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-03 21:03:51,876 [main] INFO parkIQ - "Created" tag is displayed
+2021-10-03 21:03:51,913 [main] INFO parkIQ - "New request by Park Associate User" text is displayed
+2021-10-03 21:03:51,928 [main] INFO parkIQ - "Created" text is displayed
+2021-10-03 21:03:55,047 [main] INFO parkIQ - 2021 entered
+2021-10-03 21:03:55,188 [main] INFO parkIQ - Luggage is selected
+2021-10-03 21:03:55,267 [main] INFO parkIQ - value of 5 is entered
+2021-10-03 21:03:55,267 [main] INFO parkIQ - File Selection window opens
+2021-10-03 21:03:55,314 [main] INFO parkIQ - File Selected
+2021-10-03 21:03:55,314 [main] INFO parkIQ - File uploaded
+2021-10-03 21:03:58,360 [main] INFO parkIQ - "Form Submitted!" message is displayed
+2021-10-03 21:04:19,931 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-03 21:04:20,936 [main] INFO parkIQ - "Logged in as: Park Supervisor User" message appears
+2021-10-03 21:04:20,937 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-03 21:04:22,693 [main] INFO parkIQ - Taskbox Header is not displayed
+2021-10-03 21:04:26,169 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-03 21:04:27,622 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-03 21:04:30,723 [main] INFO parkIQ - Confirm Approval header is displayed
+2021-10-03 21:04:51,816 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-03 21:04:51,853 [main] INFO parkIQ - Confirm Approval header is displayed
+2021-10-03 21:04:51,940 [main] INFO parkIQ - Approved is entered
+2021-10-03 21:04:54,991 [main] INFO parkIQ - "Form Approved!" message is displayed
+2021-10-03 21:04:57,375 [main] INFO parkIQ - "Status changed by Park Supervisor User" text is displayed
+2021-10-03 21:04:57,403 [main] INFO parkIQ - "Approved by Supervisor" text is displayed
+2021-10-03 21:04:57,433 [main] INFO parkIQ - "Approved" text is displayed
+2021-10-03 21:04:57,460 [main] INFO parkIQ - Approved by Supervisor tag is displayed
+2021-10-03 21:05:00,987 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-03 21:05:01,818 [main] INFO parkIQ - Logged in as: Human Resources User message is displayed
+2021-10-03 21:05:01,819 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-03 21:05:02,426 [main] INFO parkIQ - Taskbox Header is not displayed
+2021-10-03 21:05:05,465 [main] INFO parkIQ - User is taken to SHARP Request form
+2021-10-03 21:05:07,949 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-03 21:05:07,979 [main] INFO parkIQ - "HR Review" text is displayed
+2021-10-03 21:05:11,060 [main] INFO parkIQ - Set Approved Amount To Options are not displayed correctly
+2021-10-03 21:05:14,110 [main] INFO parkIQ - USD Approved is set to $5.00
+2021-10-03 21:05:14,111 [main] INFO parkIQ - "Approved Amounts Updated!" message is displayed
+2021-10-03 21:05:17,167 [main] INFO parkIQ - USD Approved is set to $5.00
+2021-10-03 21:05:17,168 [main] INFO parkIQ - "Approved Amounts Updated!" message is displayed
+2021-10-03 21:05:38,272 [main] INFO parkIQ - "Full Amount Requested" option is displayed
+2021-10-03 21:05:38,294 [main] INFO parkIQ - USD Approved is set to $5.00
+2021-10-03 21:05:38,294 [main] INFO parkIQ - "Approved Amounts Updated!" message is displayed
+2021-10-03 21:05:41,330 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-03 21:06:35,924 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-03 21:06:36,857 [main] INFO parkIQ - Logged in as: Accounting User message is displayed
+2021-10-03 21:06:36,858 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-03 21:06:37,482 [main] INFO parkIQ - Taskbox Header is not displayed
+2021-10-03 22:06:26,526 [main] INFO parkIQ - Login Screen is displayed
+2021-10-03 22:06:26,619 [main] INFO parkIQ - Logged in as: Park Associate User is displayed
+2021-10-03 22:06:26,619 [main] INFO parkIQ - AssociateForms Portal is successfully opened
+2021-10-03 22:06:31,013 [main] INFO parkIQ - Park Associate User's Requests Header is displayed
+2021-10-03 22:06:35,611 [main] INFO parkIQ - Boots and Luggage Reimbursement Form is displayed
+2021-10-03 22:06:40,019 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-03 22:06:46,144 [main] INFO parkIQ - "Created" tag is displayed
+2021-10-03 22:06:46,176 [main] INFO parkIQ - "New request by Park Associate User" text is displayed
+2021-10-03 22:06:46,195 [main] INFO parkIQ - "Created" text is displayed
+2021-10-03 22:06:49,303 [main] INFO parkIQ - 2021 entered
+2021-10-03 22:06:49,439 [main] INFO parkIQ - Luggage is selected
+2021-10-03 22:06:49,512 [main] INFO parkIQ - value of 1 is entered
+2021-10-03 22:06:49,513 [main] INFO parkIQ - File Selection window opens
+2021-10-03 22:06:49,568 [main] INFO parkIQ - File Selected
+2021-10-03 22:06:49,568 [main] INFO parkIQ - File uploaded
+2021-10-03 22:06:52,620 [main] INFO parkIQ - "Form Submitted!" message is displayed
+2021-10-03 22:07:14,184 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-03 22:07:14,990 [main] INFO parkIQ - "Logged in as: Park Supervisor User" message appears
+2021-10-03 22:07:14,991 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-03 22:07:16,735 [main] INFO parkIQ - Taskbox Header is not displayed
+2021-10-03 22:07:20,255 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-03 22:07:21,665 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-03 22:07:24,760 [main] INFO parkIQ - Confirm Rejection header is displayed
+2021-10-03 22:07:27,800 [main] INFO parkIQ - "Add Comment" text is displayed
+2021-10-03 22:07:27,827 [main] INFO parkIQ - Add Comment field is displayed
+2021-10-03 22:07:27,851 [main] INFO parkIQ - Cancel Button is displayed
+2021-10-03 22:07:27,876 [main] INFO parkIQ - Reject Button is displayed
+2021-10-03 22:07:27,890 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-03 22:07:30,932 [main] INFO parkIQ - Confirm Rejection form is displayed
+2021-10-03 22:07:31,024 [main] INFO parkIQ - Rejected is entered
+2021-10-03 22:07:34,068 [main] INFO parkIQ - "parkindustries-tst.outsystemsenterprise.com says" "Are you sure you want to reject this request? This action cannot be undone." message is displayed
+2021-10-03 22:07:34,107 [main] INFO parkIQ - "Form Rejected" message is displayed
+2021-10-03 22:07:37,167 [main] INFO parkIQ - Rejected tag is displayed
+2021-10-03 22:07:37,195 [main] INFO parkIQ - "Status changed by Park Supervisor User" text is displayed
+2021-10-03 22:07:37,220 [main] INFO parkIQ - "Rejected" text is displayed
+2021-10-03 22:21:22,434 [main] INFO parkIQ - Login Screen is displayed
+2021-10-03 22:21:23,358 [main] INFO parkIQ - Logged in as: Park Associate User is displayed
+2021-10-03 22:21:23,358 [main] INFO parkIQ - AssociateForms Portal is successfully opened
+2021-10-03 22:21:28,587 [main] INFO parkIQ - Park Associate User's Requests Header is displayed
+2021-10-03 22:21:33,391 [main] INFO parkIQ - Boots and Luggage Reimbursement Form is displayed
+2021-10-03 22:21:38,059 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-03 22:21:44,494 [main] INFO parkIQ - "Created" tag is displayed
+2021-10-03 22:21:44,536 [main] INFO parkIQ - "New request by Park Associate User" text is displayed
+2021-10-03 22:21:44,556 [main] INFO parkIQ - "Created" text is displayed
+2021-10-03 22:21:47,672 [main] INFO parkIQ - 2021 entered
+2021-10-03 22:21:47,801 [main] INFO parkIQ - Luggage is selected
+2021-10-03 22:21:47,882 [main] INFO parkIQ - value of 1 is entered
+2021-10-03 22:21:47,883 [main] INFO parkIQ - File Selection window opens
+2021-10-03 22:21:47,938 [main] INFO parkIQ - File Selected
+2021-10-03 22:21:47,938 [main] INFO parkIQ - File uploaded
+2021-10-03 22:21:50,981 [main] INFO parkIQ - "Form Submitted!" message is displayed
+2021-10-03 22:21:54,037 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-03 22:21:54,071 [main] INFO parkIQ - "Submitted" text is displayed
+2021-10-03 22:21:54,091 [main] INFO parkIQ - Submitted tag is displayed
+2021-10-03 22:21:57,569 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-03 22:21:58,410 [main] INFO parkIQ - "Logged in as: Park Supervisor User" message appears
+2021-10-03 22:21:58,410 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-03 22:22:00,218 [main] INFO parkIQ - Taskbox Header is not displayed
+2021-10-03 22:22:03,717 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-03 22:22:05,276 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-03 22:22:08,371 [main] INFO parkIQ - Confirm Rejection header is displayed
+2021-10-03 22:22:11,404 [main] INFO parkIQ - "Add Comment" text is displayed
+2021-10-03 22:22:11,429 [main] INFO parkIQ - Add Comment field is displayed
+2021-10-03 22:22:11,453 [main] INFO parkIQ - Cancel Button is displayed
+2021-10-03 22:22:11,477 [main] INFO parkIQ - Reject Button is displayed
+2021-10-03 22:22:11,494 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-03 22:22:14,535 [main] INFO parkIQ - Confirm Rejection form is displayed
+2021-10-03 22:22:14,633 [main] INFO parkIQ - Rejected is entered
+2021-10-03 22:22:17,668 [main] INFO parkIQ - "parkindustries-tst.outsystemsenterprise.com says" "Are you sure you want to reject this request? This action cannot be undone." message is displayed
+2021-10-03 22:22:17,680 [main] INFO parkIQ - "Form Rejected" message is displayed
+2021-10-03 22:22:20,729 [main] INFO parkIQ - Rejected tag is displayed
+2021-10-03 22:22:20,762 [main] INFO parkIQ - "Status changed by Park Supervisor User" text is displayed
+2021-10-03 22:22:20,788 [main] INFO parkIQ - "Rejected" text is displayed
+2021-10-03 22:32:40,257 [main] INFO parkIQ - Login Screen is displayed
+2021-10-03 22:32:41,229 [main] INFO parkIQ - Logged in as: Park Associate User is displayed
+2021-10-03 22:32:41,229 [main] INFO parkIQ - AssociateForms Portal is successfully opened
+2021-10-03 22:32:46,636 [main] INFO parkIQ - Park Associate User's Requests Header is displayed
+2021-10-03 22:32:51,262 [main] INFO parkIQ - Boots and Luggage Reimbursement Form is displayed
+2021-10-03 22:32:57,250 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-03 22:33:04,619 [main] INFO parkIQ - "Created" tag is displayed
+2021-10-03 22:33:04,655 [main] INFO parkIQ - "New request by Park Associate User" text is displayed
+2021-10-03 22:33:04,674 [main] INFO parkIQ - "Created" text is displayed
+2021-10-03 22:33:07,801 [main] INFO parkIQ - 2021 entered
+2021-10-03 22:33:07,949 [main] INFO parkIQ - Luggage is selected
+2021-10-03 22:33:08,024 [main] INFO parkIQ - value of 1 is entered
+2021-10-03 22:33:08,025 [main] INFO parkIQ - File Selection window opens
+2021-10-03 22:33:08,087 [main] INFO parkIQ - File Selected
+2021-10-03 22:33:08,088 [main] INFO parkIQ - File uploaded
+2021-10-03 22:33:11,139 [main] INFO parkIQ - "Form Submitted!" message is displayed
+2021-10-03 22:33:14,194 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-03 22:33:14,224 [main] INFO parkIQ - "Submitted" text is displayed
+2021-10-03 22:33:14,238 [main] INFO parkIQ - Submitted tag is displayed
+2021-10-03 22:33:17,732 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-03 22:33:18,588 [main] INFO parkIQ - "Logged in as: Park Supervisor User" message appears
+2021-10-03 22:33:18,588 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-03 22:33:20,326 [main] INFO parkIQ - Taskbox Header is not displayed
+2021-10-03 22:33:23,802 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-03 22:33:25,240 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-03 22:33:28,347 [main] INFO parkIQ - Confirm Approval header is displayed
+2021-10-03 22:33:31,387 [main] INFO parkIQ - "Luggage" text is displayed
+2021-10-03 22:33:49,559 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-03 22:33:49,599 [main] INFO parkIQ - Confirm Approval header is displayed
+2021-10-03 22:33:49,690 [main] INFO parkIQ - Approved is entered
+2021-10-03 22:33:52,742 [main] INFO parkIQ - "Form Approved!" message is displayed
+2021-10-03 22:33:55,046 [main] INFO parkIQ - "Status changed by Park Supervisor User" text is displayed
+2021-10-03 22:33:55,076 [main] INFO parkIQ - "Approved by Supervisor" text is displayed
+2021-10-03 22:33:55,105 [main] INFO parkIQ - "Approved" text is displayed
+2021-10-03 22:33:55,142 [main] INFO parkIQ - Approved by Supervisor tag is displayed
+2021-10-03 22:33:58,601 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-03 22:33:59,503 [main] INFO parkIQ - Logged in as: Human Resources User message is displayed
+2021-10-03 22:33:59,504 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-03 22:34:00,190 [main] INFO parkIQ - Taskbox Header is displayed
+2021-10-03 22:34:03,227 [main] INFO parkIQ - User is taken to SHARP Request form
+2021-10-03 22:34:05,172 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-03 22:34:05,201 [main] INFO parkIQ - "HR Review" text is displayed
+2021-10-03 22:34:08,274 [main] INFO parkIQ - Set Approved Amount To Options are not displayed correctly
+2021-10-03 22:34:11,336 [main] INFO parkIQ - USD Approved is set to $5.00
+2021-10-03 22:34:11,336 [main] INFO parkIQ - "Approved Amounts Updated!" message is displayed
+2021-10-03 22:34:14,380 [main] INFO parkIQ - USD Approved is set to $5.00
+2021-10-03 22:34:14,380 [main] INFO parkIQ - "Approved Amounts Updated!" message is displayed
+2021-10-03 22:34:35,432 [main] INFO parkIQ - "Full Amount Requested" option is displayed
+2021-10-03 22:34:35,452 [main] INFO parkIQ - USD Approved is set to $5.00
+2021-10-03 22:34:35,453 [main] INFO parkIQ - "Approved Amounts Updated!" message is displayed
+2021-10-03 22:34:38,499 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-03 22:34:38,551 [main] INFO parkIQ - Confirm Approval header is displayed
+2021-10-03 22:34:41,654 [main] INFO parkIQ - Approved is entered
+2021-10-03 22:34:41,681 [main] INFO parkIQ - "Form Approved" message is displayed
+2021-10-03 22:34:44,721 [main] INFO parkIQ - Approved by HR tag is displayed
+2021-10-03 22:34:44,744 [main] INFO parkIQ - "Status changed by Human Resources User" text is displayed
+2021-10-03 22:34:44,768 [main] INFO parkIQ - "Approved by HR" text is displayed
+2021-10-03 22:34:44,792 [main] INFO parkIQ - "Approved" text is displayed
+2021-10-03 22:34:48,241 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-03 22:34:49,102 [main] INFO parkIQ - Logged in as: Accounting User message is displayed
+2021-10-03 22:34:49,102 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-03 22:34:49,762 [main] INFO parkIQ - Taskbox Header is not displayed
+2021-10-03 22:34:52,789 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-03 22:34:52,815 [main] INFO parkIQ - Reimbursement Pending tag is displayed
+2021-10-03 22:34:55,188 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-03 22:34:55,218 [main] INFO parkIQ - "Reimbursement Pending" text is displayed
+2021-10-03 22:34:56,485 [main] INFO parkIQ - "parkindustries-tst.outsystemsenterprise.com says" "Are you sure you want to Mark as Complete? This action cannot be undone." message is displayed
+2021-10-03 22:34:56,494 [main] INFO parkIQ - Case Marked as Complete" message is displayed
+2021-10-03 22:34:57,466 [main] INFO parkIQ - Reimbursement - Completed tag is displayed
+2021-10-03 22:34:58,400 [main] INFO parkIQ - "Status changed by Accounting User" text is displayed
+2021-10-03 22:34:58,429 [main] INFO parkIQ - "Reimbursement - Completed" text is displayed
+2021-10-03 22:47:02,863 [main] INFO parkIQ - Login Screen is displayed
+2021-10-03 22:47:03,021 [main] INFO parkIQ - Logged in as: Park Associate User is displayed
+2021-10-03 22:47:03,021 [main] INFO parkIQ - AssociateForms Portal is successfully opened
+2021-10-03 22:47:08,668 [main] INFO parkIQ - Park Associate User's Requests Header is displayed
+2021-10-03 22:47:13,776 [main] INFO parkIQ - Boots and Luggage Reimbursement Form is displayed
+2021-10-03 22:47:20,011 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-03 22:47:27,040 [main] INFO parkIQ - "Created" tag is displayed
+2021-10-03 22:47:27,074 [main] INFO parkIQ - "New request by Park Associate User" text is displayed
+2021-10-03 22:47:27,088 [main] INFO parkIQ - "Created" text is displayed
+2021-10-03 22:47:30,514 [main] INFO parkIQ - 2021 entered
+2021-10-03 22:47:30,633 [main] INFO parkIQ - Luggage is selected
+2021-10-03 22:47:30,701 [main] INFO parkIQ - value of 1 is entered
+2021-10-03 22:47:30,701 [main] INFO parkIQ - File Selection window opens
+2021-10-03 22:47:30,745 [main] INFO parkIQ - File Selected
+2021-10-03 22:47:30,746 [main] INFO parkIQ - File uploaded
+2021-10-03 22:47:33,796 [main] INFO parkIQ - "Form Submitted!" message is displayed
+2021-10-03 22:47:36,915 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-03 22:47:36,943 [main] INFO parkIQ - "Submitted" text is displayed
+2021-10-03 22:47:36,959 [main] INFO parkIQ - Submitted tag is displayed
+2021-10-03 22:47:40,419 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-03 22:47:41,245 [main] INFO parkIQ - "Logged in as: Park Supervisor User" message appears
+2021-10-03 22:47:41,246 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-03 22:47:42,925 [main] INFO parkIQ - Taskbox Header is not displayed
+2021-10-03 22:47:46,386 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-03 22:47:47,777 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-03 22:47:50,907 [main] INFO parkIQ - Confirm Approval header is displayed
+2021-10-03 22:47:53,954 [main] INFO parkIQ - "Luggage" text is displayed
+2021-10-03 22:47:53,979 [main] INFO parkIQ - "Total requested: $5.00" text is displayed
+2021-10-03 22:47:54,006 [main] INFO parkIQ - "Total approved: $0.00" text is displayed
+2021-10-03 22:47:54,032 [main] INFO parkIQ - "Calendar Year" text is displayed
+2021-10-03 22:48:12,206 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-03 22:48:12,248 [main] INFO parkIQ - Confirm Approval header is displayed
+2021-10-03 22:48:12,334 [main] INFO parkIQ - Approved is entered
+2021-10-03 22:48:15,389 [main] INFO parkIQ - "Form Approved!" message is displayed
+2021-10-03 22:48:17,681 [main] INFO parkIQ - "Status changed by Park Supervisor User" text is displayed
+2021-10-03 22:48:17,715 [main] INFO parkIQ - "Approved by Supervisor" text is displayed
+2021-10-03 22:48:17,742 [main] INFO parkIQ - "Approved" text is displayed
+2021-10-03 22:48:17,769 [main] INFO parkIQ - Approved by Supervisor tag is displayed
+2021-10-03 22:48:21,272 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-03 22:48:22,049 [main] INFO parkIQ - Logged in as: Human Resources User message is displayed
+2021-10-03 22:48:22,049 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-03 22:48:22,618 [main] INFO parkIQ - Taskbox Header is not displayed
+2021-10-03 22:48:25,659 [main] INFO parkIQ - User is taken to SHARP Request form
+2021-10-03 22:48:27,556 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-03 22:48:27,603 [main] INFO parkIQ - "HR Review" text is displayed
+2021-10-03 22:48:30,677 [main] INFO parkIQ - Set Approved Amount To Options are not displayed correctly
+2021-10-03 22:48:33,731 [main] INFO parkIQ - USD Approved is set to $1.00
+2021-10-03 22:48:33,731 [main] INFO parkIQ - "Approved Amounts Updated!" message is displayed
+2021-10-03 22:48:36,786 [main] INFO parkIQ - USD Approved is set to $1.00
+2021-10-03 22:48:36,786 [main] INFO parkIQ - "Approved Amounts Updated!" message is displayed
+2021-10-03 22:48:39,845 [main] INFO parkIQ - USD Approved is set to $1.00
+2021-10-03 22:48:39,846 [main] INFO parkIQ - "Approved Amounts Updated!" message is displayed
+2021-10-03 22:48:42,880 [main] INFO parkIQ - "Full Amount Requested" option is displayed
+2021-10-03 22:48:42,901 [main] INFO parkIQ - USD Approved is set to $1.00
+2021-10-03 22:48:42,901 [main] INFO parkIQ - "Approved Amounts Updated!" message is displayed
+2021-10-03 22:48:45,946 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-03 22:48:45,995 [main] INFO parkIQ - Confirm Approval header is displayed
+2021-10-03 22:48:49,093 [main] INFO parkIQ - Approved is entered
+2021-10-03 22:48:49,116 [main] INFO parkIQ - "Form Approved" message is displayed
+2021-10-03 22:48:52,159 [main] INFO parkIQ - Approved by HR tag is displayed
+2021-10-03 22:48:52,184 [main] INFO parkIQ - "Status changed by Human Resources User" text is displayed
+2021-10-03 22:48:52,211 [main] INFO parkIQ - "Approved by HR" text is displayed
+2021-10-03 22:48:52,237 [main] INFO parkIQ - "Approved" text is displayed
+2021-10-03 22:48:55,676 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-03 22:48:56,579 [main] INFO parkIQ - Logged in as: Accounting User message is displayed
+2021-10-03 22:48:56,579 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-03 22:48:57,192 [main] INFO parkIQ - Taskbox Header is not displayed
+2021-10-03 22:49:00,234 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-03 22:49:00,258 [main] INFO parkIQ - Reimbursement Pending tag is displayed
+2021-10-03 22:49:02,135 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-03 22:49:02,164 [main] INFO parkIQ - "Reimbursement Pending" text is displayed
+2021-10-03 22:49:03,246 [main] INFO parkIQ - "parkindustries-tst.outsystemsenterprise.com says" "Are you sure you want to Mark as Complete? This action cannot be undone." message is displayed
+2021-10-03 22:49:03,255 [main] INFO parkIQ - Case Marked as Complete" message is displayed
+2021-10-03 22:49:04,412 [main] INFO parkIQ - Reimbursement - Completed tag is displayed
+2021-10-03 22:49:05,399 [main] INFO parkIQ - "Status changed by Accounting User" text is displayed
+2021-10-03 22:49:05,425 [main] INFO parkIQ - "Reimbursement - Completed" text is displayed
+2021-10-03 22:57:47,023 [main] INFO parkIQ - Login Screen is displayed
+2021-10-03 22:57:47,643 [main] INFO parkIQ - Logged in as: Park Associate User is displayed
+2021-10-03 22:57:47,644 [main] INFO parkIQ - AssociateForms Portal is successfully opened
+2021-10-03 22:57:51,770 [main] INFO parkIQ - Park Associate User's Requests Header is displayed
+2021-10-03 22:57:56,423 [main] INFO parkIQ - Boots and Luggage Reimbursement Form is displayed
+2021-10-03 22:58:00,935 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-03 22:58:07,656 [main] INFO parkIQ - "Created" tag is displayed
+2021-10-03 22:58:07,686 [main] INFO parkIQ - "New request by Park Associate User" text is displayed
+2021-10-03 22:58:07,705 [main] INFO parkIQ - "Created" text is displayed
+2021-10-03 22:58:10,820 [main] INFO parkIQ - 2021 entered
+2021-10-03 22:58:10,930 [main] INFO parkIQ - Luggage is selected
+2021-10-03 22:58:10,996 [main] INFO parkIQ - value of 1 is entered
+2021-10-03 22:58:10,997 [main] INFO parkIQ - File Selection window opens
+2021-10-03 22:58:11,041 [main] INFO parkIQ - File Selected
+2021-10-03 22:58:11,041 [main] INFO parkIQ - File uploaded
+2021-10-03 22:58:14,093 [main] INFO parkIQ - "Form Submitted!" message is displayed
+2021-10-03 22:58:17,142 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-03 22:58:17,176 [main] INFO parkIQ - "Submitted" text is displayed
+2021-10-03 22:58:17,192 [main] INFO parkIQ - Submitted tag is displayed
+2021-10-03 22:58:20,681 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-03 22:58:21,751 [main] INFO parkIQ - "Logged in as: Park Supervisor User" message appears
+2021-10-03 22:58:21,751 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-03 22:58:23,464 [main] INFO parkIQ - Taskbox Header is not displayed
+2021-10-03 22:58:26,914 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-03 22:58:28,291 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-03 22:58:31,388 [main] INFO parkIQ - Confirm Approval header is displayed
+2021-10-03 22:58:34,440 [main] INFO parkIQ - "Luggage" text is displayed
+2021-10-03 22:58:34,467 [main] INFO parkIQ - "Total requested: $5.00" text is displayed
+2021-10-03 22:58:34,494 [main] INFO parkIQ - "Total approved: $0.00" text is displayed
+2021-10-03 22:58:34,520 [main] INFO parkIQ - "Calendar Year" text is displayed
+2021-10-03 22:58:34,550 [main] INFO parkIQ - "Reimbursement Allowed $200.00 (Remaining: $30.00) text is displayed
+2021-10-03 22:58:52,670 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-03 22:58:52,712 [main] INFO parkIQ - Confirm Approval header is displayed
+2021-10-03 22:58:52,806 [main] INFO parkIQ - Approved is entered
+2021-10-03 22:58:55,848 [main] INFO parkIQ - "Form Approved!" message is displayed
+2021-10-03 22:58:58,834 [main] INFO parkIQ - "Status changed by Park Supervisor User" text is displayed
+2021-10-03 22:58:58,863 [main] INFO parkIQ - "Approved by Supervisor" text is displayed
+2021-10-03 22:58:58,895 [main] INFO parkIQ - "Approved" text is displayed
+2021-10-03 22:58:58,926 [main] INFO parkIQ - Approved by Supervisor tag is displayed
+2021-10-03 22:59:02,781 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-03 22:59:04,008 [main] INFO parkIQ - Logged in as: Human Resources User message is displayed
+2021-10-03 22:59:04,008 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-03 22:59:04,611 [main] INFO parkIQ - Taskbox Header is not displayed
+2021-10-03 22:59:07,652 [main] INFO parkIQ - User is taken to SHARP Request form
+2021-10-03 22:59:09,997 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-03 22:59:10,037 [main] INFO parkIQ - "HR Review" text is displayed
+2021-10-03 22:59:13,096 [main] INFO parkIQ - Set Approved Amount To Options are not displayed correctly
+2021-10-03 22:59:16,154 [main] INFO parkIQ - USD Approved is set to $1.00
+2021-10-03 22:59:16,154 [main] INFO parkIQ - "Approved Amounts Updated!" message is displayed
+2021-10-03 22:59:19,216 [main] INFO parkIQ - USD Approved is set to $1.00
+2021-10-03 22:59:19,216 [main] INFO parkIQ - "Approved Amounts Updated!" message is displayed
+2021-10-03 22:59:22,265 [main] INFO parkIQ - USD Approved is set to $1.00
+2021-10-03 22:59:22,265 [main] INFO parkIQ - "Approved Amounts Updated!" message is displayed
+2021-10-03 22:59:25,294 [main] INFO parkIQ - "Full Amount Requested" option is displayed
+2021-10-03 22:59:25,315 [main] INFO parkIQ - USD Approved is set to $1.00
+2021-10-03 22:59:25,315 [main] INFO parkIQ - "Approved Amounts Updated!" message is displayed
+2021-10-03 22:59:28,356 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-03 23:00:22,963 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-03 23:00:23,856 [main] INFO parkIQ - Logged in as: Accounting User message is displayed
+2021-10-03 23:00:23,856 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-03 23:00:24,454 [main] INFO parkIQ - Taskbox Header is not displayed
+2021-10-05 21:32:27,711 [main] INFO parkIQ - Login Screen is displayed
+2021-10-05 21:32:28,510 [main] INFO parkIQ - Logged in as: Park Associate User is displayed
+2021-10-05 21:32:28,510 [main] INFO parkIQ - AssociateForms Portal is successfully opened
+2021-10-05 21:32:34,136 [main] INFO parkIQ - Park Associate User's Requests Header is displayed
+2021-10-05 21:32:39,692 [main] INFO parkIQ - Boots and Luggage Reimbursement Form is displayed
+2021-10-05 21:32:46,097 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-05 21:32:53,359 [main] INFO parkIQ - "Created" tag is displayed
+2021-10-05 21:32:53,388 [main] INFO parkIQ - "New request by Park Associate User" text is displayed
+2021-10-05 21:32:53,403 [main] INFO parkIQ - "Created" text is displayed
+2021-10-05 21:32:56,731 [main] INFO parkIQ - 2021 entered
+2021-10-05 21:32:57,097 [main] INFO parkIQ - Luggage is selected
+2021-10-05 21:32:57,328 [main] INFO parkIQ - value of 1 is entered
+2021-10-05 21:32:57,329 [main] INFO parkIQ - File Selection window opens
+2021-10-05 21:32:57,399 [main] INFO parkIQ - File Selected
+2021-10-05 21:32:57,399 [main] INFO parkIQ - File uploaded
+2021-10-05 21:33:00,446 [main] INFO parkIQ - "Form Submitted!" message is displayed
+2021-10-05 21:33:03,495 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-05 21:33:03,524 [main] INFO parkIQ - "Submitted" text is displayed
+2021-10-05 21:33:03,539 [main] INFO parkIQ - Submitted tag is displayed
+2021-10-05 21:33:07,007 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-05 21:33:07,870 [main] INFO parkIQ - "Logged in as: Park Supervisor User" message appears
+2021-10-05 21:33:07,871 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-05 21:33:09,638 [main] INFO parkIQ - Taskbox Header is displayed
+2021-10-05 21:33:13,108 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-05 21:33:14,621 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-05 21:33:17,706 [main] INFO parkIQ - Confirm Approval header is displayed
+2021-10-05 21:33:20,758 [main] INFO parkIQ - "Luggage" text is displayed
+2021-10-05 21:33:20,785 [main] INFO parkIQ - "Total requested: $5.00" text is displayed
+2021-10-05 21:33:20,812 [main] INFO parkIQ - "Total approved: $0.00" text is displayed
+2021-10-05 21:33:20,841 [main] INFO parkIQ - "Calendar Year" text is displayed
+2021-10-05 21:33:20,870 [main] INFO parkIQ - "Reimbursement Allowed $200.00 (Remaining: $30.00) text is displayed
+2021-10-05 21:33:20,896 [main] INFO parkIQ - "Amount requested is under the remaining allowed amount." text is displayed
+2021-10-05 21:33:20,929 [main] INFO parkIQ - "Add Comment" text is displayed
+2021-10-05 21:33:20,956 [main] INFO parkIQ - Add Comment field is displayed
+2021-10-05 21:33:20,982 [main] INFO parkIQ - Cancel Button is displayed
+2021-10-05 21:33:21,008 [main] INFO parkIQ - Approve Button is displayed
+2021-10-05 21:33:21,022 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-05 21:33:24,072 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-05 21:33:24,111 [main] INFO parkIQ - Confirm Approval header is displayed
+2021-10-05 21:33:24,194 [main] INFO parkIQ - Approved is entered
+2021-10-05 21:33:27,239 [main] INFO parkIQ - "Form Approved!" message is displayed
+2021-10-05 21:33:29,272 [main] INFO parkIQ - "Status changed by Park Supervisor User" text is displayed
+2021-10-05 21:33:29,301 [main] INFO parkIQ - "Approved by Supervisor" text is displayed
+2021-10-05 21:33:29,329 [main] INFO parkIQ - "Approved" text is displayed
+2021-10-05 21:33:29,355 [main] INFO parkIQ - Approved by Supervisor tag is displayed
+2021-10-05 21:33:32,977 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-05 21:33:34,771 [main] INFO parkIQ - Logged in as: Human Resources User message is displayed
+2021-10-05 21:33:34,772 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-05 21:33:35,724 [main] INFO parkIQ - Taskbox Header is not displayed
+2021-10-05 21:33:38,757 [main] INFO parkIQ - User is taken to SHARP Request form
+2021-10-05 21:33:41,163 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-05 21:33:41,201 [main] INFO parkIQ - "HR Review" text is displayed
+2021-10-05 21:33:44,286 [main] INFO parkIQ - Confirm Rejection header is displayed
+2021-10-05 21:33:44,369 [main] INFO parkIQ - Rejected is entered
+2021-10-05 21:33:47,432 [main] INFO parkIQ - "parkindustries-tst.outsystemsenterprise.com says" "Are you sure you want to reject this request? This action cannot be undone." message is displayed
+2021-10-05 21:33:47,444 [main] INFO parkIQ - "Form Rejected" message is displayed
+2021-10-05 21:33:50,496 [main] INFO parkIQ - Rejected tag is displayed
+2021-10-05 21:33:50,522 [main] INFO parkIQ - "Status changed by Park Supervisor User" text is displayed
+2021-10-05 21:33:50,546 [main] INFO parkIQ - "Rejected" text is displayed
+2021-10-05 21:33:50,581 [main] INFO parkIQ - "Rejected" text is displayed
+2021-10-05 23:20:32,747 [main] INFO parkIQ - Login Screen is displayed
+2021-10-05 23:20:33,301 [main] INFO parkIQ - Logged in as: Park Associate User is displayed
+2021-10-05 23:20:33,302 [main] INFO parkIQ - AssociateForms Portal is successfully opened
+2021-10-05 23:20:37,861 [main] INFO parkIQ - Park Associate User's Requests Header is displayed
+2021-10-05 23:20:42,846 [main] INFO parkIQ - Boots and Luggage Reimbursement Form is displayed
+2021-10-05 23:20:48,668 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-05 23:20:58,410 [main] INFO parkIQ - "Created" tag is displayed
+2021-10-05 23:20:58,438 [main] INFO parkIQ - "New request by Park Associate User" text is displayed
+2021-10-05 23:20:58,452 [main] INFO parkIQ - "Created" text is displayed
+2021-10-05 23:21:01,555 [main] INFO parkIQ - 2021 entered
+2021-10-05 23:21:01,661 [main] INFO parkIQ - Luggage is selected
+2021-10-05 23:21:04,115 [main] INFO parkIQ - value of 1 is entered
+2021-10-05 23:21:04,116 [main] INFO parkIQ - File Selection window opens
+2021-10-05 23:21:04,158 [main] INFO parkIQ - File Selected
+2021-10-05 23:21:04,158 [main] INFO parkIQ - File uploaded
+2021-10-05 23:21:07,199 [main] INFO parkIQ - "Form Submitted!" message is displayed
+2021-10-05 23:21:10,244 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-05 23:21:10,275 [main] INFO parkIQ - "Submitted" text is displayed
+2021-10-05 23:21:10,290 [main] INFO parkIQ - Submitted tag is displayed
+2021-10-05 23:21:13,861 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-05 23:21:14,752 [main] INFO parkIQ - "Logged in as: Park Supervisor User" message appears
+2021-10-05 23:21:14,752 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-05 23:21:16,434 [main] INFO parkIQ - Taskbox Header is displayed
+2021-10-05 23:21:19,881 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-05 23:21:21,273 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-05 23:21:24,369 [main] INFO parkIQ - Confirm Approval header is displayed
+2021-10-05 23:21:27,420 [main] INFO parkIQ - "Luggage" text is displayed
+2021-10-05 23:21:27,449 [main] INFO parkIQ - "Total requested: $5.00" text is displayed
+2021-10-05 23:21:27,477 [main] INFO parkIQ - "Total approved: $0.00" text is displayed
+2021-10-05 23:21:27,504 [main] INFO parkIQ - "Calendar Year" text is displayed
+2021-10-05 23:21:27,534 [main] INFO parkIQ - "Reimbursement Allowed $200.00 (Remaining: $30.00) text is displayed
+2021-10-05 23:21:27,564 [main] INFO parkIQ - "Amount requested is under the remaining allowed amount." text is displayed
+2021-10-05 23:21:27,595 [main] INFO parkIQ - "Add Comment" text is displayed
+2021-10-05 23:21:27,620 [main] INFO parkIQ - Add Comment field is displayed
+2021-10-05 23:21:27,645 [main] INFO parkIQ - Cancel Button is displayed
+2021-10-05 23:21:27,669 [main] INFO parkIQ - Approve Button is displayed
+2021-10-05 23:21:27,682 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-05 23:21:30,724 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-05 23:21:30,765 [main] INFO parkIQ - Confirm Approval header is displayed
+2021-10-05 23:21:30,847 [main] INFO parkIQ - Approved is entered
+2021-10-05 23:21:33,892 [main] INFO parkIQ - "Form Approved!" message is displayed
+2021-10-05 23:21:35,974 [main] INFO parkIQ - "Status changed by Park Supervisor User" text is displayed
+2021-10-05 23:21:36,001 [main] INFO parkIQ - "Approved by Supervisor" text is displayed
+2021-10-05 23:21:36,027 [main] INFO parkIQ - "Approved" text is displayed
+2021-10-05 23:21:36,055 [main] INFO parkIQ - Approved by Supervisor tag is displayed
+2021-10-05 23:21:39,505 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-05 23:21:40,354 [main] INFO parkIQ - Logged in as: Human Resources User message is displayed
+2021-10-05 23:21:40,354 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-05 23:21:40,935 [main] INFO parkIQ - Taskbox Header is not displayed
+2021-10-05 23:21:43,975 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-05 23:21:46,551 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-05 23:21:46,579 [main] INFO parkIQ - "HR Review" text is displayed
+2021-10-05 23:21:49,648 [main] INFO parkIQ - Set Approved Amount To Options are not displayed correctly
+2021-10-05 23:21:52,675 [main] INFO parkIQ - "Full Amount Requested" option is displayed
+2021-10-05 23:21:52,699 [main] INFO parkIQ - USD Approved is set to $1.00
+2021-10-05 23:21:52,699 [main] INFO parkIQ - "Approved Amounts Updated!" message is displayed
+2021-10-05 23:21:55,743 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-05 23:21:55,785 [main] INFO parkIQ - Confirm Approval header is displayed
+2021-10-05 23:21:58,882 [main] INFO parkIQ - Approved is entered
+2021-10-05 23:21:58,906 [main] INFO parkIQ - "Form Approved" message is displayed
+2021-10-05 23:22:01,951 [main] INFO parkIQ - Approved by HR tag is displayed
+2021-10-05 23:22:01,982 [main] INFO parkIQ - "Status changed by Human Resources User" text is displayed
+2021-10-05 23:22:02,009 [main] INFO parkIQ - "Approved by HR" text is displayed
+2021-10-05 23:22:02,035 [main] INFO parkIQ - "Approved" text is displayed
+2021-10-05 23:22:05,700 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-05 23:22:06,541 [main] INFO parkIQ - Logged in as: Accounting User message is displayed
+2021-10-05 23:22:06,541 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-05 23:22:07,362 [main] INFO parkIQ - Taskbox Header is not displayed
+2021-10-05 23:22:10,402 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-05 23:22:10,431 [main] INFO parkIQ - Reimbursement Pending tag is displayed
+2021-10-05 23:22:12,692 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-05 23:22:12,729 [main] INFO parkIQ - "Reimbursement Pending" text is displayed
+2021-10-05 23:22:15,766 [main] INFO parkIQ - Confirm Return to HR form is displayed
+2021-10-05 23:22:15,793 [main] INFO parkIQ - "Confirm Return to HR" text is displayed
+2021-10-05 23:22:15,822 [main] INFO parkIQ - "Add Comment *" text is displayed
+2021-10-05 23:22:15,844 [main] INFO parkIQ - Add Comment field is displayed
+2021-10-05 23:22:15,869 [main] INFO parkIQ - Cancel Button is displayed
+2021-10-05 23:22:15,893 [main] INFO parkIQ - Return to HR Button is displayed
+2021-10-05 23:22:18,925 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-05 23:22:21,954 [main] INFO parkIQ - Confirm Return to HR form is displayed
+2021-10-05 23:22:22,043 [main] INFO parkIQ - Reject is entered
+2021-10-05 23:22:26,175 [main] INFO parkIQ - Returned to HR tag is displayed
+2021-10-05 23:22:27,576 [main] INFO parkIQ - "Status changed by Accounting User" text is displayed
+2021-10-05 23:22:27,600 [main] INFO parkIQ - "Returned to HR" text is displayed
+2021-10-05 23:22:27,626 [main] INFO parkIQ - "Reject" text is displayed
+2021-10-05 23:22:31,163 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-05 23:22:31,987 [main] INFO parkIQ - Logged in as: Human Resources User message is displayed
+2021-10-05 23:22:31,987 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-05 23:22:32,544 [main] INFO parkIQ - Taskbox Header is not displayed
+2021-10-05 23:22:35,580 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-05 23:22:37,867 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-05 23:22:37,908 [main] INFO parkIQ - "HR Review" text is displayed
+2021-10-09 20:25:12,763 [main] INFO parkIQ - Login Screen is displayed
+2021-10-09 20:25:13,436 [main] INFO parkIQ - Logged in as: Park Associate User is displayed
+2021-10-09 20:25:13,437 [main] INFO parkIQ - AssociateForms Portal is successfully opened
+2021-10-09 20:25:21,674 [main] INFO parkIQ - Park Associate User's Requests Header is displayed
+2021-10-09 20:25:30,225 [main] INFO parkIQ - Boots and Luggage Reimbursement Form is displayed
+2021-10-09 20:25:35,432 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-09 20:25:41,253 [main] INFO parkIQ - "Created" tag is displayed
+2021-10-09 20:25:41,306 [main] INFO parkIQ - "New request by Park Associate User" text is displayed
+2021-10-09 20:25:41,331 [main] INFO parkIQ - "Created" text is displayed
+2021-10-09 20:25:44,580 [main] INFO parkIQ - 2021 entered
+2021-10-09 20:25:44,786 [main] INFO parkIQ - Luggage is selected
+2021-10-09 20:25:44,897 [main] INFO parkIQ - value of 1 is entered
+2021-10-09 20:25:44,898 [main] INFO parkIQ - File Selection window opens
+2021-10-09 20:25:44,988 [main] INFO parkIQ - File Selected
+2021-10-09 20:25:44,988 [main] INFO parkIQ - File uploaded
+2021-10-09 20:25:48,059 [main] INFO parkIQ - "Form Submitted!" message is displayed
+2021-10-09 20:25:51,132 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-09 20:25:51,181 [main] INFO parkIQ - "Submitted" text is displayed
+2021-10-09 20:25:51,205 [main] INFO parkIQ - Submitted tag is displayed
+2021-10-09 20:25:54,697 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-09 20:25:55,485 [main] INFO parkIQ - Logged in as: Human Resources User message is displayed
+2021-10-09 20:25:55,485 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-09 20:25:56,784 [main] INFO parkIQ - Taskbox Header is not displayed
+2021-10-09 20:25:59,845 [main] INFO parkIQ - Human Resources User's Requests form is displayed
+2021-10-09 20:26:00,708 [main] INFO parkIQ - Boots & Luggage Reimbursement Form form is displayed
+2021-10-09 20:26:03,770 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-09 20:27:35,318 [main] INFO parkIQ - Taskbox Header is displayed
+2021-10-09 20:27:38,378 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-09 20:27:38,423 [main] INFO parkIQ - HR Review tag is displayed
+2021-10-09 20:27:41,030 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-09 20:27:41,093 [main] INFO parkIQ - "HR Review" text is displayed
+2021-10-09 20:27:44,189 [main] INFO parkIQ - Set Approved Amount To Options are not displayed correctly
+2021-10-09 20:27:47,266 [main] INFO parkIQ - USD Approved is set to $1.00
+2021-10-09 20:27:47,266 [main] INFO parkIQ - "Approved Amounts Updated!" message is displayed
+2021-10-09 20:27:50,439 [main] INFO parkIQ - Confirm Approval header is displayed
+2021-10-09 20:27:53,607 [main] INFO parkIQ - Approved is entered
+2021-10-09 20:27:53,648 [main] INFO parkIQ - "Form Approved" message is displayed
+2021-10-09 20:27:56,728 [main] INFO parkIQ - Approved by HR tag is displayed
+2021-10-09 20:27:56,788 [main] INFO parkIQ - "Status changed by Human Resources User" text is displayed
+2021-10-09 20:27:56,838 [main] INFO parkIQ - "Approved by HR" text is displayed
+2021-10-09 20:27:56,885 [main] INFO parkIQ - "Approved" text is displayed
+2021-10-09 20:28:00,395 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-09 20:28:01,156 [main] INFO parkIQ - Logged in as: Accounting User message is displayed
+2021-10-09 20:28:01,157 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-09 20:28:01,827 [main] INFO parkIQ - Taskbox Header is not displayed
+2021-10-09 20:28:04,883 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-09 20:28:04,925 [main] INFO parkIQ - Reimbursement Pending tag is displayed
+2021-10-09 20:28:07,376 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-09 20:28:07,433 [main] INFO parkIQ - "Reimbursement Pending" text is displayed
+2021-10-09 20:28:07,766 [main] INFO parkIQ - "parkindustries-tst.outsystemsenterprise.com says" "Are you sure you want to Mark as Complete? This action cannot be undone." message is displayed
+2021-10-09 20:28:07,779 [main] INFO parkIQ - Case Marked as Complete" message is displayed
+2021-10-09 20:28:08,636 [main] INFO parkIQ - Reimbursement - Completed tag is displayed
+2021-10-09 20:28:08,682 [main] INFO parkIQ - "Status changed by Accounting User" text is displayed
+2021-10-09 20:28:09,544 [main] INFO parkIQ - "Reimbursement - Completed" text is displayed
+2021-10-09 20:35:53,982 [main] INFO parkIQ - Login Screen is displayed
+2021-10-09 20:35:56,555 [main] INFO parkIQ - Logged in as: Park Associate User is displayed
+2021-10-09 20:35:56,555 [main] INFO parkIQ - AssociateForms Portal is successfully opened
+2021-10-09 20:36:05,999 [main] INFO parkIQ - Park Associate User's Requests Header is displayed
+2021-10-09 20:36:11,292 [main] INFO parkIQ - Boots and Luggage Reimbursement Form is displayed
+2021-10-09 20:36:21,935 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-09 20:36:28,803 [main] INFO parkIQ - "Created" tag is displayed
+2021-10-09 20:36:28,864 [main] INFO parkIQ - "New request by Park Associate User" text is displayed
+2021-10-09 20:36:28,890 [main] INFO parkIQ - "Created" text is displayed
+2021-10-09 20:36:32,070 [main] INFO parkIQ - 2021 entered
+2021-10-09 20:36:32,268 [main] INFO parkIQ - Luggage is selected
+2021-10-09 20:36:32,369 [main] INFO parkIQ - value of 1 is entered
+2021-10-09 20:36:32,370 [main] INFO parkIQ - File Selection window opens
+2021-10-09 20:36:32,454 [main] INFO parkIQ - File Selected
+2021-10-09 20:36:32,454 [main] INFO parkIQ - File uploaded
+2021-10-09 20:36:35,521 [main] INFO parkIQ - "Form Submitted!" message is displayed
+2021-10-09 20:36:57,173 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-09 20:36:58,241 [main] INFO parkIQ - Logged in as: Human Resources User message is displayed
+2021-10-09 20:36:58,241 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-09 20:36:59,855 [main] INFO parkIQ - Taskbox Header is not displayed
+2021-10-09 20:37:02,914 [main] INFO parkIQ - Human Resources User's Requests form is displayed
+2021-10-09 20:37:06,216 [main] INFO parkIQ - Boots & Luggage Reimbursement Form form is displayed
+2021-10-09 20:37:09,523 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-09 20:37:11,303 [main] INFO parkIQ - Submitted tag is displayed
+2021-10-09 20:38:42,819 [main] INFO parkIQ - Taskbox Header is displayed
+2021-10-09 20:38:45,876 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-09 20:38:45,928 [main] INFO parkIQ - HR Review tag is displayed
+2021-10-09 20:38:48,159 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-09 20:38:48,225 [main] INFO parkIQ - "HR Review" text is displayed
+2021-10-09 20:38:51,333 [main] INFO parkIQ - Set Approved Amount To Options are not displayed correctly
+2021-10-09 20:38:54,406 [main] INFO parkIQ - USD Approved is set to $1.00
+2021-10-09 20:38:54,407 [main] INFO parkIQ - "Approved Amounts Updated!" message is displayed
+2021-10-09 20:38:57,553 [main] INFO parkIQ - Confirm Approval header is displayed
+2021-10-09 20:39:00,717 [main] INFO parkIQ - Approved is entered
+2021-10-09 20:39:00,759 [main] INFO parkIQ - "Form Approved" message is displayed
+2021-10-09 20:39:03,828 [main] INFO parkIQ - Approved by HR tag is displayed
+2021-10-09 20:39:03,869 [main] INFO parkIQ - "Status changed by Human Resources User" text is displayed
+2021-10-09 20:39:03,910 [main] INFO parkIQ - "Approved by HR" text is displayed
+2021-10-09 20:39:03,953 [main] INFO parkIQ - "Approved" text is displayed
+2021-10-09 20:39:07,505 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-09 20:39:08,317 [main] INFO parkIQ - Logged in as: Accounting User message is displayed
+2021-10-09 20:39:08,317 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-09 20:39:11,536 [main] INFO parkIQ - Taskbox Header is not displayed
+2021-10-09 20:39:14,580 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-09 20:39:14,619 [main] INFO parkIQ - Reimbursement Pending tag is displayed
+2021-10-09 20:39:18,995 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-09 20:39:19,051 [main] INFO parkIQ - "Reimbursement Pending" text is displayed
+2021-10-09 20:39:19,151 [main] INFO parkIQ - "parkindustries-tst.outsystemsenterprise.com says" "Are you sure you want to Mark as Complete? This action cannot be undone." message is displayed
+2021-10-09 20:39:19,167 [main] INFO parkIQ - Case Marked as Complete" message is displayed
+2021-10-09 20:39:20,198 [main] INFO parkIQ - Reimbursement - Completed tag is displayed
+2021-10-09 20:39:21,445 [main] INFO parkIQ - "Status changed by Accounting User" text is displayed
+2021-10-09 20:39:21,494 [main] INFO parkIQ - "Reimbursement - Completed" text is displayed
+2021-10-09 20:44:54,488 [main] INFO parkIQ - Login Screen is displayed
+2021-10-09 20:44:55,286 [main] INFO parkIQ - Logged in as: Park Associate User is displayed
+2021-10-09 20:44:55,287 [main] INFO parkIQ - AssociateForms Portal is successfully opened
+2021-10-09 20:45:00,377 [main] INFO parkIQ - Park Associate User's Requests Header is displayed
+2021-10-09 20:45:05,728 [main] INFO parkIQ - Boots and Luggage Reimbursement Form is displayed
+2021-10-09 20:45:09,795 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-09 20:45:09,859 [main] INFO parkIQ - "Created" tag is displayed
+2021-10-09 20:45:14,585 [main] INFO parkIQ - "New request by Park Associate User" text is displayed
+2021-10-09 20:45:14,614 [main] INFO parkIQ - "Created" text is displayed
+2021-10-09 20:45:17,801 [main] INFO parkIQ - 2021 entered
+2021-10-09 20:45:18,007 [main] INFO parkIQ - Luggage is selected
+2021-10-09 20:45:18,134 [main] INFO parkIQ - value of 1 is entered
+2021-10-09 20:45:18,135 [main] INFO parkIQ - File Selection window opens
+2021-10-09 20:45:18,202 [main] INFO parkIQ - File Selected
+2021-10-09 20:45:18,202 [main] INFO parkIQ - File uploaded
+2021-10-09 20:45:21,280 [main] INFO parkIQ - "Form Submitted!" message is displayed
+2021-10-09 20:45:25,841 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-09 20:45:25,893 [main] INFO parkIQ - "Submitted" text is displayed
+2021-10-09 20:45:25,922 [main] INFO parkIQ - Submitted tag is displayed
+2021-10-09 20:45:29,500 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-09 20:45:30,511 [main] INFO parkIQ - Logged in as: Human Resources User message is displayed
+2021-10-09 20:45:30,512 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-09 20:45:32,003 [main] INFO parkIQ - Taskbox Header is not displayed
+2021-10-09 20:45:35,071 [main] INFO parkIQ - Human Resources User's Requests form is displayed
+2021-10-09 20:45:36,050 [main] INFO parkIQ - Boots & Luggage Reimbursement Form form is displayed
+2021-10-09 20:45:39,112 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-09 20:45:40,279 [main] INFO parkIQ - Submitted tag is displayed
+2021-10-09 20:45:40,334 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-09 20:45:40,365 [main] INFO parkIQ - "Submitted" text is displayed
+2021-10-09 20:45:43,447 [main] INFO parkIQ - Confirm To Skip Supervisor form is displayed
+2021-10-09 20:45:43,499 [main] INFO parkIQ - "Confirm To Skip Supervisor" text is displayed
+2021-10-09 20:45:43,548 [main] INFO parkIQ - "Add Comment *" text is displayed
+2021-10-09 20:46:01,677 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-09 20:46:04,735 [main] INFO parkIQ - Confirm To Skip Supervisor form is displayed
+2021-10-09 20:46:25,736 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-09 20:46:27,042 [main] INFO parkIQ - "Status changed by Human Resources User" text is displayed
+2021-10-09 20:46:27,085 [main] INFO parkIQ - "Approved by Supervisor" text is displayed
+2021-10-09 20:46:27,126 [main] INFO parkIQ - "Skip Supervisor" text is displayed
+2021-10-09 20:46:31,387 [main] INFO parkIQ - Taskbox Header is displayed
+2021-10-09 20:46:34,440 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-09 20:46:34,477 [main] INFO parkIQ - HR Review tag is displayed
+2021-10-09 20:46:39,332 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-09 20:46:39,393 [main] INFO parkIQ - "HR Review" text is displayed
+2021-10-09 20:46:42,493 [main] INFO parkIQ - Set Approved Amount To Options are not displayed correctly
+2021-10-09 20:46:45,557 [main] INFO parkIQ - USD Approved is set to $1.00
+2021-10-09 20:46:45,557 [main] INFO parkIQ - "Approved Amounts Updated!" message is displayed
+2021-10-09 20:46:48,707 [main] INFO parkIQ - Confirm Approval header is displayed
+2021-10-09 20:46:51,901 [main] INFO parkIQ - Approved is entered
+2021-10-09 20:46:51,940 [main] INFO parkIQ - "Form Approved" message is displayed
+2021-10-09 20:46:55,010 [main] INFO parkIQ - Approved by HR tag is displayed
+2021-10-09 20:46:55,053 [main] INFO parkIQ - "Status changed by Human Resources User" text is displayed
+2021-10-09 20:46:55,120 [main] INFO parkIQ - "Approved by HR" text is displayed
+2021-10-09 20:46:55,165 [main] INFO parkIQ - "Approved" text is displayed
+2021-10-09 20:46:58,671 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-09 20:46:59,419 [main] INFO parkIQ - Logged in as: Accounting User message is displayed
+2021-10-09 20:46:59,420 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-09 20:47:00,112 [main] INFO parkIQ - Taskbox Header is not displayed
+2021-10-09 20:47:03,170 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-09 20:47:03,207 [main] INFO parkIQ - Reimbursement Pending tag is displayed
+2021-10-09 20:47:05,933 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-09 20:47:05,984 [main] INFO parkIQ - "Reimbursement Pending" text is displayed
+2021-10-09 20:47:06,223 [main] INFO parkIQ - "parkindustries-tst.outsystemsenterprise.com says" "Are you sure you want to Mark as Complete? This action cannot be undone." message is displayed
+2021-10-09 20:47:06,238 [main] INFO parkIQ - Case Marked as Complete" message is displayed
+2021-10-09 20:47:07,156 [main] INFO parkIQ - Reimbursement - Completed tag is displayed
+2021-10-09 20:47:07,945 [main] INFO parkIQ - "Status changed by Accounting User" text is displayed
+2021-10-09 20:47:07,999 [main] INFO parkIQ - "Reimbursement - Completed" text is displayed
+2021-10-09 20:52:32,533 [main] INFO parkIQ - Login Screen is displayed
+2021-10-09 20:52:34,419 [main] INFO parkIQ - Logged in as: Park Associate User is displayed
+2021-10-09 20:52:34,420 [main] INFO parkIQ - AssociateForms Portal is successfully opened
+2021-10-09 20:52:40,901 [main] INFO parkIQ - Park Associate User's Requests Header is displayed
+2021-10-09 20:53:07,535 [main] INFO parkIQ - Boots and Luggage Reimbursement Form is displayed
+2021-10-09 20:53:20,867 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-09 20:53:26,680 [main] INFO parkIQ - "Created" tag is displayed
+2021-10-09 20:53:26,731 [main] INFO parkIQ - "New request by Park Associate User" text is displayed
+2021-10-09 20:53:26,757 [main] INFO parkIQ - "Created" text is displayed
+2021-10-09 20:53:29,951 [main] INFO parkIQ - 2021 entered
+2021-10-09 20:53:30,152 [main] INFO parkIQ - Luggage is selected
+2021-10-09 20:53:30,255 [main] INFO parkIQ - value of 1 is entered
+2021-10-09 20:53:30,256 [main] INFO parkIQ - File Selection window opens
+2021-10-09 20:53:30,339 [main] INFO parkIQ - File Selected
+2021-10-09 20:53:30,340 [main] INFO parkIQ - File uploaded
+2021-10-09 20:53:33,408 [main] INFO parkIQ - "Form Submitted!" message is displayed
+2021-10-09 20:53:55,146 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-09 20:53:56,549 [main] INFO parkIQ - Logged in as: Human Resources User message is displayed
+2021-10-09 20:53:56,549 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-09 20:53:58,218 [main] INFO parkIQ - Taskbox Header is not displayed
+2021-10-09 20:54:01,283 [main] INFO parkIQ - Human Resources User's Requests form is displayed
+2021-10-09 20:54:02,843 [main] INFO parkIQ - Boots & Luggage Reimbursement Form form is displayed
+2021-10-09 20:54:05,915 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-09 20:54:12,826 [main] INFO parkIQ - Submitted tag is displayed
+2021-10-09 20:55:59,256 [main] INFO parkIQ - Login Screen is displayed
+2021-10-09 20:56:02,845 [main] INFO parkIQ - Logged in as: Park Associate User is displayed
+2021-10-09 20:56:02,846 [main] INFO parkIQ - AssociateForms Portal is successfully opened
+2021-10-09 20:56:07,723 [main] INFO parkIQ - Park Associate User's Requests Header is displayed
+2021-10-09 20:56:18,478 [main] INFO parkIQ - Boots and Luggage Reimbursement Form is displayed
+2021-10-09 20:57:37,058 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-09 20:57:41,929 [main] INFO parkIQ - Logged in as: Human Resources User message is displayed
+2021-10-09 20:57:41,930 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-09 21:11:49,996 [main] INFO parkIQ - Login Screen is displayed
+2021-10-09 21:11:52,011 [main] INFO parkIQ - Logged in as: Park Associate User is displayed
+2021-10-09 21:11:52,029 [main] INFO parkIQ - AssociateForms Portal is successfully opened
+2021-10-09 21:11:57,743 [main] INFO parkIQ - Park Associate User's Requests Header is displayed
+2021-10-09 21:12:02,837 [main] INFO parkIQ - Boots and Luggage Reimbursement Form is displayed
+2021-10-09 21:12:07,158 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-09 21:12:07,202 [main] INFO parkIQ - "Created" tag is displayed
+2021-10-09 21:12:13,661 [main] INFO parkIQ - "New request by Park Associate User" text is displayed
+2021-10-09 21:12:13,679 [main] INFO parkIQ - "Created" text is displayed
+2021-10-09 21:12:16,801 [main] INFO parkIQ - 2021 entered
+2021-10-09 21:12:16,922 [main] INFO parkIQ - Luggage is selected
+2021-10-09 21:12:16,989 [main] INFO parkIQ - value of 1 is entered
+2021-10-09 21:12:16,990 [main] INFO parkIQ - File Selection window opens
+2021-10-09 21:12:17,039 [main] INFO parkIQ - File Selected
+2021-10-09 21:12:17,040 [main] INFO parkIQ - File uploaded
+2021-10-09 21:12:20,091 [main] INFO parkIQ - "Form Submitted!" message is displayed
+2021-10-09 21:12:23,140 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-09 21:12:23,179 [main] INFO parkIQ - "Submitted" text is displayed
+2021-10-09 21:12:23,197 [main] INFO parkIQ - Submitted tag is displayed
+2021-10-09 21:12:26,607 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-09 21:12:27,369 [main] INFO parkIQ - Logged in as: Human Resources User message is displayed
+2021-10-09 21:12:27,371 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-09 21:12:29,085 [main] INFO parkIQ - Taskbox Header is not displayed
+2021-10-09 21:12:32,135 [main] INFO parkIQ - Human Resources User's Requests form is displayed
+2021-10-09 21:12:32,956 [main] INFO parkIQ - Boots & Luggage Reimbursement Form form is displayed
+2021-10-09 21:12:36,000 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-09 21:12:36,891 [main] INFO parkIQ - Submitted tag is displayed
+2021-10-09 21:12:36,926 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-09 21:12:36,948 [main] INFO parkIQ - "Submitted" text is displayed
+2021-10-09 21:12:39,988 [main] INFO parkIQ - Confirm To Skip Supervisor form is displayed
+2021-10-09 21:12:40,020 [main] INFO parkIQ - "Confirm To Skip Supervisor" text is displayed
+2021-10-09 21:12:40,052 [main] INFO parkIQ - "Add Comment *" text is displayed
+2021-10-09 21:12:40,080 [main] INFO parkIQ - Add Comment field is displayed
+2021-10-09 21:12:40,109 [main] INFO parkIQ - Cancel Button is displayed
+2021-10-09 21:12:40,124 [main] INFO parkIQ - Skip Supervisor Button is displayed
+2021-10-09 21:12:43,164 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-09 21:12:46,213 [main] INFO parkIQ - Confirm To Skip Supervisor form is displayed
+2021-10-09 21:12:46,344 [main] INFO parkIQ - Skip Supervisor is entered
+2021-10-09 21:12:50,619 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-09 21:12:51,278 [main] INFO parkIQ - "Status changed by Human Resources User" text is displayed
+2021-10-09 21:12:51,302 [main] INFO parkIQ - "Approved by Supervisor" text is displayed
+2021-10-09 21:12:51,325 [main] INFO parkIQ - "Skip Supervisor" text is displayed
+2021-10-09 21:12:55,426 [main] INFO parkIQ - Taskbox Header is displayed
+2021-10-09 21:12:58,474 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-09 21:12:58,503 [main] INFO parkIQ - HR Review tag is displayed
+2021-10-09 21:13:02,397 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-09 21:13:02,434 [main] INFO parkIQ - "HR Review" text is displayed
+2021-10-09 21:13:05,493 [main] INFO parkIQ - Set Approved Amount To Options are not displayed correctly
+2021-10-09 21:13:08,542 [main] INFO parkIQ - USD Approved is set to $1.00
+2021-10-09 21:13:08,542 [main] INFO parkIQ - "Approved Amounts Updated!" message is displayed
+2021-10-09 21:13:11,632 [main] INFO parkIQ - Confirm Approval header is displayed
+2021-10-09 21:13:14,729 [main] INFO parkIQ - Approved is entered
+2021-10-09 21:13:14,753 [main] INFO parkIQ - "Form Approved" message is displayed
+2021-10-09 21:13:17,803 [main] INFO parkIQ - Approved by HR tag is displayed
+2021-10-09 21:13:17,828 [main] INFO parkIQ - "Status changed by Human Resources User" text is displayed
+2021-10-09 21:13:17,855 [main] INFO parkIQ - "Approved by HR" text is displayed
+2021-10-09 21:13:17,881 [main] INFO parkIQ - "Approved" text is displayed
+2021-10-09 21:13:21,470 [main] INFO parkIQ - AssociateForms form is displayed
+2021-10-09 21:13:22,241 [main] INFO parkIQ - Logged in as: Accounting User message is displayed
+2021-10-09 21:13:22,241 [main] INFO parkIQ - Associate Forms Portal Screen is displayed
+2021-10-09 21:13:23,477 [main] INFO parkIQ - Taskbox Header is not displayed
+2021-10-09 21:13:26,519 [main] INFO parkIQ - Boots & Luggage Reimbursement Request form is displayed
+2021-10-09 21:13:26,544 [main] INFO parkIQ - Reimbursement Pending tag is displayed
+2021-10-09 21:13:29,023 [main] INFO parkIQ - "Status changed" text is displayed
+2021-10-09 21:13:29,055 [main] INFO parkIQ - "Reimbursement Pending" text is displayed
+2021-10-09 21:13:29,401 [main] INFO parkIQ - "parkindustries-tst.outsystemsenterprise.com says" "Are you sure you want to Mark as Complete? This action cannot be undone." message is displayed
+2021-10-09 21:13:29,408 [main] INFO parkIQ - Case Marked as Complete" message is displayed
+2021-10-09 21:13:30,306 [main] INFO parkIQ - Reimbursement - Completed tag is displayed
+2021-10-09 21:13:31,305 [main] INFO parkIQ - "Status changed by Accounting User" text is displayed
+2021-10-09 21:13:31,333 [main] INFO parkIQ - "Reimbursement - Completed" text is displayed
