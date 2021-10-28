@@ -192,7 +192,7 @@ public class TuitionReimbursementForm {
 	WebElement pageItems1;
 	
 	//Page 2
-	@FindBy(xpath="//body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/button[1]")
+	@FindBy(xpath="//body/div[@id='reactContainer']/div[@id='transitionContainer']/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/button[1]")
 	@CacheLookup
 	WebElement page2;
 	
@@ -529,27 +529,27 @@ public class TuitionReimbursementForm {
 	WebElement programField;
 	
 	//Major text
-	@FindBy(xpath="//div[@class='margin-top-s ThemeGrid_Width6 ThemeGrid_MarginGutter']//label[contains(text(),'Degree Major')]")
+	@FindBy(xpath="//div[@class='margin-top-s ThemeGrid_Width6 ThemeGrid_MarginGutter']//label[@for='Input_DegreeMajor']")
 	@CacheLookup
 	WebElement majorText;
 	
 	//Degree major field
-	@FindBy(xpath="//div[@class='margin-top-s ThemeGrid_Width6 ThemeGrid_MarginGutter']//input[@id='Input_DegreeMajor']")
+	@FindBy(xpath="//body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[11]/span[1]/input[1]")
 	@CacheLookup
 	WebElement majorField;
 	
 	//Decription text
-	@FindBy(xpath="//div[@class='margin-top-s']//label[contains(text(),'Degree Program Description (include estimated comp')]")
+	@FindBy(xpath="//label[contains(text(),'Degree Program Description (include estimated comp')]")
 	@CacheLookup
 	WebElement descripText;
 	
 	//Program descrip field
-	@FindBy(xpath="//div//textarea[@id='TextArea_DegreeProgramDescription']")
+	@FindBy(xpath="//textarea[@id='TextArea_DegreeProgramDescription']")
 	@CacheLookup
 	WebElement descripField;
 	
 	//Total cost text
-	@FindBy(xpath="//div//label[@for='Input_CostDetails'][@class='mandatory OSFillParent']")
+	@FindBy(xpath="//label[contains(text(),'Provide approximate total cost details (books, lab')]")
 	@CacheLookup
 	WebElement totalcostText;
 	
@@ -569,7 +569,7 @@ public class TuitionReimbursementForm {
 	WebElement careerField;
 	
 	//Link
-	@FindBy(xpath="//div[@class='margin-top-base']//a[@href='javascript:void(0);']")
+	@FindBy(xpath="//body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[15]/a[1]")
 	@CacheLookup
 	WebElement link;
 	
@@ -751,7 +751,7 @@ public class TuitionReimbursementForm {
 	WebElement approveFormHR;
 	
 	//Approved by hr
-	@FindBy(xpath="//body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/div[1]")
+	@FindBy(xpath="//body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/div[1]/span[1]")
 	@CacheLookup
 	WebElement approvedByHR;
 	
@@ -760,7 +760,7 @@ public class TuitionReimbursementForm {
 	@CacheLookup
 	WebElement statusHR;
 	
-	@FindBy(xpath="//body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[3]/div[2]/div[1]/div[2]/div[1]")
+	@FindBy(xpath="//body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[3]/div[2]/div[1]/div[2]/div[1]/div[1]/span[1]")
 	@CacheLookup
 	WebElement statusApprovedByHR;
 	
@@ -768,13 +768,25 @@ public class TuitionReimbursementForm {
 	@CacheLookup
 	WebElement statusChangedHR;
 	
-	@FindBy(xpath="//body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[3]/div[2]/div[1]/div[2]/div[1]/div[1]")
+	@FindBy(xpath="//body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[3]/div[2]/div[1]/div[2]/div[1]/div[1]/span[1]")
 	@CacheLookup
 	WebElement completed;
 	
-	@FindBy(xpath="//div//span[contains(text(),'Request closed')]")
+	@FindBy(xpath="//body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/span[1]")
 	@CacheLookup
 	WebElement reqClosed;
+	
+	@FindBy(xpath="//header/div[1]/div[1]/div[3]/div[1]/nav[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]")
+	@CacheLookup
+	WebElement clickForms;
+	
+	@FindBy(xpath="//a[contains(text(),'Tuition Reimbursement Forms')]")
+	@CacheLookup
+	WebElement clickTuition;
+	
+	@FindBy(xpath="//body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/a[1]/span[1]")
+	@CacheLookup
+	WebElement clickCompleted;
 	
 	public void clickTuitionRTab()
 	{
@@ -796,6 +808,24 @@ public class TuitionReimbursementForm {
 	{
 		JavascriptExecutor js = (JavascriptExecutor)ldriver;
 		js.executeScript("arguments[0].click()", associatePortalHeader);
+	}
+	
+	public void clickForms()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", clickForms);
+	}
+	
+	public void clickTuition()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", clickTuition);
+	}
+	
+	public void clickCompleted()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", clickCompleted);
 	}
 	
 	public boolean parkAssociateUserDisplayed()
@@ -1400,8 +1430,8 @@ public class TuitionReimbursementForm {
 	
 	public boolean descripTextDisplayed()
 	{
-		return func.verifyElementDisplayedWithText(descripText, "Degree Program Description (include estimate completion date)");
-//		return descripText.isDisplayed();
+//		return func.verifyElementDisplayedWithText(descripText, "Degree Program Description (include estimate completion date)");
+		return descripText.isDisplayed();
 	}
 	
 	public boolean descripFieldDisplayed()
@@ -1805,7 +1835,8 @@ public class TuitionReimbursementForm {
 	
 	public boolean approvedByHRDisplayed()
 	{
-		return func.verifyElementDisplayedWithText(approvedByHR, "Approved By HR");
+		return approvedByHR.isDisplayed();
+//		return func.verifyElementDisplayedWithText(approvedByHR, "Approved By HR");
 	}
 	
 	public boolean statusHRDisplayed()
@@ -1815,7 +1846,8 @@ public class TuitionReimbursementForm {
 	
 	public boolean statusApprovedByHRDisplayed()
 	{
-		return func.verifyElementDisplayedWithText(statusApprovedByHR, "Approved By HR");
+		return statusApprovedByHR.isDisplayed();
+//		return func.verifyElementDisplayedWithText(statusApprovedByHR, "Approved By HR");
 	}
 	
 	public boolean statusChangedHRDisplayed()

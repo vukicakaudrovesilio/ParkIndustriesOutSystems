@@ -303,7 +303,7 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 		trf.pageItems1Displayed();
 		logger.info("Page items are displayed");
 		
-//		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 //		
 //		trf.clickPage2();
 //		
@@ -771,7 +771,6 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 			logger.info("Instructions header and texts are not displayed");
 		}
 		
-		Thread.sleep(3000);
 	}
 	
 	@Test (priority = 12)
@@ -779,67 +778,253 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 	{
 		TuitionReimbursementForm trf = new TuitionReimbursementForm(driver);
 		
-		trf.preapprovalHeaderDisplayed();
-		logger.info("Associate Pre-Approval Information header is displayed");
-		trf.institutionTextDisplayed();
-		logger.info("Institution text is displayed");
-		trf.insFieldDisplayed();
-		logger.info("Institution field is displayed");
-		trf.locTextDisplayed();
-		logger.info("Location text is displayed");
-		trf.locFieldDisplayed();
-		logger.info("Location field is displayed");
-		trf.programTextDisplayed();
-		logger.info("Program text is displayed");
-		trf.programFieldDisplayed();
-		logger.info("Program field is displayed");
-		trf.majorTextDisplayed();
-		logger.info("Major text is displayed");
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		trf.majorFieldDisplayed();
-		logger.info("Major field is displayed");
-		trf.descripTextDisplayed();
-		logger.info("Description text is displayed");
+//		trf.preapprovalHeaderDisplayed();
+//		logger.info("Associate Pre-Approval Information header is displayed");
+//		trf.institutionTextDisplayed();
+//		logger.info("Institution text is displayed");
+//		trf.insFieldDisplayed();
+//		logger.info("Institution field is displayed");
+//		trf.locTextDisplayed();//body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/span[1]
+//		logger.info("Location text is displayed");
+//		trf.locFieldDisplayed();
+//		logger.info("Location field is displayed");
+////		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+////		trf.programTextDisplayed();
+////		logger.info("Program text is displayed");
+////		trf.programFieldDisplayed();
+////		logger.info("Program field is displayed");
+////		trf.majorTextDisplayed();
+////		logger.info("Major text is displayed");
+////		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+////		trf.majorFieldDisplayed();
+////		logger.info("Major field is displayed");
+//		trf.descripTextDisplayed();
+//		logger.info("Description text is displayed");
+//		trf.descripFieldDisplayed();
+//		logger.info("Description field is displayed");
+//		trf.totalcostTextDisplayed();
+//		logger.info("Total text is displayed");
+//		trf.totalcostFieldDisplayed();
+//		logger.info("Total field is displayed");
+//		trf.careerTextDisplayed();
+//		logger.info("Career text is displayed");
+//		trf.careerFieldDisplayed();
+//		logger.info("Career field is displayed");
+//		trf.linkDisplayed();
+//		logger.info("Link is displayed");
+//		trf.linkTextDisplayed();
+//		logger.info("Link text is displayed");
+//		trf.remainingAmtDisplayed();
+//		logger.info("Remaining text is displayed");
+//		trf.backBtnDisplayed();
+//		logger.info("Back button is displayed");
+		
+	
+		
+		boolean preapproval = trf.preapprovalHeaderDisplayed();
+		if(preapproval == true)
+		{
+			logger.info("Header is displayed");
+		}
+		else
+		{
+			logger.info("Unable to locate header");
+		}
+		
+		boolean ins = trf.institutionTextDisplayed();
+		if(ins == true)
+		{
+			logger.info("Institution text is displayed");
+		}
+		else
+		{
+			logger.info("Unable to locate institution text");
+		}
+		
+		boolean insField = trf.insFieldDisplayed();
+		if(insField == true)
+		{
+			logger.info("Institution field is displayed");
+		}
+		else
+		{
+			logger.info("Unable to locate institution field");
+		}
+		
+		boolean loc = trf.locTextDisplayed();
+		if(loc == true)
+		{
+			logger.info("Location text is displayed");
+		}
+		else
+		{
+			logger.info("Unable to locate location text");
+		}
+		
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		boolean locField = trf.locFieldDisplayed();
+		if(locField == true)
+		{
+			logger.info("Location field is displayed");
+		}
+		else
+		{
+			logger.info("Unable to locate location field");
+		}
+		
+		boolean program = trf.programTextDisplayed();
+		if(program == true)
+		{
+			logger.info("Program text is displayed");
+		}
+		else
+		{
+			logger.info("Unable to locate Program text");
+		}
+		
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		boolean progField = trf.programFieldDisplayed();
+		if(progField == true)
+		{
+			logger.info("Program field is displayed");
+		}
+		else
+		{
+			logger.info("Unable to locate Program field");
+		}
+	}
+		
+	@Test (priority = 13)
+	public void testPreapprovalInfo2() throws InterruptedException, IOException 
+	{
+		TuitionReimbursementForm trf = new TuitionReimbursementForm(driver);
+		
 
-		trf.descripFieldDisplayed();
-		logger.info("Description field is displayed");
-		trf.totalcostTextDisplayed();
-		logger.info("Total text is displayed");
-		trf.totalcostFieldDisplayed();
-		logger.info("Total field is displayed");
-		trf.careerTextDisplayed();
-		logger.info("Career text is displayed");
-		trf.careerFieldDisplayed();
-		logger.info("Career field is displayed");
-		trf.linkDisplayed();
-		logger.info("Link is displayed");
-		trf.linkTextDisplayed();
-		logger.info("Link text is displayed");
-		trf.remainingAmtDisplayed();
-		logger.info("Remaining text is displayed");
-		trf.backBtnDisplayed();
-		logger.info("Back button is displayed");
-
-//		boolean preapproval = trf.preapprovalHeaderDisplayed();
-//		boolean ins = trf.institutionTextDisplayed();
-//		boolean insField = trf.insFieldDisplayed();
-//		boolean loc = trf.locTextDisplayed();
-//		boolean locField = trf.locFieldDisplayed();
-//		boolean program = trf.programTextDisplayed();
-//		boolean progField = trf.programFieldDisplayed();
-//		boolean major = trf.majorTextDisplayed();
-//		boolean majField = trf.majorFieldDisplayed();
-//		boolean descrip = trf.descripTextDisplayed();
-//		boolean descripField = trf.descripFieldDisplayed();
-//		boolean total = trf.totalcostTextDisplayed();
-//		boolean totalField = trf.totalcostFieldDisplayed();
-//		boolean career = trf.careerTextDisplayed();
-//		boolean careerField = trf.careerFieldDisplayed();
-//		boolean link = trf.linkDisplayed();
-//		boolean linkText = trf.linkTextDisplayed();
-//		boolean remainingText = trf.remainingAmtDisplayed();
-//		boolean backBtn = trf.backBtnDisplayed();
-//		
+//		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		boolean major = trf.majorTextDisplayed();
+		if(major == true)
+		{
+			logger.info("Major text is displayed");
+		}
+		else
+		{
+			logger.info("Unable to locate Major text");
+		}
+		
+//		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		boolean majField = trf.majorFieldDisplayed();
+		if(majField == true)
+		{
+			logger.info("Major field is displayed");
+		}
+		else
+		{
+			logger.info("Unable to locate Major field");
+		}
+		
+//		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		boolean descrip = trf.descripTextDisplayed();
+		if(descrip == true)
+		{
+			logger.info("Description text is displayed");
+		}
+		else
+		{
+			logger.info("Unable to locate Description text");
+		}
+		
+//		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		boolean descripField = trf.descripFieldDisplayed();
+		if(descripField == true)
+		{
+			logger.info("Description field is displayed");
+		}
+		else
+		{
+			logger.info("Unable to locate Description field");
+		}
+		
+		boolean total = trf.totalcostTextDisplayed();
+		if(total == true)
+		{
+			logger.info("Total cost text is displayed");
+		}
+		else
+		{
+			logger.info("Unable to locate Total cost text");
+		}
+		
+		boolean totalField = trf.totalcostFieldDisplayed();
+		if(totalField == true)
+		{
+			logger.info("Total cost field is displayed");
+		}
+		else
+		{
+			logger.info("Unable to locate Total cost field");
+		}
+		
+		boolean career = trf.careerTextDisplayed();
+		if(career == true)
+		{
+			logger.info("Career text is displayed");
+		}
+		else
+		{
+			logger.info("Unable to locate Career text");
+		}
+		
+		boolean careerField = trf.careerFieldDisplayed();
+		if(careerField == true)
+		{
+			logger.info("Career field is displayed");
+		}
+		else
+		{
+			logger.info("Unable to locate Career field");
+		}
+		
+//		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		boolean link = trf.linkDisplayed();
+		if(link == true)
+		{
+			logger.info("Link is displayed");
+		}
+		else
+		{
+			logger.info("Unable to locate link");
+		}
+		
+		boolean linkText = trf.linkTextDisplayed();
+		if(linkText == true)
+		{
+			logger.info("Link text is displayed");
+		}
+		else
+		{
+			logger.info("Unable to locate link text");
+		}
+		
+		boolean remainingText = trf.remainingAmtDisplayed();
+		if(remainingText == true)
+		{
+			logger.info("Remaining text is displayed");
+		}
+		else
+		{
+			logger.info("Unable to locate Remaining text");
+		}
+		
+		boolean backBtn = trf.backBtnDisplayed();
+		if(backBtn == true)
+		{
+			logger.info("Back button is displayed");
+		}
+		else
+		{
+			logger.info("Unable to locate Back button");
+		}
+		
 //		if(preapproval && ins && insField && loc && locField && program && progField && major && majField && descrip && descripField && total && totalField && career && careerField && link && linkText && remainingText && backBtn)
 //		{
 //			Assert.assertTrue(true);
@@ -926,17 +1111,17 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 //			Assert.assertTrue(false);
 ////			logger.info("Instructions header and texts are not displayed");
 //		}
-//		
-//		trf.clickBackBtn();
-//		logger.info("Back button is clicked. User is taken to Request List Form");
-//		
-//		trf.associateHeaderDisplayed();
-//		logger.info("\"Associate Initial Request for Tuition Reimbursement\" header is displayed");
+		
+		trf.clickBackBtn();
+		logger.info("Back button is clicked. User is taken to Request List Form");
+		
+		trf.associateHeaderDisplayed();
+		logger.info("\"Associate Initial Request for Tuition Reimbursement\" header is displayed");
 
 	}
 		
 
-	@Test (priority=13)
+	@Test (priority=14)
 	public void testPreapprovalFields() throws InterruptedException, IOException 
 	{
 		TuitionReimbursementForm trf = new TuitionReimbursementForm(driver);
@@ -1145,7 +1330,7 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 		
 	}
 	
-	@Test (priority=14)
+	@Test (priority=15)
 	public void  parkSupervisorUserLogin() throws InterruptedException, IOException 
 	{
 		ParkSupervisorUser psu= new ParkSupervisorUser(driver);
@@ -1177,7 +1362,7 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 	}
 	
 //	@Test (enabled = false)
-	@Test (priority=15)
+	@Test (priority=16)
 	public void  testSubmittedInitialTuition() throws InterruptedException, IOException 
 	{
 		TuitionReimbursementForm trf = new TuitionReimbursementForm(driver);
@@ -1263,7 +1448,7 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 	}
 	
 //	@Test (enabled =false)
-	@Test (priority=16)
+	@Test (priority=17)
 	public void  testHRUser() throws InterruptedException, IOException 
 	{
 		HumanResourcesUser hru= new HumanResourcesUser(driver);
@@ -1363,6 +1548,14 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 			logger.info("Status changed not displayed");
 		}
 		
+		trf.clickAssociateFormTab();
+		
+		trf.clickForms();
+		
+		trf.clickTuition();
+		
+		trf.clickCompleted();
+		
 		boolean comp = trf.completedDisplayed();
 		if(comp == true)
 		{
@@ -1372,8 +1565,6 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 		{
 			logger.info("Completed tag not displayed");
 		}
-		
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); 
 		
 		boolean req = trf.reqClosedDisplayed();
 		if(req == true)
@@ -1385,19 +1576,6 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 			logger.info("Request closed not displayed");
 		}
 		
-//		if(HR && status && statusApp && statusChange && comp && req)
-//		{
-//			Assert.assertTrue(true);
-//			logger.info("Approved by HR Tag and Status changes are displayed");
-//		}
-//		else
-//		{
-//			Assert.assertTrue(false);
-//			logger.info("Approved by HR Tag and Status changes are not displayed");
-//		}
-		
-		trf.clickSampleLogin();
-		logger.info("Go to Sample login clicked");
 	}
 	
 }
