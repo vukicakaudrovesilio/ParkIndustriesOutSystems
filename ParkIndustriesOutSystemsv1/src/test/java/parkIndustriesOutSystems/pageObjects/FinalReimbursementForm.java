@@ -447,7 +447,7 @@ public class FinalReimbursementForm {
 	WebElement btnFileDownload;
 	
 	//Trashcan symbol
-	@FindBy(xpath="//body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/form[1]/div[6]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/a[1]/i[1]")
+	@FindBy(xpath="//body/div[2]/div[1]/div[1]/div[1]/div[1]/form[1]/div[6]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/a[2]/i[1]")
 	@CacheLookup
 	WebElement trashcanSymbol;
 	
@@ -472,7 +472,7 @@ public class FinalReimbursementForm {
 	WebElement txtTest;
 	
 	//Actual Costs text
-	@FindBy(xpath="//body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/span[1]")
+	@FindBy(xpath="//div[@class='text-align-left']//span[contains(text(), 'Actual Costs')]")
 	@CacheLookup
 	WebElement txtActualCosts;
 	
@@ -784,248 +784,6 @@ public class FinalReimbursementForm {
 		js.executeScript("arguments[0].click()", compStatus);
 	}
 	
-	//Confirm Tuition Assistance Policy header is displayed
-//	public boolean verifyTuitionAssistancePolicy()
-//	{
-//		return func.verifyElementDisplayedWithText(tuitionAssPolHeader, "Tuition Assistance Policy");
-//	}
-//	
-//	//Confirm Tuition Assistance header is displayed
-//	public boolean verifyTuitAss()
-//	{
-//		return func.verifyElementDisplayedWithText(tuiAssHeader, "Tuition Assistance");
-//	}
-//	
-//	//Confirm The purpose of the policy .......... sentence is displayed
-//	public boolean verifyTuitAssSentence()
-//	{
-//		return func.verifyElementDisplayedWithText(tuitionAssSentence, "The purpose of this policy is to provide an opportunity for growth and advancement within the company through tuition assistance for eligible associates. Park reimburses associates who take approved, job-related courses. This program provides reimbursement for authorized costs of tuition, books, materials and registration fees as set forth below:");
-//	}
-//	
-//	//Confirm Eligibility header is displayed
-//	public boolean verifyEligibilityHeader()
-//	{
-//		return func.verifyElementDisplayedWithText(eligibilityHeader, "Eligibility");
-//	}
-//	
-//	//Confirm Eligibility Sentence is displayed
-//	public boolean verifyEligibilitySentence()
-//	{
-//		return func.verifyElementDisplayedWithText(eligibilitySentence, "Regular, Full-Time Associates, working 36 or more hours per week and who have been employed for at least 90 days, are eligible to receive 100% reimbursement of approved education expenses up to a maximum of $5,250.00 per calendar year, with a maximum reimbursement of $21,000.00 during the associate’s career with Park."
-//				+ "Regular, Part-Time Associates, working 24 to 35 hours per week and who have been employed for at least 90 days, are eligible to receive 50% reimbursement of approved education expenses up to a maximum of $2,625.00 per calendar year, with a maximum reimbursement of $10,500.00 during the associate’s career with Park."
-//				+ "Associates must be in good standing with their performance (previous/current review score of Successfully Meets or above). Any associate that is not performing up to standards may be denied approval.");
-//	}
-//	
-//	//Confirm termination of Employment header is displayed
-//	public boolean verifyTermEmplymntHeader()
-//	{
-//		return func.verifyElementDisplayedWithText(employmentTermination, "Termination of Employment");
-//	}
-//	
-//	//Confirm Additionally, upon termination.......... sentence is displayed
-//	public boolean verifyTerminationEmploySent1()
-//	{
-//		return func.verifyElementDisplayedWithText( terminationEmploySent1, "Additionally, upon termination, voluntary or involuntary, all pending tuition assistance agreements are terminated. Associates that are terminated due to reduction-in-force, job elimination, involuntarily termed (not including gross misconduct), or who are unable to complete the course due to unforeseen business reasons will be reimbursed the full amount of eligible expenses incurred up to the date of separation. "
-//				+ "Any associate that is terminated due to gross misconduct prior to completing a course(s) will not be reimbursed any eligible expenses.");
-//	}
-//	
-//	//Confirm Applications for approval on courses.......... sentence is displayed
-//	public boolean verifyTerminationEmplySent2()
-//	{
-//		return func.verifyElementDisplayedWithText(terminationEmplySent2, "Applications for approval on courses must be submitted prior to registering for the course and approved by the associate’s supervisor and Human Resources. The electronic application for Initial Tuition Reimbursement and Repayment Agreement can be found on Park Place under the Human Resources Home Page (Click on the Associate Forms Portal Quick Link). Park will reimburse associates based on the following consideration:");
-//	}
-//	
-//	//Confirm Associate must remain employed.......... sentence is displayed
-//	public boolean verifyTerminationEmplySent3()
-//	{
-//		return func.verifyElementDisplayedWithText(terminationEmplySent3, "• Associate must remain employed for the duration of the course in order to be eligible for reimbursement.\r\n"
-//				+ "• The course(s) must be taken at an accredited educational institution.\r\n"
-//				+ "• Course(s) of study must be directly related to the associate’s present position or determined to enhance the associate’s reasonable potential for advancement, as determined by the associate’s supervisor and Human Resources.\r\n"
-//				+ "• All costs incurred must be verified by original receipts and transcripts of grade(s).\r\n"
-//				+ "• Reimbursement will be made only for out of pocket costs of tuition, books, material and registration fees and not reimbursed for those paid by other sources.\r\n"
-//				+ "• Associate must receive a grade of “C” or higher or a pass grade for “Pass/Fail” courses.");
-//	}
-//	
-//	//Confirm Park will not provide............ sentence is displayed
-//	public boolean verifyTerminationEmplySent4()
-//	{
-//		return func.verifyElementDisplayedWithText(terminationEmplySent4, "Park will not provide reimbursement for the following:"
-//				+ "• Tutors.\r\n"
-//				+ "• Transportation and/or Parking.\r\n"
-//				+ "• Student activity/Government fees.\r\n"
-//				+ "• Supplies such as notebooks, pens, calculators, computers, etc.\r\n"
-//				+ "• Other expenses not listed above will need approval prior to reimbursement."
-//				+ "Upon completion of the course(s), associates must complete the electronic Final Tuition Reimbursement Form. This form can be found on Park Place under the Human Resources Home Page (Click on the Associate Forms Portal Quick Link). All reimbursement requests must be submitted to HR within 30 days of completion of the course(s).");
-//	}
-//	
-//	//Confirm Reimbursements will count towards.......... sentence is displayed
-//	public boolean verifyTerminationEmplySent5()
-//	{
-//		return func.verifyElementDisplayedWithText(terminationEmplySent5, "Reimbursements will count towards the calendar years' taxes in which the year they are paid out in.");
-//	}
-//	
-//	//Confirm "Time away from work:" header  is displayed
-//	public boolean verifyTimeAwyFrmWrkHeader()
-//	{
-//		return func.verifyElementDisplayedWithText(timeAwayFrmWorkHeader, "Time away from work");
-//	}
-//	
-//	//Confirm Educational courses under this policy.......... sentence is displayed
-//	public boolean verifytimeAwyFrmWrkSentence()
-//	{
-//		return func.verifyElementDisplayedWithText(timeAwayFrmWorkSentence, "Educational courses under this policy must be taken during non-work hours and should not interfere with an associate’s ability to work their regularly scheduled work week or continue to successfully manage their position requirements. Associate must obtain their supervisor’s approval if they are requesting time away from work to attend courses.");
-//	}
-//	
-//	//Confirm Repayment if terminated header is displayed
-//	public boolean verifyRpymntTermHeader()
-//	{
-//		return func.verifyElementDisplayedWithText(repayTermHeader, "Repayment if terminated:");
-//	}
-//	
-//	//Confirm If you voluntarily terminate employment.......... sentence is displayed
-//	public boolean verifyRpymntTermSentence()
-//	{
-//		return func.verifyElementDisplayedWithText(repayTermSentence, "If you voluntarily terminate employment with Park prior to completion of six consecutive months of active employment after receiving the reimbursement, you will be responsible for refunding Park the entire amount of the educational expenses provided to you during your employment at Park. Repayments or amount owed to Park will be deducted from your final paycheck. For any remaining balances, the amount due must be received within three months of the date of voluntary termination.");
-//	}
-//	
-//	//Confirm Repayment Amount header is displayed
-//	public boolean verifyRpymntAmntHeader()
-//	{
-//		return func.verifyElementDisplayedWithText(repayAmountHeader, "Repayment Amount");
-//	}
-//	
-//	//Confirm You will be responsible for paying Park.......... sentence is displayed
-//	public boolean verifyRpymntAmntSentence()
-//	{
-//		return func.verifyElementDisplayedWithText(repayAmntSentence, "You will be responsible for paying Park back a prorated amount based on the amount of tuition assistance that was provided to you during your employment at Park if you voluntarily terminate employment with Park prior to completing 24 consecutive months for an Associate or Bachelor program and 36 consecutive months for a Master’s program of active employment. The prorated amount will be based on the total amount of tuition assistance provided divided by the number of months in which you are not employed by Park until you would have fulfilled the employment period requirement. Here is a chart to demonstrate an example of what this may look like:");
-//	}
-//	
-//	//Confirm degree type column is displayed
-//	public boolean verifyDegreeTypeColumn()
-//	{
-//		return func.verifyElementDisplayedWithText(colDegree, "Degree Type");
-//	}
-//	
-//	//Confirm employment period requirement column is displayed
-//	public boolean verifyEmploymntPrddReqCol()
-//	{
-//		return func.verifyElementDisplayedWithText(colEmplyPeriod, "Employment period requirement after receiving reimbursement");
-//	}
-//	
-//	//Confirm “Amount Reimbursement Received” column is displayed
-//	public boolean verifyAmntRmbRcvdColumn()
-//	{
-//		return func.verifyElementDisplayedWithText(colAmntReimbRecvd, "Amount Reimbursement Received");
-//	}
-//	
-//	//Confirm “Number of months worked after receiving reimbursement” column is displayed
-//	public boolean verifyNumbMonthsWrkd()
-//	{
-//		return func.verifyElementDisplayedWithText(colNumbMonthsWrkd, "Number of months worked after receiving reimbursement");
-//	}
-//	
-//	//Confirm “Number of months not employed by Park through completing requirement” column is displayed
-//	public boolean verifyNumbMonthsNotEmplyd()
-//	{
-//		return func.verifyElementDisplayedWithText(colNumbMonthsNotEmplyd, "Number of months not employed by Park through completing requirement");
-//	}
-//	
-//	//Confirm “Percent of reimbursement owed to Park” column is displayed
-//	public boolean verifyPrcntReimbOwd()
-//	{
-//		return func.verifyElementDisplayedWithText(colPrcntReimbOwd, "Percent of reimbursement owed to Park");
-//	}
-//	
-//	//Confirm “Total amount reimbursement owed to Park” column is displayed
-//	public boolean verifyTotalAmntReimbOwdPark()
-//	{
-//		return func.verifyElementDisplayedWithText(colTotalAmntReimbOwd, "Total amount reimbursement owed to Park");
-//	}
-//	
-//	//Confirm “Associate and Bachelor” is displayed under column “Degree Type” 
-//	public boolean verifyDegreeType()
-//	{
-//		return func.verifyElementDisplayedWithText(asscteNdBachelor, "Associate and Bachelor");
-//	}
-//	
-//	//Confirm “24 months” is displayed under column “Employment period requirement after receiving reimbursement”
-//	public boolean verifyEmploymentPeriod()
-//	{
-//		return func.verifyElementDisplayedWithText(twentyFourMonths, "24 months");
-//	}
-//	
-//	//Confirm “$5,250.00” is displayed under column “Amount Reimbursement Received”
-//	public boolean verifyAmnountReimbursed()
-//	{
-//		return func.verifyElementDisplayedWithText(amntReimbrsdRecvd, "$5,250.00");
-//	}
-//	
-//	//Confirm “10” is displayed under column “Number of months worked after receiving reimbursement”
-//	public boolean verifyNumberOfMonthsWorked()
-//	{
-//		return func.verifyElementDisplayedWithText(tenNumbMonths, "10");
-//	}
-//	
-//	//Confirm “14” is displayed under column “Number of months not employed by Park through completing requirement”
-//	public boolean verifyNumberOfMonths()
-//	{
-//		return func.verifyElementDisplayedWithText(fourteenNumbMnthsNotEmplyd, "14");
-//	}
-//	
-//	//Confirm “58%” is displayed under column “Percent of reimbursement owed to Park”
-//	public boolean verifyPercentage()
-//	{
-//		return func.verifyElementDisplayedWithText(fiftyEightPercent, "58%");
-//	}
-//	
-//	//Confirm “$3,045.00” is displayed under column “Total amount reimbursement owed to Park”
-//	public boolean verifyTotalAmountReimbrsmnt()
-//	{
-//		return func.verifyElementDisplayedWithText(amntReimbursedToPark, "$3,045.000");
-//	}
-//	
-//	//Confirm “Masters” is displayed under column “Degree Type”
-//	public boolean verifyMastersDgreeType()
-//	{
-//		return func.verifyElementDisplayedWithText(masterDgrType, "Masters");
-//	}
-//	
-//	//Confirm “36 months” is displayed under column “Employment period requirement after receiving reimbursement”
-//	public boolean verifyEmplymntPrdReq()
-//	{
-//		return func.verifyElementDisplayedWithText(thirtySixMonths, "36 months");
-//	}
-//	
-//	//Confirm “$5,250.00” is displayed under column “Amount Reimbursement Received”
-//	public boolean verifyAmntRmbsd()
-//	{
-//		return func.verifyElementDisplayedWithText(amntReimbursedReceived, "$5,250.00");
-//	}
-//	
-//	//Confirm “10” is displayed under column “Number of months worked after receiving reimbursement”
-//	public boolean verifyNumberOfMonthsWorkd()
-//	{
-//		return func.verifyElementDisplayedWithText(tenNumbOfMonthsWrkd, "10");
-//	}
-//	
-//	//Confirm “26” is displayed under column “Number of months not employed by Park through completing requirement”
-//	public boolean verifyNumbMonthsNotEplyd()
-//	{
-//		return func.verifyElementDisplayedWithText(twentySixMonthsNotEmplyd, "26");
-//	}
-//	
-//	//Confirm “72%” is displayed under column “Percent of reimbursement owed to Park”
-//	public boolean verifyPrcntReimbursmntOwd()
-//	{
-//		return func.verifyElementDisplayedWithText(seventyTwoPercent, "72%");
-//	}
-//	
-//	//Confirm “$3,780.00” is displayed under column “Total amount reimbursement owed to Park”
-//	public boolean verifyTotalAmntRmbrsemntOwd()
-//	{
-//		return func.verifyElementDisplayedWithText(totalAmntReimbursedOwd, "$3,780.00");
-//	}
-	
 	//Confirm "**These numbers are hypothetical to show an example of what this may look like for an associate that may owe Park." text is displayed
 	public boolean verifyTheseNumbersSentence()
 	{
@@ -1044,8 +802,6 @@ public class FinalReimbursementForm {
 	public boolean verifyAllFinalReimbrmntReqSentnce()
 	{
 		return redNoteAllFinalReimbRequests.isDisplayed();
-//		return func.verifyElementDisplayedWithText(redNoteAllFinalReimbRequests, "All final reimbursement requests must be submitted to HR within 30 days of completion of the course(s).\r\n"
-//				+ "Along with this form, please attach all applicable receipts. Reimbursements will count towards the calendar years’ taxes in which the year they are paid out in.");
 	}
 	
 	//All final........ sentence color
@@ -1059,7 +815,6 @@ public class FinalReimbursementForm {
 	public boolean verifyPleaseNoteSentence()
 	{
 		return redNotePlsNote.isDisplayed();
-//		return func.verifyElementDisplayedWithText(redNotePlsNote, "*Please note: if you plan to take fall classes to be paid out the same calendar year, please have all final forms turned in by Dec 15th to ensure they are paid out by Dec 31st");
 	}
 	
 	//**Please note sentence color
@@ -1283,7 +1038,8 @@ public class FinalReimbursementForm {
 	//Confirm "Total Actual Costs: $100.00" text is displayed
 	public boolean verifyTotalActualCosts()
 	{
-		return func.verifyElementDisplayedWithText(txtTotalActualCosts, "Total Actual Costs: $100.00");
+		return txtTotalActualCosts.isDisplayed();
+//		return func.verifyElementDisplayedWithText(txtTotalActualCosts, "Total Actual Costs: $100.00");
 	}
 	
 	//Confirm Edit Pen Icon is displayed

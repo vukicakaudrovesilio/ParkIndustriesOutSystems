@@ -126,13 +126,11 @@ public class TC_FinalReimbursementForm_001 extends BaseClass {
 		boolean cmt = fr.verifyAddCommentHeader();
 		boolean placeholder = fr.placeholderTxtDisplayed();
 		boolean saveBtn = fr.verifyBtnSave();
-		String colour = fr.btnBckgrndSave();
 		
-		if(cmt && placeholder && saveBtn ) //&& colour.equals("#2652AF")
+		if(cmt && placeholder && saveBtn ) 
 		{
 			Assert.assertTrue(true);
 			logger.info("Comment header, Placeholder text and Save button is displayed");
-//			logger.info("Comment header, Placeholder text and Save button is displayed and Background Colour is: '" + colour + "'");
 		}
 		else
 		{
@@ -148,12 +146,12 @@ public class TC_FinalReimbursementForm_001 extends BaseClass {
 			{
 				logger.info("Save btn not displayed");
 			}
-//			if(!colour.equals("#2652AF"))
-//			{
-//				logger.info("Save btn colour not displayed");
-//			}
 			Assert.assertTrue(false);
 		}
+		
+		fr.btnBckgrndSave();
+		logger.info("Save button Background Color is displayed");
+		System.out.println("Background Color is :" + fr.btnBckgrndSave());
 		
 		fr.setComment(comment);
 		logger.info("Comment is entered");
@@ -240,18 +238,16 @@ public class TC_FinalReimbursementForm_001 extends BaseClass {
 		//verify case number text
 		boolean isCaseNumbTxtDisplayed= fr.verifyCaseNumberTxt();
 		if(isCaseNumbTxtDisplayed == true) 
-			{
-				logger.info("Case # text is displayed");
-			}
+		{
+			logger.info("Case # text is displayed");
+		}
 		else
-			{
-				logger.info("Case # text is not displayed");
-			}
+		{
+			logger.info("Case # text is not displayed");
+		}
 	}
 	
 	@Test(priority=6)
-	//Test =6
-	//72-81
 	public void testDeleteRequest()
 	{
 		FinalReimbursementForm fr = new FinalReimbursementForm(driver);
@@ -259,14 +255,13 @@ public class TC_FinalReimbursementForm_001 extends BaseClass {
 		//verify delete request link
 		boolean isDeleteLinkDisplayed= fr.verifyDeleteReqLink();
 		if(isDeleteLinkDisplayed == true) 
-			{
-				logger.info("Delete link is displayed");
-			}
+		{
+			logger.info("Delete link is displayed");
+		}
 		else
-			{
-				logger.info("Delete link is not displayed");
-			}
-//		String deleteLinkColor = fr.linkDeleteReq();
+		{
+			logger.info("Delete link is not displayed");
+		}
 
 		fr.linkDeleteReq();
 		logger.info("New Request Text Background Color is displayed");
@@ -311,8 +306,6 @@ public class TC_FinalReimbursementForm_001 extends BaseClass {
 	}
 	
 	@Test(priority=7)
-	//Test=7
-	//82-135
 	public void testFinalReimbReqForm()
 	{
 		FinalReimbursementForm fr = new FinalReimbursementForm(driver);
@@ -524,10 +517,6 @@ public class TC_FinalReimbursementForm_001 extends BaseClass {
 			logger.info("All table data in 2nd row are not displayed");
 		}
 		
-		
-		//here
-		
-		
 		//Continuation of Repayment Amount section
 //		boolean isVerifyTheseSentDisplayed =fr.verifyTheseNumbersSentence();
 //		boolean isVerifyForSentDisplayed = fr.verifyForExampleSentence();
@@ -567,12 +556,12 @@ public class TC_FinalReimbursementForm_001 extends BaseClass {
 			Assert.assertTrue(false);
 		}
 		
-//		String finalSentColor = fr.sentenceFinalColor();
-
+		fr.sentenceFinalColor();
+		logger.info("All final.... sentence Background Color is displayed");
+		System.out.println("Background Color is :" + fr.sentenceFinalColor());
 		
-//		String noteSentColor = fr.sentenceNoteColor();
 		fr.sentenceNoteColor();
-		logger.info("New Request Text Background Color is displayed");
+		logger.info("**Please note sentence Background Color is displayed");
 		System.out.println("Background Color is :" + fr.sentenceNoteColor());
 	}
 	
@@ -594,7 +583,6 @@ public class TC_FinalReimbursementForm_001 extends BaseClass {
 			logger.info("+Add Reimbursement Item button is not displayed");
 		}
 		
-//		String addReimbBtnColor = fr.addReimbBtnColor();
 		
 		fr.addReimbBtnColor();
 		logger.info("New Request Text Background Color is displayed");
@@ -759,8 +747,6 @@ public class TC_FinalReimbursementForm_001 extends BaseClass {
 		fr.clickTrashCan();
 		logger.info("Clicked trash can symbol");
 		
-//		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		try {
 		Alert alert = driver.switchTo().alert();
 		
 		//Click Cancel
@@ -773,13 +759,14 @@ public class TC_FinalReimbursementForm_001 extends BaseClass {
 		//Click Ok
 		alert.accept();
 		logger.info("User is taken back to Edit Item form");
-		}
-		catch (NoAlertPresentException e)
-		{
-			System.out.println("NoAlertPresentException is handled");
-		}
-		
+
 		fr.clickSaveClose();
+	}
+	
+	@Test(priority=11)
+	public void testAddReimbursementItems()
+	{	
+		FinalReimbursementForm fr = new FinalReimbursementForm(driver);
 		
 		//Reimbursement item entries
 		boolean isItemTypeTxtDisplayed =fr.verifyItemTypeTxt();
@@ -856,7 +843,7 @@ public class TC_FinalReimbursementForm_001 extends BaseClass {
 		}
 	}
 
-	@Test(priority=11)
+	@Test(priority=12)
 	public void testTrashCanIcon()
 	{
 		FinalReimbursementForm fr = new FinalReimbursementForm(driver);
@@ -878,7 +865,7 @@ public class TC_FinalReimbursementForm_001 extends BaseClass {
 		logger.info("User is taken back to \"Final Reimbursement Request\" header form");		
 	}
 
-	@Test(priority=12)
+	@Test(priority=13)
 	public void testAddReimbursementBtnAgain()
 	{
 		FinalReimbursementForm fr = new FinalReimbursementForm(driver);
