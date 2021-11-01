@@ -529,12 +529,12 @@ public class TuitionReimbursementForm {
 	WebElement programField;
 	
 	//Major text
-	@FindBy(xpath="//div[@class='margin-top-s ThemeGrid_Width6 ThemeGrid_MarginGutter']//label[@for='Input_DegreeMajor']")
+	@FindBy(xpath="//label[contains(text(),'Degree Major')]")
 	@CacheLookup
 	WebElement majorText;
 	
 	//Degree major field
-	@FindBy(xpath="//body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[11]/span[1]/input[1]")
+	@FindBy(xpath="//input[@id='Input_DegreeMajor']")
 	@CacheLookup
 	WebElement majorField;
 	
@@ -564,7 +564,7 @@ public class TuitionReimbursementForm {
 	WebElement careerText;
 	
 	//Career plan field
-	@FindBy(xpath="//textarea[@id='TextArea_DegreeRelationPark']")
+	@FindBy(xpath="//*[@id=\"TextArea_DegreeRelationPark\"]")
 	@CacheLookup
 	WebElement careerField;
 	
@@ -1169,7 +1169,7 @@ public class TuitionReimbursementForm {
 	
 	public String btnDeleteColour()
 	{
-		String bgColour = Color.fromString(delReq.getCssValue("text-error")).asHex();
+		String bgColour = Color.fromString(delReq.getCssValue("color")).asHex();
 		return bgColour;
 	}
 	
@@ -1430,8 +1430,8 @@ public class TuitionReimbursementForm {
 	
 	public boolean descripTextDisplayed()
 	{
-//		return func.verifyElementDisplayedWithText(descripText, "Degree Program Description (include estimate completion date)");
-		return descripText.isDisplayed();
+		return func.verifyElementDisplayedWithText(descripText, "Degree Program Description (include estimate completion date)");
+//		return descripText.isDisplayed();
 	}
 	
 	public boolean descripFieldDisplayed()
@@ -1483,7 +1483,7 @@ public class TuitionReimbursementForm {
 	}
 	
 	public void clickBackBtn()
-	{
+	{		  
 		JavascriptExecutor js = (JavascriptExecutor)ldriver;
 		js.executeScript("arguments[0].click()", backBtn);
 	}

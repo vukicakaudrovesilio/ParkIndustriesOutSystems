@@ -361,56 +361,7 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 		logger.info("“Department” header is displayed");
 		trf.departmentValueDisplayed();
 		logger.info("\"SS Customer Service FS FS\" is displayed as Department");
-//		boolean initialReq = trf.initialReqHeaderDisplayed();
-//		boolean personalInfo = trf.personalInfoHeaderDisplayed();
-//		boolean empNumber = trf.empNumberFieldDisplayed();
-//		boolean userEmp = trf.userEmpNumberDisplayed();
-//		boolean associate = trf.associateNameDisplayed();
-//		boolean associateName = trf.associateNameValueDisplayed();
-//		boolean dept = trf.departmentFieldDisplayed();
-//		boolean deptVal = trf.departmentValueDisplayed();
-//		
-//		if(initialReq && personalInfo && empNumber && userEmp && associate && associateName && dept && deptVal)
-//		{
-//			Assert.assertTrue(true);
-//			logger.info("Headers and fields are displayed correctly");
-//		}
-//		else
-//		{
-//			if(!initialReq)
-//			{
-//				logger.info("“Intial Reimbursement Request” header is not displayed");
-//			}
-//			if(!personalInfo)
-//			{
-//				logger.info("“Personal Info” header is not displayed");
-//			}
-//			if(!empNumber)
-//			{
-//				logger.info("“Employee Number” header is not displayed");
-//			}
-//			if(!userEmp)
-//			{
-//				logger.info("\"8888888\" is not displayed as Employee Number");
-//			}
-//			if(!associate)
-//			{
-//				logger.info("“Associate Name” header is not displayed");
-//			}
-//			if(!associateName)
-//			{
-//				logger.info("\"Park Associate User\" is not displayed");
-//			}
-//			if(!dept)
-//			{
-//				logger.info("“Department” header is not displayed");
-//			}
-//			if(!deptVal)
-//			{
-//				logger.info("\"SS Customer Service FS FS\" is not displayed as Department");
-//			}
-//			Assert.assertTrue(false);
-//		}
+
 	}
 	
 	@Test (priority=8)
@@ -423,7 +374,7 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 		boolean saveBtn = trf.saveBtnDisplayed();
 		String colour = trf.btnSaveColour();
 		
-		if(cmt && placeholder && saveBtn ) //&& colour.equals("#2652AF")
+		if(cmt && placeholder && saveBtn ) 
 		{
 			Assert.assertTrue(true);
 			logger.info("Comment header, Placeholder text and Save button is displayed");
@@ -443,12 +394,13 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 			{
 				logger.info("Save btn not displayed");
 			}
-			if(!colour.equals("#2652AF"))
-			{
-				logger.info("Save btn colour not displayed");
-			}
 			Assert.assertTrue(false);
 		}
+		
+		trf.btnSaveColour();
+		logger.info("Save button Background Color is displayed");
+		System.out.println("Background Color is :" + trf.btnSaveColour());
+
 		
 		trf.setComment(comment);
 		logger.info("Comment is entered");
@@ -494,7 +446,7 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 		String colour = trf.btnCreateColour();
 		boolean caseNum = trf.caseNumDisplayed();
 		
-		if(header && createBtn && caseNum ) //&& colour.equals("#2652AF")
+		if(header && createBtn && caseNum ) 
 		{
 			Assert.assertTrue(true);
 			logger.info("Header, Create button, Case Number is displayed");
@@ -514,12 +466,12 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 			{
 				logger.info("Unable to locate case number");
 			}
-//			if(!colour.equals("#2652AF"))
-//			{
-//				logger.info("Colour not displayed");
-//			}
 			Assert.assertTrue(false);
 		}
+		
+		trf.btnCreateColour();
+		logger.info("Create button Background Color is displayed");
+		System.out.println("Background Color is :" + trf.btnCreateColour());
 	}
 	
 	@Test (priority=10)
@@ -528,9 +480,8 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 		TuitionReimbursementForm trf = new TuitionReimbursementForm(driver);
 		
 		boolean delReq = trf.delReqDisplayed();
-//		String colour = trf.btnDeleteColour();
 		
-		if(delReq ) //&& colour.equals("#EE3224")
+		if(delReq ) 
 		{
 			Assert.assertTrue(true);
 			logger.info("Delete Request link displayed correctly");
@@ -541,6 +492,10 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 			Assert.assertTrue(false);
 			logger.info("Delete Request link not displayed correctly");
 		}
+		
+		trf.btnDeleteColour();
+		logger.info("Delete button Background Color is displayed");
+		System.out.println("Background Color is :" + trf.btnDeleteColour());
 		
 		trf.clickDelReqBtn();
 		logger.info("Delete Request link clicked");
@@ -579,6 +534,10 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 			Assert.assertTrue(false);
 			logger.info("Text is not displayed correctly");
 		}
+		
+		trf.textColour();
+		logger.info("Text Background Color is displayed");
+		System.out.println("Background Color is :" + trf.textColour());
 		
 		boolean policyHeader = trf.policyHeaderDisplayed();
 		boolean assistHeader = trf.assistanceHeaderDisplayed();
@@ -777,50 +736,7 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 	public void testPreapprovalInfo() throws InterruptedException, IOException 
 	{
 		TuitionReimbursementForm trf = new TuitionReimbursementForm(driver);
-		
-//		trf.preapprovalHeaderDisplayed();
-//		logger.info("Associate Pre-Approval Information header is displayed");
-//		trf.institutionTextDisplayed();
-//		logger.info("Institution text is displayed");
-//		trf.insFieldDisplayed();
-//		logger.info("Institution field is displayed");
-//		trf.locTextDisplayed();//body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/span[1]
-//		logger.info("Location text is displayed");
-//		trf.locFieldDisplayed();
-//		logger.info("Location field is displayed");
-////		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-////		trf.programTextDisplayed();
-////		logger.info("Program text is displayed");
-////		trf.programFieldDisplayed();
-////		logger.info("Program field is displayed");
-////		trf.majorTextDisplayed();
-////		logger.info("Major text is displayed");
-////		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-////		trf.majorFieldDisplayed();
-////		logger.info("Major field is displayed");
-//		trf.descripTextDisplayed();
-//		logger.info("Description text is displayed");
-//		trf.descripFieldDisplayed();
-//		logger.info("Description field is displayed");
-//		trf.totalcostTextDisplayed();
-//		logger.info("Total text is displayed");
-//		trf.totalcostFieldDisplayed();
-//		logger.info("Total field is displayed");
-//		trf.careerTextDisplayed();
-//		logger.info("Career text is displayed");
-//		trf.careerFieldDisplayed();
-//		logger.info("Career field is displayed");
-//		trf.linkDisplayed();
-//		logger.info("Link is displayed");
-//		trf.linkTextDisplayed();
-//		logger.info("Link text is displayed");
-//		trf.remainingAmtDisplayed();
-//		logger.info("Remaining text is displayed");
-//		trf.backBtnDisplayed();
-//		logger.info("Back button is displayed");
-		
 	
-		
 		boolean preapproval = trf.preapprovalHeaderDisplayed();
 		if(preapproval == true)
 		{
@@ -892,37 +808,41 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 		{
 			logger.info("Unable to locate Program field");
 		}
-	}
+		
+		}
 		
 	@Test (priority = 13)
+//	@Test (enabled = false)
 	public void testPreapprovalInfo2() throws InterruptedException, IOException 
 	{
 		TuitionReimbursementForm trf = new TuitionReimbursementForm(driver);
 		
-
-//		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+//		Thread.sleep(8000);
+		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+		
+//		try {
 		boolean major = trf.majorTextDisplayed();
-		if(major == true)
-		{
-			logger.info("Major text is displayed");
-		}
-		else
-		{
-			logger.info("Unable to locate Major text");
-		}
-		
-//		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		boolean majField = trf.majorFieldDisplayed();
-		if(majField == true)
+
+		if(major && majField)
 		{
-			logger.info("Major field is displayed");
+			Assert.assertTrue(true);
+			logger.info("Fields are displayed");
 		}
 		else
 		{
-			logger.info("Unable to locate Major field");
+			Assert.assertTrue(false);
+			logger.info("Fields are not displayed");
 		}
+	
 		
-//		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+//	@Test (priority = 14)
+////	@Test (enabled = false)
+//	public void testPreapprovalInfo3() throws InterruptedException, IOException 
+//	{
+//		TuitionReimbursementForm trf = new TuitionReimbursementForm(driver);
+		
+//		driver.manage().timeouts().implicitlyWait(35, TimeUnit.SECONDS);
 		boolean descrip = trf.descripTextDisplayed();
 		if(descrip == true)
 		{
@@ -944,6 +864,8 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 			logger.info("Unable to locate Description field");
 		}
 		
+//		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+		
 		boolean total = trf.totalcostTextDisplayed();
 		if(total == true)
 		{
@@ -963,6 +885,7 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 		{
 			logger.info("Unable to locate Total cost field");
 		}
+
 		
 		boolean career = trf.careerTextDisplayed();
 		if(career == true)
@@ -1020,97 +943,19 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 		{
 			logger.info("Back button is displayed");
 		}
-		else
-		{
-			logger.info("Unable to locate Back button");
-		}
-		
-//		if(preapproval && ins && insField && loc && locField && program && progField && major && majField && descrip && descripField && total && totalField && career && careerField && link && linkText && remainingText && backBtn)
-//		{
-//			Assert.assertTrue(true);
-//			logger.info("Form texts and fields are displayed");
 //		}
-//		else
+//		catch( StaleElementReferenceException e)
 //		{
-//			if(!preapproval)
-//			{
-//				logger.info("Unable to locate header");
-//			}
-//			if(!ins)
-//			{
-//				logger.info("Unable to locate institution text");
-//			}
-//			if(!insField)
-//			{
-//				logger.info("Unable to locate institution field");
-//			}
-//			if(!loc)
-//			{
-//				logger.info("Unable to locate location text");
-//			}
-//			if(!locField)
-//			{
-//				logger.info("Unable to locate location field");
-//			}
-//			if(!program)
-//			{
-//				logger.info("Unable to locate program text");
-//			}
-//			if(!progField)
-//			{
-//				logger.info("Unable to locate program field");
-//			}
-//			if(!major)
-//			{
-//				logger.info("Unable to locate major text");
-//			}
-//			if(!majField)
-//			{
-//				logger.info("Unable to locate major field");
-//			}
-//			if(!descrip)
-//			{
-//				logger.info("Unable to locate description text");
-//			}
-//			if(!descripField)
-//			{
-//				logger.info("Unable to locate description field");
-//			}
-//			if(!total)
-//			{
-//				logger.info("Unable to locate total text");
-//			}
-//			if(!totalField)
-//			{
-//				logger.info("Unable to locate total field");
-//			}
-//			if(!career)
-//			{
-//				logger.info("Unable to locate career text");
-//			}
-//			if(!careerField)
-//			{
-//				logger.info("Unable to locate career field");
-//			}
-//			if(!link)
-//			{
-//				logger.info("Unable to locate link");
-//			}
-//			if(!linkText)
-//			{
-//				logger.info("Unable to locate link text");
-//			}
-//			if(!remainingText)
-//			{
-//				logger.info("Unable to locate remaining text");
-//			}
-//			if(!backBtn)
-//			{
-//				logger.info("Unable to locate back button");
-//			}
-//			Assert.assertTrue(false);
-////			logger.info("Instructions header and texts are not displayed");
+//			System.out.println("Exception handled");
 //		}
+
+	}
+	
+	@Test (priority=14)
+//	@Test (enabled = false)
+	public void testBackButton() throws InterruptedException, IOException 
+	{
+		TuitionReimbursementForm trf = new TuitionReimbursementForm(driver);
 		
 		trf.clickBackBtn();
 		logger.info("Back button is clicked. User is taken to Request List Form");
@@ -1121,7 +966,7 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 	}
 		
 
-	@Test (priority=14)
+	@Test (priority=15)
 	public void testPreapprovalFields() throws InterruptedException, IOException 
 	{
 		TuitionReimbursementForm trf = new TuitionReimbursementForm(driver);
@@ -1237,7 +1082,7 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 		boolean submitBtn = trf.submitBtnDisplayed();
 //		String colour = trf.submitColour();
 		
-		if(submitBtn ) //&& colour.equals("#2652AF")
+		if(submitBtn ) 
 		{
 			Assert.assertTrue(true);
 			logger.info("Submit button is displayed");
@@ -1289,15 +1134,11 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 			logger.info("Accept button is not displayed");
 		}
 		
-		String colour = trf.acceptbtnColour();
+//		String colour = trf.acceptbtnColour();
 		
-//		if(colour.equals("#2652AF"))
-//		{
-//			
-//		}
 		trf.acceptbtnColour();
 		logger.info("Accept button Background Color is displayed");
-		System.out.println("Background Color is :" + colour.equals("#2652AF"));
+		System.out.println("Background Color is :" + trf.acceptbtnColour());
 		
 		trf.clickCloseFormBtn();
 		logger.info("Close button is clicked");
@@ -1330,7 +1171,7 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 		
 	}
 	
-	@Test (priority=15)
+	@Test (priority=16)
 	public void  parkSupervisorUserLogin() throws InterruptedException, IOException 
 	{
 		ParkSupervisorUser psu= new ParkSupervisorUser(driver);
@@ -1362,7 +1203,7 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 	}
 	
 //	@Test (enabled = false)
-	@Test (priority=16)
+	@Test (priority=17)
 	public void  testSubmittedInitialTuition() throws InterruptedException, IOException 
 	{
 		TuitionReimbursementForm trf = new TuitionReimbursementForm(driver);
@@ -1384,14 +1225,20 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 		{
 			Assert.assertTrue(true);
 			logger.info("Approve and Reject button are displayed");
-//			logger.info("Approve button is displayed and  Background Colour is: '" + appColour + "'");
-//			logger.info("Reject button is displayed and  Background Colour is: '" + rejColour + "'");
 		}
 		else
 		{
 			Assert.assertTrue(false);
 			logger.info("Approve and Reject button are not displayed");
 		}
+		
+		trf.approvebtnColour();
+		logger.info("Approve button Background Color is displayed");
+		System.out.println("Background Color is :" + trf.approvebtnColour());
+
+		trf.rejectbtnColour();
+		logger.info("Reject button Background Color is displayed");
+		System.out.println("Background Color is :" + trf.rejectbtnColour());
 		
 		trf.clickApproveBtn();
 		logger.info("Approve button is clicked");
@@ -1448,7 +1295,7 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 	}
 	
 //	@Test (enabled =false)
-	@Test (priority=17)
+	@Test (priority=18)
 	public void  testHRUser() throws InterruptedException, IOException 
 	{
 		HumanResourcesUser hru= new HumanResourcesUser(driver);
@@ -1475,8 +1322,6 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 		{
 			Assert.assertTrue(true);
 			logger.info("Approve and Reject button are displayed");
-//			logger.info("Approve button is displayed and  Background Colour is: '" + approveColour + "'");
-//			logger.info("Reject button is displayed and  Background Colour is: '" + rejectColour + "'");
 		}
 		else
 		{
@@ -1556,6 +1401,7 @@ public class TC_TuitionReimbursementForm_001 extends BaseClass{
 		
 		trf.clickCompleted();
 		
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		boolean comp = trf.completedDisplayed();
 		if(comp == true)
 		{
